@@ -13,9 +13,9 @@ CREATE TABLE KindOfVol
 (
   KindOfVol_id INT NOT NULL,
   Type VARCHAR(20) NOT NULL,
-  Volunteer_id INT NOT NULL,
+  Responsible_id INT NOT NULL,
   PRIMARY KEY (KindOfVol_id),
-  FOREIGN KEY (Volunteer_id) REFERENCES Volunteer(Volunteer_id)
+  FOREIGN KEY (Responsible_id) REFERENCES Volunteer(Volunteer_id)
 );
 
 CREATE TABLE Patient
@@ -63,12 +63,12 @@ CREATE TABLE Volunteering_participation
 CREATE TABLE Event
 (
   Event_id INT NOT NULL,
-  Name INT NOT NULL,
-  Date INT NOT NULL,
-  Volunteer_id INT NOT NULL,
+  Name VARCHAR(20) NOT NULL,
+  Date DATE NOT NULL,
+  Manager_id INT NOT NULL,
   City_id INT NOT NULL,
   PRIMARY KEY (Event_id),
-  FOREIGN KEY (Volunteer_id) REFERENCES Volunteer(Volunteer_id),
+  FOREIGN KEY (Manager_id) REFERENCES Volunteer(Volunteer_id),
   FOREIGN KEY (City_id) REFERENCES City(City_id)
 );
 
