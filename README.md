@@ -22,9 +22,9 @@ The system records information about volunteers, the various volunteering activi
 * Log volunteering sessions with details (date, duration, report).  
 
 ## Entity Relationship Diagram (ERD)  
-![ERD](%D7%A9%D7%9C%D7%91%20%D7%90/ERD.png)
+![ERD](StageA/ERD.png)
 ## Data Structure Diagram (DSD)  
-![DSD](%D7%A9%D7%9C%D7%91%20%D7%90/DSD.png)
+![DSD](StageA/DSD.png)
 
 ## Insert data to table
 
