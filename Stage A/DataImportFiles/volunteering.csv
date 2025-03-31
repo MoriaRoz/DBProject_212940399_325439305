@@ -1,0 +1,401 @@
+Date,Duration,Hour,Report,Volunteering_id,Patient_id,KindOfVol_id,Location
+2024-05-21,45,13,Volunteered and supported someone in need.,1,654984401,141,Barkan
+2024-12-06,60,18,Volunteered and supported someone in need.,2,652494217,6,Neve Tzuf
+2024-04-17,30,16,Volunteered and supported someone in need.,3,769689984,167,Mivtachim
+2024-07-08,30,12,Volunteered and supported someone in need.,4,580599820,59,Neve Ativ
+2024-08-30,45,11,Volunteered and supported someone in need.,5,173088632,169,Nofim
+2025-02-20,30,18,Volunteered and supported someone in need.,6,806991701,156,Itamar
+2024-09-25,45,10,Volunteered and supported someone in need.,7,687751431,23,Beit Nir
+2024-08-14,60,8,Volunteered and supported someone in need.,8,272817777,52,Sde Yaakov
+2024-08-01,30,10,Volunteered and supported someone in need.,9,191311934,154,Kramei Tzur
+2024-10-14,30,16,Volunteered and supported someone in need.,10,153146909,157,Shadmot Meholah
+2024-05-05,45,10,Volunteered and supported someone in need.,11,764042038,95,Kfar Haraeh
+2024-12-25,30,16,Volunteered and supported someone in need.,12,931632673,163,Ali
+2024-12-01,60,13,Volunteered and supported someone in need.,13,464652229,47,Tel Aviv
+2024-09-11,45,11,Volunteered and supported someone in need.,14,424272342,152,Mishmoret
+2024-11-02,45,12,Volunteered and supported someone in need.,15,904001372,59,Naria
+2025-01-29,60,20,Volunteered and supported someone in need.,16,853956801,101,Revva
+2024-09-06,120,19,"Cleaned and organized a house for Passover, helped with shopping and preparation.",17,602671102,5,Shoval
+2024-07-27,60,12,Volunteered and supported someone in need.,18,352021993,84,Sasa
+2024-05-20,60,14,Volunteered and supported someone in need.,19,209491604,48,Neve Michael
+2025-02-28,45,12,Volunteered and supported someone in need.,20,246648052,125,Gani Tal
+2025-02-21,60,17,Volunteered and supported someone in need.,21,424272342,96,Merhav Am
+2024-05-09,45,10,Volunteered and supported someone in need.,22,855101949,80,Tkoma
+2024-06-15,60,10,Volunteered and supported someone in need.,23,587048264,105,Ateret
+2025-01-11,45,16,"Visited a sick person at home, talked and brought them needed supplies.",24,837349569,2,Sapir
+2025-03-04,45,11,"Spent time with an elderly person, played a board game and went for a walk.",25,789789317,126,Lachish
+2024-07-01,60,18,Volunteered and supported someone in need.,26,979282918,152,Kfar Vitkin
+2024-04-14,60,13,Volunteered and supported someone in need.,27,789789317,96,Metula
+2024-09-07,45,14,"Spent time with an elderly person, played a board game and went for a walk.",28,908426233,164,Almagor
+2025-01-31,45,12,Volunteered and supported someone in need.,29,779458806,176,Neve Zohar
+2025-01-24,30,11,"Spent time with an elderly person, played a board game and went for a walk.",30,254698390,19,Tiberias
+2024-04-19,45,15,"Spent time with an elderly person, played a board game and went for a walk.",31,209491604,78,Beitar Ilit
+2024-08-22,60,15,Volunteered and supported someone in need.,32,693831263,110,Sde Uziyahu
+2024-05-09,60,17,Volunteered and supported someone in need.,33,196990578,119,Dafna
+2025-03-26,60,12,Volunteered and supported someone in need.,34,876028571,56,Michmesh
+2024-09-15,45,14,Volunteered and supported someone in need.,35,538091509,106,Maagan Michael
+2024-05-07,60,13,Volunteered and supported someone in need.,36,759117243,56,Keshet
+2024-04-08,60,17,Volunteered and supported someone in need.,37,485535126,62,Maale HaChamisha
+2024-08-10,60,13,"Spent time with an elderly person, played a board game and went for a walk.",38,577015390,61,Ein Harod
+2025-03-30,30,13,Volunteered and supported someone in need.,39,707932905,113,Netanya
+2024-04-03,30,9,Volunteered and supported someone in need.,40,855731625,41,Chofetz Chaim
+2024-08-11,30,8,Volunteered and supported someone in need.,41,196990578,135,Kfar Gaza
+2024-08-26,60,16,Volunteered and supported someone in need.,42,424272342,99,Brechia
+2025-03-24,30,11,"Spent time with an elderly person, played a board game and went for a walk.",43,850872249,19,Sde Yaakov
+2024-08-04,45,18,Volunteered and supported someone in need.,44,688330480,68,Noam
+2024-08-19,45,13,Volunteered and supported someone in need.,45,582249717,99,Beer Ganim
+2024-04-30,45,18,Volunteered and supported someone in need.,46,698424002,139,Beit Nir
+2024-06-21,30,12,Volunteered and supported someone in need.,47,110116700,77,Alon Moreh
+2025-02-13,60,9,Volunteered and supported someone in need.,48,811704589,51,Ani'am
+2024-07-12,45,18,Volunteered and supported someone in need.,49,623172531,15,Avnat
+2024-12-05,45,16,"Spent time with an elderly person, played a board game and went for a walk.",50,648511406,61,Har Bracha
+2024-11-24,30,16,Volunteered and supported someone in need.,51,209491604,139,Ein Harod
+2024-05-11,45,17,Volunteered and supported someone in need.,52,629150067,128,Nes Ziona
+2024-06-07,45,15,Volunteered and supported someone in need.,53,680075075,123,Margaliot
+2025-02-22,150,16,Helped organize and pack food packages for families in need.,54,681257529,136,Ateret
+2024-09-22,60,19,Volunteered and supported someone in need.,55,578165744,154,Karmiel
+2024-06-02,45,9,Volunteered and supported someone in need.,56,779458806,113,Or Haner
+2024-05-30,60,9,"Spent time with an elderly person, played a board game and went for a walk.",57,142241647,164,Ali Zahav
+2025-01-11,30,13,Volunteered and supported someone in need.,58,497523138,124,Kfar Chabad
+2024-08-03,60,14,Volunteered and supported someone in need.,59,426238627,172,Mitzpe Shalem
+2024-05-29,45,14,Volunteered and supported someone in need.,60,162054145,148,Shachar
+2024-06-03,60,16,Volunteered and supported someone in need.,61,101668485,56,Telem
+2024-08-29,60,16,Volunteered and supported someone in need.,62,153146909,127,Ramat Gan
+2024-11-11,60,17,Volunteered and supported someone in need.,63,711717982,127,Beer Sheva
+2024-12-25,30,9,Volunteered and supported someone in need.,64,297183376,144,Otniel
+2024-09-22,30,20,Volunteered and supported someone in need.,65,471722685,69,Gadot
+2024-08-17,45,19,Volunteered and supported someone in need.,66,272817777,33,Revvadim
+2024-11-21,45,17,Volunteered and supported someone in need.,67,680075075,98,Merhav Am
+2024-06-03,60,16,Volunteered and supported someone in need.,68,204364445,28,Nirim
+2024-04-13,45,15,"Spent time with an elderly person, played a board game and went for a walk.",69,829182407,61,Shomaria
+2024-07-11,30,12,Volunteered and supported someone in need.,70,479710251,50,Sde Boker
+2024-12-11,45,11,"Spent time with an elderly person, played a board game and went for a walk.",71,532668685,17,Karnei Shomron
+2025-01-11,60,9,Volunteered and supported someone in need.,72,313682258,16,Talmon
+2024-09-12,45,10,Volunteered and supported someone in need.,73,352531771,45,Beit El
+2024-05-30,45,8,Volunteered and supported someone in need.,74,461074520,15,Yated
+2024-09-14,30,10,Volunteered and supported someone in need.,75,652494217,13,Alon Moreh
+2025-03-11,30,19,Volunteered and supported someone in need.,76,991747686,12,Alonei Hasban
+2024-04-24,45,19,Volunteered and supported someone in need.,77,528328577,167,As'el
+2025-03-26,30,11,"Spent time with an elderly person, played a board game and went for a walk.",78,629001744,78,Hebron
+2024-07-28,30,8,Volunteered and supported someone in need.,79,916030034,130,Shtula
+2024-11-06,30,11,Volunteered and supported someone in need.,80,313682258,128,Na'an
+2024-07-16,45,19,Volunteered and supported someone in need.,81,716167182,142,Sde Eliyahu
+2024-12-14,45,14,Volunteered and supported someone in need.,82,904310139,135,Migdal
+2024-05-25,60,13,Volunteered and supported someone in need.,83,956215256,20,Giv'at Olga
+2024-10-28,30,8,Volunteered and supported someone in need.,84,938199172,86,Shirigim Li On
+2024-09-23,30,11,Volunteered and supported someone in need.,85,144399463,165,Shoresh
+2025-01-12,45,17,Volunteered and supported someone in need.,86,429376336,124,As'el
+2025-02-25,60,14,Volunteered and supported someone in need.,87,254698390,48,Yesod Hama'el
+2024-06-30,60,12,Volunteered and supported someone in need.,88,153305998,31,Nili
+2024-09-11,45,14,Volunteered and supported someone in need.,89,328986657,150,Nir Chen
+2024-05-28,45,13,Volunteered and supported someone in need.,90,578808617,20,Shoresh
+2025-01-29,60,18,Volunteered and supported someone in need.,91,374610023,45,Tirat Yehuda
+2024-10-06,30,16,Volunteered and supported someone in need.,92,790287658,32,Shimaa
+2024-11-16,60,14,Volunteered and supported someone in need.,93,629150067,45,Zohar
+2025-01-04,30,11,Volunteered and supported someone in need.,94,265268592,166,Shekef
+2024-09-10,45,18,Volunteered and supported someone in need.,95,830304758,134,Kiryat Yam
+2025-01-12,60,19,Volunteered and supported someone in need.,96,599723423,91,Shila
+2024-05-10,60,12,Volunteered and supported someone in need.,97,786640289,56,Jerusalem
+2024-10-16,60,12,Volunteered and supported someone in need.,98,171122397,129,Kisufim
+2025-02-27,60,8,"Spent time with an elderly person, played a board game and went for a walk.",99,713114845,4,Nir Yitzhak
+2024-04-29,45,16,Volunteered and supported someone in need.,100,517455993,14,Hadera
+2024-11-03,45,19,Volunteered and supported someone in need.,101,711717982,54,Eshtaol
+2024-04-23,45,15,Volunteered and supported someone in need.,102,850872249,124,Hazor'im
+2024-06-27,60,17,Volunteered and supported someone in need.,103,855101949,97,Mishmar Hashiva
+2024-12-13,60,10,Volunteered and supported someone in need.,104,361957948,111,Kiryat Haim
+2024-12-08,45,18,Volunteered and supported someone in need.,105,542215544,95,Netafim
+2024-07-23,45,13,Volunteered and supported someone in need.,106,710590125,144,Beer Sheva
+2024-12-28,30,17,Volunteered and supported someone in need.,107,609459392,77,Chofetz Chaim
+2024-03-31,60,20,Volunteered and supported someone in need.,108,785662621,143,Gadot
+2025-01-13,60,10,Volunteered and supported someone in need.,109,652182344,140,Erez
+2024-04-03,45,11,Volunteered and supported someone in need.,110,412311287,148,Yagur
+2024-12-26,60,9,Volunteered and supported someone in need.,111,381089758,48,Mishmoret
+2025-01-06,30,18,Volunteered and supported someone in need.,112,827389159,41,Yerucham
+2025-02-22,30,11,Volunteered and supported someone in need.,113,657136054,26,Sde Yaakov
+2024-04-14,60,16,Volunteered and supported someone in need.,114,872368804,175,Abshalom
+2024-11-26,60,9,"Visited a Holocaust survivor, had a deep conversation and helped with groceries.",115,586019861,1,Nahusheh
+2025-02-10,30,17,Volunteered and supported someone in need.,116,463134099,44,Gevim
+2024-11-03,45,11,Volunteered and supported someone in need.,117,831663017,158,Bnei Yehuda
+2024-04-12,60,20,Volunteered and supported someone in need.,118,704630780,7,Kiryat Shmona
+2024-09-07,30,11,Volunteered and supported someone in need.,119,168207074,159,Kfar Etzion
+2025-02-17,30,12,Volunteered and supported someone in need.,120,363258653,12,Sde Yaakov
+2024-10-27,45,11,Volunteered and supported someone in need.,121,225561660,51,Eshtaol
+2024-05-28,30,12,"Spent time with an elderly person, played a board game and went for a walk.",122,795314723,17,Mitzpe Jericho
+2024-05-03,30,19,Volunteered and supported someone in need.,123,614663397,114,Roei
+2024-05-11,30,12,Volunteered and supported someone in need.,124,850872249,56,Tzukim
+2025-03-07,45,10,Volunteered and supported someone in need.,125,894302728,90,Elifaz
+2025-03-10,60,9,Volunteered and supported someone in need.,126,994537377,59,Alonei Hasban
+2024-05-04,60,19,Volunteered and supported someone in need.,127,724914721,55,Chofetz Chaim
+2024-10-30,60,13,Volunteered and supported someone in need.,128,496973952,108,Sde Moshe
+2024-12-20,60,13,Volunteered and supported someone in need.,129,819509116,29,Merkaz Shapira
+2024-06-20,45,12,Volunteered and supported someone in need.,130,144399463,171,Shirigim Li On
+2024-10-09,60,10,Volunteered and supported someone in need.,131,253256659,150,Kfar Yehoshua
+2024-09-28,30,20,Volunteered and supported someone in need.,132,262411241,88,Mitzpe Jericho
+2025-03-13,45,13,Volunteered and supported someone in need.,133,607408647,160,Beit Meir
+2024-12-01,45,8,Volunteered and supported someone in need.,134,652182344,163,Shalwa
+2024-07-30,30,10,Volunteered and supported someone in need.,135,516460325,141,Maalot
+2025-01-19,30,8,Volunteered and supported someone in need.,136,777394364,111,Migdal HaEmek
+2024-04-26,30,10,Volunteered and supported someone in need.,137,265268592,11,Sapir
+2024-04-29,45,14,Volunteered and supported someone in need.,138,536428233,114,Hetzrim
+2024-09-20,45,10,Volunteered and supported someone in need.,139,181410364,86,Tena Omerim
+2024-07-30,45,9,Volunteered and supported someone in need.,140,176874761,92,Kramei Tzur
+2024-04-04,45,12,Volunteered and supported someone in need.,141,820688000,37,Hagor
+2024-05-26,60,18,Volunteered and supported someone in need.,142,801353647,28,Nahalal
+2024-04-01,60,11,Volunteered and supported someone in need.,143,306793646,123,Bnei Ayish
+2024-12-07,30,16,Volunteered and supported someone in need.,144,500043043,108,Magen
+2024-06-15,30,15,Volunteered and supported someone in need.,145,207068948,86,Sde Nehemiah
+2024-10-19,60,15,Volunteered and supported someone in need.,146,515887002,26,Kfar Ruth
+2024-11-01,30,18,Volunteered and supported someone in need.,147,350887492,135,Beeri
+2024-04-09,60,10,Volunteered and supported someone in need.,148,188813489,140,Netivot
+2024-12-11,30,11,Volunteered and supported someone in need.,149,651568503,95,Gadot
+2024-08-12,30,19,Volunteered and supported someone in need.,150,944584560,39,Modiin Elite
+2024-12-24,60,14,Volunteered and supported someone in need.,151,593001288,87,Eilat
+2024-09-25,30,14,Volunteered and supported someone in need.,152,247283324,64,Nofim
+2024-08-24,45,18,Volunteered and supported someone in need.,153,538091509,109,Erez
+2024-07-03,30,13,Volunteered and supported someone in need.,154,973073848,106,Nov
+2024-12-04,60,9,Volunteered and supported someone in need.,155,248115924,161,Avni Chefetz
+2024-08-25,30,9,Volunteered and supported someone in need.,156,113135904,59,Ein Habesor
+2025-03-11,60,11,Volunteered and supported someone in need.,157,350887492,163,Nes Ziona
+2024-10-14,45,11,Volunteered and supported someone in need.,158,160882509,49,Migron
+2024-11-11,30,11,Volunteered and supported someone in need.,159,931632673,99,Kadima Zoran
+2025-03-01,45,20,Volunteered and supported someone in need.,160,979282918,63,Migron
+2024-04-22,30,13,Volunteered and supported someone in need.,161,113135904,121,Beer Ganim
+2024-10-04,30,10,Volunteered and supported someone in need.,162,335759009,67,Karnei Shomron
+2025-02-15,60,13,Volunteered and supported someone in need.,163,173088632,12,Emmanuel
+2024-04-04,45,20,Volunteered and supported someone in need.,164,644888321,106,Alonei Hasban
+2025-03-21,90,11,Helped organize and pack food packages for families in need.,165,646451802,136,Beit Arie
+2024-08-16,45,17,Volunteered and supported someone in need.,166,680075075,104,Ein Gedi
+2024-10-22,30,20,Volunteered and supported someone in need.,167,674356378,11,Ramat Raziel
+2025-02-01,60,16,Volunteered and supported someone in need.,168,724914721,27,Zohar
+2024-10-13,60,11,Volunteered and supported someone in need.,169,667570855,83,Ramat Yohanan
+2025-03-22,60,20,Volunteered and supported someone in need.,170,396020455,63,Idan
+2024-12-16,150,10,Helped organize and pack food packages for families in need.,171,446642208,136,Tzukim
+2025-01-17,60,13,Volunteered and supported someone in need.,172,153146909,67,Gani Tal
+2024-10-11,30,14,Volunteered and supported someone in need.,173,403236648,67,Metula
+2024-11-10,45,17,Volunteered and supported someone in need.,174,381334138,167,Bnei Yehuda
+2024-12-02,120,8,"Cleaned and organized a house for Passover, helped with shopping and preparation.",175,469462799,5,Yerucham
+2024-11-23,45,13,Volunteered and supported someone in need.,176,424272342,6,Nili
+2024-08-17,60,19,Volunteered and supported someone in need.,177,623172531,161,Yetveta
+2025-02-17,45,15,Volunteered and supported someone in need.,178,511690794,138,Kokhav HaShachar
+2025-01-27,30,14,Volunteered and supported someone in need.,179,688330480,64,Modiin
+2025-03-06,45,11,Volunteered and supported someone in need.,180,658544073,160,Beit Nir
+2025-01-10,60,20,Volunteered and supported someone in need.,181,435288976,41,Kfar Blum
+2024-07-19,60,15,Volunteered and supported someone in need.,182,988873135,55,Mivaseret Zion
+2024-05-23,30,19,Volunteered and supported someone in need.,183,425481377,154,Netanya
+2024-12-04,60,11,Volunteered and supported someone in need.,184,168207074,166,Lahavim
+2024-07-21,60,14,Volunteered and supported someone in need.,185,827389159,79,Merkaz Shapira
+2024-05-15,60,19,Volunteered and supported someone in need.,186,352769752,13,Sansana
+2025-01-16,60,15,Volunteered and supported someone in need.,187,521845365,50,Neve Ilan
+2024-07-31,45,10,Volunteered and supported someone in need.,188,751297395,172,Dorot
+2025-02-20,45,20,Volunteered and supported someone in need.,189,426287425,122,Yakir
+2024-06-06,30,16,"Spent time with an elderly person, played a board game and went for a walk.",190,991747686,42,Ayalot
+2025-03-30,60,16,Volunteered and supported someone in need.,191,306793646,113,Gedera
+2025-01-04,45,12,Volunteered and supported someone in need.,192,931632673,159,Sde Uziyahu
+2025-02-07,60,18,Volunteered and supported someone in need.,193,321306120,130,Ein Ha'Shlosha
+2024-07-06,45,14,Volunteered and supported someone in need.,194,988359826,38,Mishmar Hashiva
+2024-04-13,45,9,Volunteered and supported someone in need.,195,532668685,12,Metula
+2025-03-10,30,8,Volunteered and supported someone in need.,196,216863981,55,Beit Hilkiah
+2025-03-20,45,11,Volunteered and supported someone in need.,197,160882509,93,Otzem
+2024-05-01,30,13,Volunteered and supported someone in need.,198,854137108,22,Dimona
+2024-11-25,30,12,Volunteered and supported someone in need.,199,922150918,48,Dimona
+2025-01-22,30,11,Volunteered and supported someone in need.,200,851826709,143,Kfar Ruth
+2024-10-04,60,16,Volunteered and supported someone in need.,201,716167182,32,Ariel
+2024-05-22,60,17,Volunteered and supported someone in need.,202,515887002,152,Na'an
+2024-11-05,30,10,Volunteered and supported someone in need.,203,839387909,115,Rosh Zurim
+2024-06-29,30,20,"Spent time with an elderly person, played a board game and went for a walk.",204,703920814,76,Nesher
+2024-09-13,45,14,Volunteered and supported someone in need.,205,262411241,128,Tel Aviv
+2025-01-23,60,17,Volunteered and supported someone in need.,206,837349569,54,Kfar Saba
+2024-08-28,45,8,Volunteered and supported someone in need.,207,468240792,40,Urim
+2024-05-01,45,11,Volunteered and supported someone in need.,208,999643103,129,Avnat
+2024-12-15,30,14,Volunteered and supported someone in need.,209,313797797,161,Or Akiva
+2024-12-09,60,20,"Spent time with an elderly person, played a board game and went for a walk.",210,132356648,173,Shoval
+2024-10-28,60,10,Volunteered and supported someone in need.,211,374610023,83,Hispin
+2025-02-10,45,20,Volunteered and supported someone in need.,212,399091360,83,Jerusalem
+2024-05-20,60,13,Volunteered and supported someone in need.,213,822539096,91,Eitan
+2024-07-26,30,14,Volunteered and supported someone in need.,214,829182407,163,Margaliot
+2024-07-30,30,9,Volunteered and supported someone in need.,215,467411500,174,Avigdor
+2024-12-20,30,19,Volunteered and supported someone in need.,216,427314115,80,Beror Chail
+2025-03-25,45,18,Volunteered and supported someone in need.,217,426618959,162,Ramat Rachel
+2025-03-27,30,20,Volunteered and supported someone in need.,218,573650406,134,Kiryat Yam
+2024-03-31,45,16,Volunteered and supported someone in need.,219,855731625,86,Tkoma
+2024-10-02,60,19,"Spent time with an elderly person, played a board game and went for a walk.",220,821741610,133,Almagor
+2025-01-14,150,15,Helped organize and pack food packages for families in need.,221,196990578,34,Shfaim
+2024-09-09,30,16,Volunteered and supported someone in need.,222,855731625,79,Maale HaChamisha
+2024-09-10,30,9,Volunteered and supported someone in need.,223,212754932,73,Avni Eitan
+2025-03-03,45,19,Volunteered and supported someone in need.,224,713114845,149,Kanaf
+2024-10-08,60,19,Volunteered and supported someone in need.,225,679585124,66,Yavneh
+2024-08-11,45,15,Volunteered and supported someone in need.,226,425481377,36,Ashdot Ya'akov
+2024-05-25,60,16,"Spent time with an elderly person, played a board game and went for a walk.",227,142241647,35,Rehovot
+2024-06-09,30,8,Volunteered and supported someone in need.,228,357791711,134,Kramei Tzur
+2025-02-01,45,19,"Spent time with an elderly person, played a board game and went for a walk.",229,173088632,4,Bat Ein
+2024-10-29,30,8,Volunteered and supported someone in need.,230,112292003,131,Kiryat Arba
+2024-04-19,30,15,Volunteered and supported someone in need.,231,497018490,166,Sapir
+2025-02-13,45,13,Volunteered and supported someone in need.,232,262411241,80,Kokhav HaShachar
+2025-01-02,60,20,Volunteered and supported someone in need.,233,351285779,60,Shalwa
+2025-01-29,45,9,"Spent time with an elderly person, played a board game and went for a walk.",234,677725330,100,Bneu Dekalim
+2024-11-16,60,20,"Spent time with an elderly person, played a board game and went for a walk.",235,651568503,24,Giv'at Haim
+2024-07-26,60,10,Volunteered and supported someone in need.,236,319815255,11,Lahavim
+2024-05-29,45,14,Volunteered and supported someone in need.,237,514114179,130,Nitzan
+2024-11-21,30,10,Volunteered and supported someone in need.,238,557774217,107,Eitan
+2024-08-11,45,14,Volunteered and supported someone in need.,239,785417463,135,Nes Ziona
+2024-10-27,30,10,"Spent time with an elderly person, played a board game and went for a walk.",240,403236648,173,Ofra
+2024-12-03,120,17,Helped organize and pack food packages for families in need.,241,394064397,34,Mefalsim
+2025-01-05,30,8,Volunteered and supported someone in need.,242,357791711,120,Elezar
+2024-11-26,60,12,Volunteered and supported someone in need.,243,146658217,148,Karnei Shomron
+2024-11-11,45,9,Volunteered and supported someone in need.,244,764042038,134,Lod
+2025-01-30,60,8,Volunteered and supported someone in need.,245,781083088,103,Maale Hever
+2025-01-01,60,16,Volunteered and supported someone in need.,246,183666190,169,Hazor'im
+2024-05-21,45,18,Volunteered and supported someone in need.,247,516860181,134,Almagor
+2024-05-27,30,12,Volunteered and supported someone in need.,248,473188915,141,Yitzhar
+2024-08-31,45,14,Volunteered and supported someone in need.,249,430109610,166,Sde Yoav
+2024-05-29,45,8,Volunteered and supported someone in need.,250,762445161,150,Elifaz
+2024-12-30,30,13,Volunteered and supported someone in need.,251,279386662,167,Aviezer
+2025-01-17,45,9,Volunteered and supported someone in need.,252,426287425,6,Beit Haggai
+2024-07-26,30,19,Volunteered and supported someone in need.,253,350887492,33,Hazor'im
+2024-06-11,60,18,Volunteered and supported someone in need.,254,751595992,70,Dorot
+2024-07-19,45,11,Volunteered and supported someone in need.,255,158008526,55,Kfar Giladi
+2024-05-28,45,12,Volunteered and supported someone in need.,256,713114845,44,Itamar
+2024-11-22,30,8,Volunteered and supported someone in need.,257,212754932,163,Tzukim
+2024-11-08,45,17,Volunteered and supported someone in need.,258,422937008,106,Amioz
+2024-11-16,60,20,Volunteered and supported someone in need.,259,853956801,97,Shfaim
+2024-05-13,45,12,Volunteered and supported someone in need.,260,479710251,104,Kokhav Yaakov
+2024-08-21,45,18,"Spent time with an elderly person, played a board game and went for a walk.",261,328067174,168,Beer Sheva
+2024-12-15,60,18,Volunteered and supported someone in need.,262,901782325,108,Gani Tal
+2024-06-10,60,11,Volunteered and supported someone in need.,263,188862689,77,Beit El
+2024-11-10,30,16,Volunteered and supported someone in need.,264,350887492,80,Mefalsim
+2024-09-21,30,17,Volunteered and supported someone in need.,265,521845365,12,As'el
+2025-01-02,120,13,Helped organize and pack food packages for families in need.,266,795314723,34,Ramat Magshimim
+2024-08-10,45,15,Volunteered and supported someone in need.,267,287759941,79,Yehud
+2025-02-05,45,11,"Spent time with an elderly person, played a board game and went for a walk.",268,346519339,17,Barkan
+2024-06-28,30,12,Volunteered and supported someone in need.,269,648511406,57,Maon
+2024-08-06,45,11,Volunteered and supported someone in need.,270,516460325,105,Yehud
+2024-10-11,30,18,Volunteered and supported someone in need.,271,825711122,129,Hebron
+2024-09-29,60,20,"Spent time with an elderly person, played a board game and went for a walk.",272,567537755,21,Har Bracha
+2025-02-01,60,8,Volunteered and supported someone in need.,273,925980375,14,Ortal
+2024-04-20,30,11,Volunteered and supported someone in need.,274,751297395,47,Kiryat Motzkin
+2024-11-25,60,13,Volunteered and supported someone in need.,275,574826678,65,Nahal Oz
+2024-07-28,60,13,Volunteered and supported someone in need.,276,487969951,95,Sde Yaakov
+2024-04-07,45,18,Volunteered and supported someone in need.,277,931632673,163,Beit Shemesh
+2024-04-07,30,13,Volunteered and supported someone in need.,278,315964682,45,Mishmar HaEmek
+2024-06-01,45,18,Volunteered and supported someone in need.,279,760743049,65,Kiryat Motzkin
+2024-04-04,45,15,Volunteered and supported someone in need.,280,577015390,13,Rishon Lezion
+2024-12-20,120,19,Helped organize and pack food packages for families in need.,281,328067174,34,Erez
+2025-01-18,30,10,"Spent time with an elderly person, played a board game and went for a walk.",282,464652229,21,Mishan
+2025-01-11,30,16,Volunteered and supported someone in need.,283,462962571,58,Sde Yoav
+2024-10-02,30,17,Volunteered and supported someone in need.,284,640929861,169,Megido
+2024-08-09,60,14,Volunteered and supported someone in need.,285,614663397,51,Lahavim
+2025-03-06,45,17,"Spent time with an elderly person, played a board game and went for a walk.",286,254698390,78,Hanita
+2024-08-13,30,13,Volunteered and supported someone in need.,287,352531771,89,Efrat
+2024-04-06,30,19,"Spent time with an elderly person, played a board game and went for a walk.",288,403236648,19,Jerusalem
+2024-06-28,150,15,"Cleaned and organized a house for Passover, helped with shopping and preparation.",289,839387909,5,Karmiya
+2025-02-04,60,18,"Spent time with an elderly person, played a board game and went for a walk.",290,425481377,173,Ashkelon
+2024-05-24,45,10,Volunteered and supported someone in need.,291,981227211,63,Netivot
+2024-07-03,45,16,Volunteered and supported someone in need.,292,382596544,157,Avigdor
+2024-07-16,60,14,Volunteered and supported someone in need.,293,577015390,166,Metula
+2024-05-16,30,15,Volunteered and supported someone in need.,294,916030034,158,Yavul
+2024-11-16,45,11,Volunteered and supported someone in need.,295,698424002,58,Mechola
+2025-02-22,30,18,Volunteered and supported someone in need.,296,839387909,52,Ramat Raziel
+2025-01-21,60,11,Volunteered and supported someone in need.,297,744410176,105,Itamar
+2024-09-20,45,15,Volunteered and supported someone in need.,298,938199172,27,Maon
+2024-12-23,30,9,Volunteered and supported someone in need.,299,385624134,98,Meshuot Yitzhak
+2024-09-13,30,8,Volunteered and supported someone in need.,300,827835592,55,Ein Ha'horesh
+2024-08-01,30,13,Volunteered and supported someone in need.,301,837241212,120,Ashdod
+2025-01-06,60,18,Volunteered and supported someone in need.,302,757769671,138,Havat Yair
+2024-08-18,30,17,Volunteered and supported someone in need.,303,656864235,103,Ramat David
+2025-01-04,60,20,Volunteered and supported someone in need.,304,319815255,41,Yokneam Ilit
+2024-11-14,60,20,Volunteered and supported someone in need.,305,146470357,123,Chad Nes
+2024-04-26,45,20,Volunteered and supported someone in need.,306,215117771,56,Nahal Oz
+2025-03-25,90,17,Helped organize and pack food packages for families in need.,307,751297395,81,Tlamim
+2024-05-16,60,12,Volunteered and supported someone in need.,308,894302728,112,Tirat Carmel
+2024-12-05,60,19,Volunteered and supported someone in need.,309,407751085,12,Ramat Yohanan
+2024-12-16,30,15,Volunteered and supported someone in need.,310,876028571,14,Faren
+2024-04-11,45,20,Volunteered and supported someone in need.,311,370791529,8,Yehiaim
+2024-05-03,30,13,Volunteered and supported someone in need.,312,611933906,143,Nitzan
+2024-04-13,45,16,Volunteered and supported someone in need.,313,385624134,7,Tomer
+2025-03-08,30,20,Volunteered and supported someone in need.,314,414341557,11,Palmahim
+2025-01-07,60,11,"Spent time with an elderly person, played a board game and went for a walk.",315,752203365,164,Urim
+2024-12-24,30,13,Volunteered and supported someone in need.,316,698424002,119,Ofakim
+2024-08-01,45,10,Volunteered and supported someone in need.,317,516460325,157,Beit El
+2024-08-14,60,11,Volunteered and supported someone in need.,318,577015390,33,Avni Eitan
+2025-03-15,30,11,Volunteered and supported someone in need.,319,257371969,112,Yakir
+2024-09-06,60,15,Volunteered and supported someone in need.,320,593001288,33,Giv'atayim
+2024-12-28,30,9,Volunteered and supported someone in need.,321,587048264,175,Ketzrin
+2024-11-08,60,10,"Spent time with an elderly person, played a board game and went for a walk.",322,112292003,4,Revvadim
+2024-08-28,30,8,"Spent time with an elderly person, played a board game and went for a walk.",323,578165744,164,Degania B
+2025-01-31,45,15,Volunteered and supported someone in need.,324,962991456,174,Aderet
+2025-02-23,60,15,Volunteered and supported someone in need.,325,153672536,140,Kfar Vradim
+2024-10-26,60,16,Volunteered and supported someone in need.,326,671525918,25,Nov
+2024-06-27,60,8,Volunteered and supported someone in need.,327,577015390,97,Eliav
+2024-08-19,120,8,Helped organize and pack food packages for families in need.,328,848723334,81,Yiftah
+2024-05-28,45,9,Volunteered and supported someone in need.,329,916030034,71,Alon Shvut
+2024-08-27,45,19,Volunteered and supported someone in need.,330,511690794,143,Beeri
+2024-05-30,30,12,Volunteered and supported someone in need.,331,275626793,157,Metula
+2024-09-04,30,8,Volunteered and supported someone in need.,332,757769671,8,Beit Nir
+2024-11-24,30,9,Volunteered and supported someone in need.,333,541553222,110,Hagor
+2024-09-24,30,17,Volunteered and supported someone in need.,334,328986657,129,Kokhav Yaakov
+2024-09-04,60,12,Volunteered and supported someone in need.,335,430109610,118,Elad
+2025-03-28,30,13,"Spent time with an elderly person, played a board game and went for a walk.",336,142241647,24,Kiryat Haim
+2025-02-16,60,19,Volunteered and supported someone in need.,337,611933906,143,Sde Nehemiah
+2024-12-20,45,10,Volunteered and supported someone in need.,338,630902447,146,Alonei Hasban
+2024-12-06,30,18,"Spent time with an elderly person, played a board game and went for a walk.",339,850872249,17,Nir Chen
+2024-08-26,45,19,Volunteered and supported someone in need.,340,479710251,38,Nofim
+2024-08-28,60,17,Volunteered and supported someone in need.,341,827835592,75,Gani Tal
+2025-03-10,30,8,Volunteered and supported someone in need.,342,999823851,47,Dorot
+2025-02-08,45,15,Volunteered and supported someone in need.,343,253789449,128,Rishon Lezion
+2024-04-12,60,17,Volunteered and supported someone in need.,344,212754932,13,Yad Mordechai
+2024-11-14,60,19,Volunteered and supported someone in need.,345,275549667,140,Beit Arie
+2024-09-30,60,11,Volunteered and supported someone in need.,346,229380617,16,Kfar Darom
+2024-11-21,60,17,Volunteered and supported someone in need.,347,328986657,137,Nov
+2024-07-16,60,16,Volunteered and supported someone in need.,348,403236648,105,Neot Smadar
+2025-01-04,30,19,Volunteered and supported someone in need.,349,335759009,56,Or Yehuda
+2024-12-15,30,18,"Spent time with an elderly person, played a board game and went for a walk.",350,464652229,164,Merkaz Shapira
+2024-05-02,30,20,Volunteered and supported someone in need.,351,578165744,69,Ramat Yishai
+2025-02-27,30,12,Volunteered and supported someone in need.,352,313682258,141,Kiryat Tivon
+2025-01-31,45,11,Volunteered and supported someone in need.,353,681257529,149,Sasa
+2025-03-06,30,11,Volunteered and supported someone in need.,354,751297395,79,Kfar Harief
+2024-04-12,45,12,Volunteered and supported someone in need.,355,453261917,73,Tena Omerim
+2024-05-18,45,9,Volunteered and supported someone in need.,356,310138753,120,Shadmot Meholah
+2024-12-08,45,16,Volunteered and supported someone in need.,357,555731465,6,Avivim
+2024-08-18,30,18,Volunteered and supported someone in need.,358,872368804,38,Gedera
+2025-01-28,60,11,Volunteered and supported someone in need.,359,646451802,53,Haifa
+2025-02-04,30,16,"Spent time with an elderly person, played a board game and went for a walk.",360,972759174,78,Avni Chefetz
+2024-04-27,45,17,"Spent time with an elderly person, played a board game and went for a walk.",361,703920814,116,Yakum
+2024-06-21,45,19,Volunteered and supported someone in need.,362,225561660,142,Barkan
+2025-03-22,60,14,Volunteered and supported someone in need.,363,988359826,132,Shoham
+2024-10-21,60,9,Volunteered and supported someone in need.,364,936887228,169,Zohar
+2024-05-12,45,8,Volunteered and supported someone in need.,365,939508259,29,Har Bracha
+2025-01-12,60,10,Volunteered and supported someone in need.,366,487969951,148,Holon
+2024-09-06,30,11,Volunteered and supported someone in need.,367,470824376,49,Ein Gedi
+2024-10-09,45,8,Volunteered and supported someone in need.,368,645220259,95,Merkaz Shapira
+2024-06-10,60,9,Volunteered and supported someone in need.,369,430109610,51,Kiryat Yearim
+2025-02-27,30,13,"Spent time with an elderly person, played a board game and went for a walk.",370,822539096,4,Roei
+2024-05-06,30,12,Volunteered and supported someone in need.,371,279301154,33,Karmiya
+2024-04-22,60,10,Volunteered and supported someone in need.,372,315964682,163,Roei
+2024-08-28,30,12,Volunteered and supported someone in need.,373,269334557,53,Migdal
+2024-08-30,30,18,Volunteered and supported someone in need.,374,979282918,165,Talmon
+2024-07-30,150,12,Helped organize and pack food packages for families in need.,375,876028571,30,Ein Habesor
+2024-06-13,30,10,Volunteered and supported someone in need.,376,534747212,56,Kfar Shmaryahu
+2024-12-10,30,19,Volunteered and supported someone in need.,377,427314115,69,Michmesh
+2024-10-09,45,17,Volunteered and supported someone in need.,378,144399463,170,Neve Zohar
+2024-12-01,45,18,Volunteered and supported someone in need.,379,272817777,13,Beitar Ilit
+2025-02-10,45,19,Volunteered and supported someone in need.,380,955798156,49,Sansana
+2025-01-13,45,9,Volunteered and supported someone in need.,381,271353856,95,Hod Hasharon
+2025-03-09,45,13,Volunteered and supported someone in need.,382,447609127,79,Ra'anana
+2024-09-24,60,13,Volunteered and supported someone in need.,383,500043043,56,Giv'at Ada
+2025-03-21,45,20,"Spent time with an elderly person, played a board game and went for a walk.",384,829182407,61,Ramat HaShofet
+2024-05-30,30,13,"Spent time with an elderly person, played a board game and went for a walk.",385,328067174,42,Bneu Dekalim
+2024-06-10,30,18,Volunteered and supported someone in need.,386,645220259,145,Sde Nitzan
+2024-09-21,60,12,Volunteered and supported someone in need.,387,497523138,6,Ein Harod
+2024-09-17,45,14,Volunteered and supported someone in need.,388,821522786,157,Sde Nehemiah
+2025-01-28,30,12,Volunteered and supported someone in need.,389,808842543,85,Gezer
+2024-05-09,60,15,Volunteered and supported someone in need.,390,515887002,7,Bnei Darom
+2024-07-29,60,8,Volunteered and supported someone in need.,391,399091360,54,Avnat
+2025-03-18,30,10,Volunteered and supported someone in need.,392,982831742,87,Shadmot Meholah
+2025-01-17,45,14,Volunteered and supported someone in need.,393,646118191,48,Beit Guvrin
+2025-02-28,60,18,Volunteered and supported someone in need.,394,739768970,25,Nov
+2024-08-28,60,17,"Spent time with an elderly person, played a board game and went for a walk.",395,209491604,76,Ramat Rachel
+2024-07-28,45,19,Volunteered and supported someone in need.,396,651245420,118,Alumim
+2025-02-24,60,12,Volunteered and supported someone in need.,397,853729361,94,Kfar Yehoshua
+2024-06-04,45,15,Volunteered and supported someone in need.,398,262075730,53,Mivaseret Zion
+2024-06-13,60,13,Volunteered and supported someone in need.,399,762445161,22,Brochin
+2024-04-05,60,13,Volunteered and supported someone in need.,400,297183376,50,Degania A
