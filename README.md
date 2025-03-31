@@ -9,6 +9,7 @@ Moria Rozenfeld & Tehila Shraga
 - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)  
 - [Data Structure Diagram (DSD)](#data-structure-diagram-dsd)
 - [Insert data to table](#insert-data-to-table)
+- [Backup and Restore](#Backup-and-Restore)  
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
