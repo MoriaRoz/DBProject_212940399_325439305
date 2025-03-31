@@ -26,5 +26,19 @@ The system records information about volunteers, the various volunteering activi
 ## Data Structure Diagram (DSD)  
 ![DSD](Stage%20A/DSD.png)
 
-## Insert data to table
+## Insert data to table 
+### Import Files:  
+![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)  
+![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)  
+
+### Pyhton:  
+![image](https://github.com/user-attachments/assets/6ea79551-7cfc-4262-ac53-983d3f4a37c6)  
+![image](https://github.com/user-attachments/assets/4a789652-3df1-4343-ad58-5dc1175e8d5e)  
+
+### Mockaroo:
+![patient mockaroo](stage%20A/mockarooFiles/patient%20mockaroo.png)  
+
+## Backup and Restore  
+![image](https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)  
+
 
