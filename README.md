@@ -35,10 +35,7 @@ The system records information about volunteers, the various volunteering activi
 </p>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4" width="800"/>
-</p>
-![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)    
-
-![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)  
+</p>   
 
 ### Pyhton:  
 ![image](https://github.com/user-attachments/assets/6ea79551-7cfc-4262-ac53-983d3f4a37c6)  
