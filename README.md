@@ -3,6 +3,7 @@
   Volunteer Management System - Ezer Mizion
 </h2>
 
+![logo](https://github.com/user-attachments/assets/be80e5be-a6a1-4d6b-9e08-7b7efb134f4a)
 # Volunteer Management System - Ezer Mizion  
 
 Moria Rozenfeld & Tehila Shraga  
