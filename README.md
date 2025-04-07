@@ -1,3 +1,8 @@
+<h2>
+  <img src="![הורדה](https://github.com/user-attachments/assets/24cb3311-7915-4a1e-842b-25295ddc42b1)" alt="logo" width="40" style="vertical-align: middle; margin-right: 10px;" />
+  Volunteer Management System - Ezer Mizion
+</h2>
+
 # Volunteer Management System - Ezer Mizion  
 
 Moria Rozenfeld & Tehila Shraga  
