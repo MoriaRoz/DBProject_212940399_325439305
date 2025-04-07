@@ -9,7 +9,8 @@ Moria Rozenfeld & Tehila Shraga
 - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)  
 - [Data Structure Diagram (DSD)](#data-structure-diagram-dsd)
 - [Insert data to table](#insert-data-to-table)
-- [Backup and Restore](#Backup-and-Restore)  
+- [Backup and Restore](#Backup-and-Restore)
+- [Queries](#Queries)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -43,7 +44,6 @@ The system records information about volunteers, the various volunteering activi
 ## Backup and Restore  
 ![image](https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)  
 ![image](https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723)  
-<img src="https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723.png" width=300 height=200 />
 
 ## Queries
 
