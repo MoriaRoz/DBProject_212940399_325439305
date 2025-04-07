@@ -1,10 +1,7 @@
-<h2>
-  <img src="https://github.com/user-attachments/assets/24cb3311-7915-4a1e-842b-25295ddc42b1" alt="logo" width="40" style="vertical-align: middle; margin-right: 10px;" />
-  Volunteer Management System - Ezer Mizion
-</h2>
-<h2>
-  <img src="https://github.com/user-attachments/assets/be80e5be-a6a1-4d6b-9e08-7b7efb134f4a" center/>
-</h2>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/be80e5be-a6a1-4d6b-9e08-7b7efb134f4a" width="300"/>
+</p>
+
 
 # Volunteer Management System - Ezer Mizion  
 
