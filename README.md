@@ -1,7 +1,6 @@
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/be80e5be-a6a1-4d6b-9e08-7b7efb134f4a" width="300"/>
 </p>
-
 
 # Volunteer Management System - Ezer Mizion  
 
