@@ -29,7 +29,8 @@ The system records information about volunteers, the various volunteering activi
 
 ## Insert data to table 
 ### Import Files:  
-![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)  
+![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)    
+#### csv file:
 ![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)  
 
 ### Pyhton:  
@@ -42,6 +43,8 @@ The system records information about volunteers, the various volunteering activi
 ## Backup and Restore  
 ![image](https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)  
 ![image](https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723)  
+
+## Queries
 
 
 
