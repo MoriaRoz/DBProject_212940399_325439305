@@ -45,13 +45,8 @@ The system records information about volunteers, the various volunteering activi
 ![patient_mockaroo](Stage%20A/mockarooFiles/patient_mockaroo.png)  
 
 ## Backup and Restore  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d" width="800"/>
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723" width="800"/>
-</p>
+(https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)
+(https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723)
 
 
 ## Queries  
