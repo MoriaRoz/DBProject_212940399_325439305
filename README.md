@@ -72,4 +72,13 @@ The system records information about volunteers, the various volunteering activi
 #### 8.
 ![image]
 
+עדכון:
+2. 
+before:
+![image](https://github.com/user-attachments/assets/0e601132-b483-4676-9b3a-6bc0c8c1ae73)
+
+q:
+![image](https://github.com/user-attachments/assets/0ead105c-b652-4bc4-b0ae-90702e9ff1b9)
+
+after:
 
