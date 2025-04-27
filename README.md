@@ -30,12 +30,8 @@ The system records information about volunteers, the various volunteering activi
 
 ## Insert data to table 
 ### Import Files:  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88" width="800"/>
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4" width="800"/>
-</p>   
+![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)
+![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)     
 
 ### Pyhton:  
 ![image](https://github.com/user-attachments/assets/6ea79551-7cfc-4262-ac53-983d3f4a37c6)  
@@ -51,7 +47,29 @@ The system records information about volunteers, the various volunteering activi
 
 ## Queries  
 ### Select queries:
-##### 1.
-The query displays each volunteer's volunteer hours broken down by month.  
+##### 1. The query displays each volunteer's volunteer hours broken down by month.  
 ![image](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)  
+  
+#### 2. The query shows the average number of participants who attended events by the cities where the events took place.
+![image](https://github.com/user-attachments/assets/58890d29-3073-4e5b-a39d-bbe9bce907f7)
+
+  
+#### 3.
+![image](https://github.com/user-attachments/assets/85a6b61c-d1dc-4022-98b2-f8d5f2a73130)
+  
+#### 4.
+![image]
+  
+#### 5.
+![image]
+  
+#### 6.
+![image]
+  
+#### 7.
+![image]
+  
+#### 8.
+![image]
+
 
