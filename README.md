@@ -54,7 +54,9 @@ The system records information about volunteers, the various volunteering activi
 </p>
 
 
-## Queries
-
+## Queries  
+### Select queries:
+The query displays each volunteer's volunteer hours broken down by month.  
+![תמונה של WhatsApp‏ 2025-04-27 בשעה 11 12 22_4f96acdf](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)
 
 
