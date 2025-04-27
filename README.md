@@ -45,13 +45,13 @@ The system records information about volunteers, the various volunteering activi
 ![patient_mockaroo](Stage%20A/mockarooFiles/patient_mockaroo.png)  
 
 ## Backup and Restore  
-(https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)
-(https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723)
+![image](https://github.com/user-attachments/assets/92392fcb-11e0-49d6-8c3e-8ad70c355d6d)
+![image](https://github.com/user-attachments/assets/f2469c7d-23c9-46a8-9bc1-c4e63720f723)
 
 
 ## Queries  
 ### Select queries:
+##### 1.
 The query displays each volunteer's volunteer hours broken down by month.  
-![תמונה של WhatsApp‏ 2025-04-27 בשעה 11 12 22_4f96acdf](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)
-
+![image](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)  
 
