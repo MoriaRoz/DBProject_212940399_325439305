@@ -77,12 +77,15 @@ The system records information about volunteers, the various volunteering activi
 update
 2. 
 before:
-![image](https://github.com/user-attachments/assets/e39cfb92-4cee-4375-a6d5-7d30bb7872eb)
+![image](https://github.com/user-attachments/assets/3206a3e1-95ea-405e-8622-6044b62931f0)
+
 
 
 q:
-![image](https://github.com/user-attachments/assets/a5e97f9c-9e45-4a4f-95f0-8ea970d41852)
+![image](https://github.com/user-attachments/assets/6cee5c1d-562b-423a-ab99-6dd51c6a2faa)
+
 
 
 after:
+![image](https://github.com/user-attachments/assets/9b51a9d9-8fb2-433a-9a7f-9c855aebe6b5)
 
