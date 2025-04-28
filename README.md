@@ -74,7 +74,7 @@ The system records information about volunteers, the various volunteering activi
   
 
 ### Update queries:
-#### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year.
+#### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year. 
 ##### before:  
 ![image](https://github.com/user-attachments/assets/1cb18d47-76fd-4ae0-bb1a-b174115c04e1)  
 ##### running:  
