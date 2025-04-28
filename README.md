@@ -11,6 +11,7 @@ Moria Rozenfeld & Tehila Shraga
 - [Insert data to table](#insert-data-to-table)
 - [Backup and Restore](#Backup-and-Restore)
 - [Queries](#Queries)
+-   [Select queries](#Select queries:)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
