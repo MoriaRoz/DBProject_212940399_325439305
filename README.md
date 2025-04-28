@@ -71,33 +71,34 @@ The system records information about volunteers, the various volunteering activi
 
 #### 8. The query displays the average number of participants in events, by event type and by year.
 ![image](https://github.com/user-attachments/assets/b5de30c0-216e-4ba6-bb2d-272292e89c81)  
+  
 
-
-
-
-### Update queries
-2. 
+### Update queries:
+#### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year.
 before:
-![image](https://github.com/user-attachments/assets/3206a3e1-95ea-405e-8622-6044b62931f0)
-
-
-
-q:
-![image](https://github.com/user-attachments/assets/6cee5c1d-562b-423a-ab99-6dd51c6a2faa)
-
-
-
+![image](https://github.com/user-attachments/assets/1cb18d47-76fd-4ae0-bb1a-b174115c04e1)  
+running:
+![image](https://github.com/user-attachments/assets/2fadc990-b5c2-4acf-905e-f35e51bd3d94)  
 after:
-![image](https://github.com/user-attachments/assets/9b51a9d9-8fb2-433a-9a7f-9c855aebe6b5)
+![image](https://github.com/user-attachments/assets/1d55aa46-9a58-4f4a-8a49-204755d88e78)   
+  
 
-3.before:
-![צילום מסך 2025-04-27 195314](https://github.com/user-attachments/assets/1431b391-5bc4-4ba5-b922-fafe198b0ce1)
-
-Q:
-![צילום מסך 2025-04-27 195408](https://github.com/user-attachments/assets/9841b41d-3cf4-465d-b2a8-47ea567737d0)
-
+#### 2. The query updates that for events that take place in the north or south, it is impossible to come with a companion, so the plus one will be FALSE.
+before:
+![image](https://github.com/user-attachments/assets/3206a3e1-95ea-405e-8622-6044b62931f0)  
+running:
+![image](https://github.com/user-attachments/assets/6cee5c1d-562b-423a-ab99-6dd51c6a2faa)  
 after:
-![צילום מסך 2025-04-27 195438](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)
+![image](https://github.com/user-attachments/assets/9b51a9d9-8fb2-433a-9a7f-9c855aebe6b5)  
+  
+#### 3. 
+before:
+![image](https://github.com/user-attachments/assets/1431b391-5bc4-4ba5-b922-fafe198b0ce1)  
+running:
+![image](https://github.com/user-attachments/assets/9841b41d-3cf4-465d-b2a8-47ea567737d0)  
+after:
+![image](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)  
+  
 
 ### Delete queries
 1. 
