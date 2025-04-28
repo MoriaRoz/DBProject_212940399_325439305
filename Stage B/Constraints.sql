@@ -1,0 +1,9 @@
+ALTER TABLE Volunteer
+MODIFY Phone VARCHAR(15) NOT NULL;
+
+ALTER TABLE Event
+ADD CONSTRAINT chk_event_date
+CHECK (Date >= CURRENT_DATE);
+
+ALTER TABLE VolunteeringParticipation 
+MODIFY Shift VARCHAR(20) DEFAULT 'Morning';
