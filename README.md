@@ -98,3 +98,16 @@ Q:
 after:
 ![צילום מסך 2025-04-27 195438](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)
 
+delete:
+1. 
+ b:![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
+
+   Q:
+![image](https://github.com/user-attachments/assets/7f7097d6-ac6f-431a-b692-4311af9cfa29)
+![image](https://github.com/user-attachments/assets/14160a1e-b320-4747-8c27-ccf22777d782)
+![image](https://github.com/user-attachments/assets/84e635d0-ff0d-40d5-a9c6-a715496535c6)
+![image](https://github.com/user-attachments/assets/31174d4c-72f2-43ac-93cc-b5967ce24668)
+
+   A:
+   ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)
+
