@@ -89,3 +89,12 @@ q:
 after:
 ![image](https://github.com/user-attachments/assets/9b51a9d9-8fb2-433a-9a7f-9c855aebe6b5)
 
+3.before:
+![צילום מסך 2025-04-27 195314](https://github.com/user-attachments/assets/1431b391-5bc4-4ba5-b922-fafe198b0ce1)
+
+Q:
+![צילום מסך 2025-04-27 195408](https://github.com/user-attachments/assets/9841b41d-3cf4-465d-b2a8-47ea567737d0)
+
+after:
+![צילום מסך 2025-04-27 195438](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)
+
