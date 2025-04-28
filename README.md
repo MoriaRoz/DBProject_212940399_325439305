@@ -147,3 +147,10 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ![image](https://github.com/user-attachments/assets/f27b9f4e-8e76-4446-bed1-184ecaa420e4)
 
 
+## rollback 
+![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
+![image](https://github.com/user-attachments/assets/fdbd04f8-2088-4745-abb2-0ac58913da4f)
+
+### commit:
+![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
+![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)
