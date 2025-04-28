@@ -10,8 +10,7 @@ Moria Rozenfeld & Tehila Shraga
 - [Data Structure Diagram (DSD)](#data-structure-diagram-dsd)
 - [Insert data to table](#insert-data-to-table)
 - [Backup and Restore](#Backup-and-Restore)
-- [Queries](#Queries)
-    -[Select queries](#Select-queries)
+- [Queries](#Queries)  
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -75,7 +74,7 @@ The system records information about volunteers, the various volunteering activi
 
 
 
-update
+### Update queries
 2. 
 before:
 ![image](https://github.com/user-attachments/assets/3206a3e1-95ea-405e-8622-6044b62931f0)
@@ -99,7 +98,7 @@ Q:
 after:
 ![צילום מסך 2025-04-27 195438](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)
 
-delete:
+### Delete queries
 1. 
  b:![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
 
