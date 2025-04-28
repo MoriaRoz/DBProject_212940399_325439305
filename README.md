@@ -130,19 +130,19 @@ The system records information about volunteers, the various volunteering activi
 
 ## Constraint
 ### 1. The constraint requires that the patients entered into the table be those with a birth date in the past and not in the future.
-##### ALTER TABLE Patient
-##### ADD CONSTRAINT chk_patient_birthday
-##### CHECK (Birthday <= CURRENT_DATE);    
+ALTER TABLE Patient
+ADD CONSTRAINT chk_patient_birthday
+CHECK (Birthday <= CURRENT_DATE);    
 ![image](https://github.com/user-attachments/assets/b4561de3-c313-42c2-8e96-c10489159be4)
 
 ### 2. The constraint requires that the volunteer's phone number to be entered must not be null.
-##### ALTER TABLE Volunteer
-##### ALTER COLUMN Phone SET NOT NULL;  
+ALTER TABLE Volunteer
+ALTER COLUMN Phone SET NOT NULL;  
 ![image](https://github.com/user-attachments/assets/c456f8ee-33d8-4672-9ba5-f79781e7b383)
 
 ### 3. The constraint inserts a morning shift-M as the default if no shift was inserted.
-##### ALTER TABLE Volunteering_Participation
-##### ALTER COLUMN Shift SET DEFAULT 'M';  
+ALTER TABLE Volunteering_Participation
+ALTER COLUMN Shift SET DEFAULT 'M';  
 ![image](https://github.com/user-attachments/assets/a11be685-d5cc-4b13-ae96-f64e78cdcbc2)
 ![image](https://github.com/user-attachments/assets/f27b9f4e-8e76-4446-bed1-184ecaa420e4)
 
