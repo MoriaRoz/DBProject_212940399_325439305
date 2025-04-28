@@ -111,3 +111,12 @@ delete:
    A:
    ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)
 
+2. b:
+   q:
+   a:
+3.
+b:![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
+q:![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)
+
+a:![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)
+
