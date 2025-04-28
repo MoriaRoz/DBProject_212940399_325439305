@@ -101,27 +101,29 @@ The system records information about volunteers, the various volunteering activi
   
 
 ### Delete queries
-1. 
- b:![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
-
-   Q:
+#### 1. The query deletes all volunteers who have not participated in volunteering and events in the last two years.
+##### before:  
+![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
+##### running:  
 ![image](https://github.com/user-attachments/assets/7f7097d6-ac6f-431a-b692-4311af9cfa29)
 ![image](https://github.com/user-attachments/assets/14160a1e-b320-4747-8c27-ccf22777d782)
 ![image](https://github.com/user-attachments/assets/84e635d0-ff0d-40d5-a9c6-a715496535c6)
 ![image](https://github.com/user-attachments/assets/31174d4c-72f2-43ac-93cc-b5967ce24668)
+##### after:  
+![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
 
-   A:
-   ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)
+#### 2.
+##### before: 
+![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
+##### running:
+![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)
+##### after:
+![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
 
-2. b:![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
-
-   q:![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)
-
-   a:<img width="388" alt="image" src="https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b" />
-
-3.
-b:![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
-q:![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)
-
-a:![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)
-
+#### 3.
+##### before:
+![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
+##### running:
+![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)
+##### after:
+![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)
