@@ -112,7 +112,7 @@ The system records information about volunteers, the various volunteering activi
 ##### after:  
 ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
 
-#### 2.
+#### 2. The query deletes all patients over the age of 120.
 ##### before: 
 ![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
 ##### running:
@@ -120,7 +120,7 @@ The system records information about volunteers, the various volunteering activi
 ##### after:
 ![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
 
-#### 3.
+#### 3. The query deletes events that were more than 5 years ago.
 ##### before:
 ![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
 ##### running:
