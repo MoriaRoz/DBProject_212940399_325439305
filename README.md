@@ -47,30 +47,31 @@ The system records information about volunteers, the various volunteering activi
 
 ## Queries  
 ### Select queries:
-##### 1. The query displays each volunteer's volunteer hours broken down by month.  
-![image](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)  
+##### 1. The query displays the volunteer hours of each volunteer by month.  
+![image](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)   
   
-#### 2. The query shows the average number of participants who attended events by the cities where the events took place.
-![image](https://github.com/user-attachments/assets/58890d29-3073-4e5b-a39d-bbe9bce907f7)
-
+#### 2. The query displays the average number of attendees at events by city.
+![image](https://github.com/user-attachments/assets/58890d29-3073-4e5b-a39d-bbe9bce907f7)  
   
-#### 3.
+#### 3. The query displays the average volunteer hours for each age group among the groups: 16-18,19-25,26-40,41-60,60+
 ![image](https://github.com/user-attachments/assets/85a6b61c-d1dc-4022-98b2-f8d5f2a73130)
+![image](https://github.com/user-attachments/assets/4f922844-e771-4023-8d57-dfc281bcc6f4)  
   
-#### 4.
-![image]
-  
-#### 5.
-![image]
-  
-#### 6.
-![image]
-  
-#### 7.
-![image]
-  
-#### 8.
-![image]
+#### 4. The query displays all volunteers who have a birthday in the current month and calculates their age.
+![image](https://github.com/user-attachments/assets/cff77f20-381b-4e90-9eec-81eac89a3ae1)  
+
+#### 5. The query displays the 50 outstanding volunteers of the past year, that is, the 50 volunteers who volunteered the most volunteer hours.
+![image](https://github.com/user-attachments/assets/e672c367-a4f4-4f7b-beeb-57c1cd556e05)  
+
+#### 6. The query displays the number of active volunteers in each region.
+![image](https://github.com/user-attachments/assets/f6692d91-7462-4a6f-8cb7-2cd342988c33)  
+
+#### 7. The query displays the patients who have not visited them in the past year.
+![image](https://github.com/user-attachments/assets/418c1db7-0394-466f-bc5c-24fcdc0970e1)  
+
+#### 8. The query displays the average number of participants in events, by event type and by year.
+![image](https://github.com/user-attachments/assets/b5de30c0-216e-4ba6-bb2d-272292e89c81)  
+
 
 
 
