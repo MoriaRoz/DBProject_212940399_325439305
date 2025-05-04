@@ -11,6 +11,9 @@ Moria Rozenfeld & Tehila Shraga
 - [Insert data to table](#insert-data-to-table)
 - [Backup and Restore](#Backup-and-Restore)
 - [Queries](#Queries)
+    - [Select queries](#Select-queries)
+    - [Update queries](#Update-queries)
+    - [Delete queries](#Delete-queries)
 - [Constraint](#Constraint)
 - [Rollback](#Rollback)
 - [Commit](#Commit)
@@ -50,7 +53,7 @@ The system records information about volunteers, the various volunteering activi
 
 
 ## Queries  
-### Select queries:
+### Select queries
 ##### 1. The query displays the volunteer hours of each volunteer by month.  
 ![image](https://github.com/user-attachments/assets/e6df3705-355e-4be5-aa78-bda997b9967f)   
   
@@ -77,7 +80,7 @@ The system records information about volunteers, the various volunteering activi
 ![image](https://github.com/user-attachments/assets/b5de30c0-216e-4ba6-bb2d-272292e89c81)  
   
 
-### Update queries:
+### Update queries
 #### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year. 
 ##### before:  
 ![image](https://github.com/user-attachments/assets/1cb18d47-76fd-4ae0-bb1a-b174115c04e1)  
