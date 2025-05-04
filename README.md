@@ -171,6 +171,8 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)  
 
 ## Integration
-### new ERD
+### new ERD  
+![newERD](Stage%20C/newERD.png)
 ### new DSD
+![newDSD](Stage%20C/newDSD.png)
 ### Integrated ERD
