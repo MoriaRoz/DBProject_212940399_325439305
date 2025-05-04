@@ -10,7 +10,11 @@ Moria Rozenfeld & Tehila Shraga
 - [Data Structure Diagram (DSD)](#data-structure-diagram-dsd)
 - [Insert data to table](#insert-data-to-table)
 - [Backup and Restore](#Backup-and-Restore)
-- [Queries](#Queries)  
+- [Queries](#Queries)
+- [Constraint](#Constraint)
+- [Rollback](#Rollback)
+- [Commit](#Commit)
+- [Integration](#Integration)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -145,12 +149,14 @@ ALTER TABLE Volunteering_Participation
 ALTER COLUMN Shift SET DEFAULT 'M';  
 ![image](https://github.com/user-attachments/assets/a11be685-d5cc-4b13-ae96-f64e78cdcbc2)
 ![image](https://github.com/user-attachments/assets/f27b9f4e-8e76-4446-bed1-184ecaa420e4)
+   
 
-
-## rollback 
+## Rollback 
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
 ![image](https://github.com/user-attachments/assets/fdbd04f8-2088-4745-abb2-0ac58913da4f)
 
-### commit:
+## Commit
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
-![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)
+![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)  
+
+## Integration
