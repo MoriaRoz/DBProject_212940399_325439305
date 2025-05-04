@@ -9,15 +9,22 @@ Moria Rozenfeld & Tehila Shraga
 - [Entity Relationship Diagram (ERD)](#entity-relationship-diagram-erd)  
 - [Data Structure Diagram (DSD)](#data-structure-diagram-dsd)
 - [Insert data to table](#insert-data-to-table)
+  - [Import CSV Files](#Import-CSV-Files)
+  - [Pyhton](#Pyhton)
+  - [Mockaroo](#Mockaroo)
 - [Backup and Restore](#Backup-and-Restore)
 - [Queries](#Queries)
     - [Select queries](#Select-queries)
     - [Update queries](#Update-queries)
     - [Delete queries](#Delete-queries)
 - [Constraint](#Constraint)
-- [Rollback](#Rollback)
-- [Commit](#Commit)
+- [Rollback & Commit](#Rollback-&-Commit)
+    - [Rollback](#Rollback)
+    - [Commit](#Commit)
 - [Integration](#Integration)
+  -[new ERD](#new-ERD)
+  -[new DSD](#new-DSD)
+  -[Integrated ERD](#Integrated-ERD)  
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -36,15 +43,15 @@ The system records information about volunteers, the various volunteering activi
 ![DSD](Stage%20A/DSD.png)
 
 ## Insert data to table 
-### Import Files:  
+### Import CSV Files  
 ![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)
 ![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)     
 
-### Pyhton:  
+### Pyhton  
 ![image](https://github.com/user-attachments/assets/6ea79551-7cfc-4262-ac53-983d3f4a37c6)  
 ![image](https://github.com/user-attachments/assets/4a789652-3df1-4343-ad58-5dc1175e8d5e)  
 
-### Mockaroo:
+### Mockaroo  
 ![patient_mockaroo](Stage%20A/mockarooFiles/patient_mockaroo.png)  
 
 ## Backup and Restore  
@@ -154,12 +161,16 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ![image](https://github.com/user-attachments/assets/f27b9f4e-8e76-4446-bed1-184ecaa420e4)
    
 
-## Rollback 
+## Rollback & Commit
+### Rollback
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
 ![image](https://github.com/user-attachments/assets/fdbd04f8-2088-4745-abb2-0ac58913da4f)
 
-## Commit
+### Commit
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
 ![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)  
 
 ## Integration
+### new ERD
+### new DSD
+### Integrated ERD
