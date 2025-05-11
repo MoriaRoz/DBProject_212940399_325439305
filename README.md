@@ -26,6 +26,7 @@ Moria Rozenfeld & Tehila Shraga
     - [new DSD](#new-DSD)
     - [Integrated ERD](#Integrated-ERD)
     - [Integrated DSD](#Integrated-DSD)
+    - [Decisions](#Decisions)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -179,4 +180,21 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ### Integrated ERD
 ![IntegratedERD](Stage%20C/IntegratedERD.png)  
 ### Integrated DSD
-![IntegratedDSD](Stage%20C/IntegratedDSD.png)
+![IntegratedDSD](Stage%20C/IntegratedDSD.png)  
+
+### Decisions
+- We will keep the following entities without changes: city, event, volunteering, and kindOfVol, along with their existing relationships.  
+- In the original ERD, we will add the following attributes to the patient entity: gender, address, phone_number, is_disabled, and medical_equipment.
+- We will add the attribute city to the volunteer entity as a foreign key referencing the city entity.
+- We will create inheritance for volunteer and add two new entities:
+    - driver(volunteer_id, license_number, night_avail)
+    - transport_assistant(volunteer_id, has_medical_training)
+- The existing relationships will remain connected to the base volunteer entity.
+- We will add the following new entities:
+      - destination(destination_name, destination_address, destination_type, destination_city)
+        (Note: destination_city is a foreign key referencing the city table.)
+      - vehicle(vehicle_id, license_plate, type, capacity)
+      - ride(ride_id, ride_date, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address)
+The relationships between these entities will remain as in the new ERD.
+- We will remove the relationship between ride and patient.
+- We will connect ride to volunteering, and through that connection it will be linked to patient.
