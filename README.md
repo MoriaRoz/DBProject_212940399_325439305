@@ -190,11 +190,9 @@ ALTER COLUMN Shift SET DEFAULT 'M';
     - driver(volunteer_id, license_number, night_avail)
     - transport_assistant(volunteer_id, has_medical_training)
 - The existing relationships will remain connected to the base volunteer entity.
-- We will add the following new entities:
-      - destination(destination_name, destination_address, destination_type, destination_city)
-        (Note: destination_city is a foreign key referencing the city table.)
-      - vehicle(vehicle_id, license_plate, type, capacity)
-      - ride(ride_id, ride_date, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address)
-The relationships between these entities will remain as in the new ERD.
+- We will add the following new entities, the relationships between these entities will remain as in the new ERD.:
+    - destination(destination_name, destination_address, destination_type, destination_city), Note: destination_city is a foreign key referencing the city table.
+    - vehicle(vehicle_id, license_plate, type, capacity)
+    - ride(ride_id, ride_date, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address)
 - We will remove the relationship between ride and patient.
 - We will connect ride to volunteering, and through that connection it will be linked to patient.
