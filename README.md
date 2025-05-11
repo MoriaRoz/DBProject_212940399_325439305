@@ -176,3 +176,6 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ### new DSD
 ![newDSD](Stage%20C/newDSD.png)
 ### Integrated ERD
+![IntegratedERD](Stage%20CIntegratedERD.png)  
+### Integrated DSD
+![IntegratedDSD](Stage%20CIntegratedDSD.png)
