@@ -178,9 +178,9 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ### new DSD
 ![newDSD](Stage%20C/newDSD.png)
 ### Integrated ERD
-![IntegratedERD](Stage%20C/IntegratedERD.png)  
+![integratedERD](Stage%20C/integratedERD.png)  
 ### Integrated DSD
-![IntegratedDSD](Stage%20C/IntegratedDSD.png)  
+![integratedDSD](Stage%20C/integratedDSD.png)  
 
 ### Decisions
 - We will keep the following entities without changes: city, event, volunteering, and kindOfVol, along with their existing relationships.  
