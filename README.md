@@ -25,6 +25,7 @@ Moria Rozenfeld & Tehila Shraga
     - [new ERD](#new-ERD)
     - [new DSD](#new-DSD)
     - [Integrated ERD](#Integrated-ERD)
+    - [Integrated DSD](#Integrated-DSD)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
