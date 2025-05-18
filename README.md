@@ -27,6 +27,8 @@ Moria Rozenfeld & Tehila Shraga
     - [Integrated ERD](#Integrated-ERD)
     - [Integrated DSD](#Integrated-DSD)
     - [Decisions](#Decisions)
+    - [Integration process](#Integration-process)
+- [Views](#Views)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -196,3 +198,34 @@ ALTER COLUMN Shift SET DEFAULT 'M';
     - ride(ride_id, ride_date, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address) where vehicle_id, driver_id, assistant_id, destination_name, destination_address are foreign keys.
 - We will remove the relationship between ride and patient.
 - We will connect ride to volunteering, and through that connection it will be linked to patient.
+
+### Integration process
+* We added the new columns to the existing patient and volunteer tables in the database using ALTER TABLE commands.
+* We added the tables: Trip, Driver, Assistant, Vehicle, Destination and their attributes using the CREATE TABLE command.
+* We received the backup and added it as auxiliary tables and from them using the INSERT INTO command we inserted the data after the changes into the new tables of the integrated database.
+
+## Views
+### view_volunteer_participation:
+This view displays the participation of each volunteer in volunteering activities, including their contact details, activity type, date, and report.
+![image](https://github.com/user-attachments/assets/e7d369ed-2673-4f80-a72e-27196126d159)
+- Query 1:
+  Returns how many volunteering activities were performed by type.
+  ![image](https://github.com/user-attachments/assets/c8517c2d-c774-4df8-b856-bdc94f85f3fc)
+
+- Query 2:
+  Lists volunteers who participated in at least 3 volunteering activities, sorted by their participation count.
+  ![image](https://github.com/user-attachments/assets/db26e278-6fd7-4e7e-a9e4-ada818c30e90)
+
+### view_rides_schedule:
+This view combines ride details with volunteering information, including date, pickup time, destination, vehicle, driver, and medical assistant.
+![image](https://github.com/user-attachments/assets/60aca2fb-adcc-4bf4-bcfc-b49923984f4e)
+![image](https://github.com/user-attachments/assets/8c330ad9-e5dd-4142-84c4-95ce4bae0d28)
+- Query 1:
+   Shows all rides that were completed without a medical assistant, including the driver’s name and phone number.
+  ![image](https://github.com/user-attachments/assets/db8fbc67-6e5a-42ae-a0b1-d1621c3d9826)
+
+- Query 2:
+  Counts the number of rides that took place per month and year.
+  ![image](https://github.com/user-attachments/assets/a873cc3e-32d4-4c50-8d97-9e51b6a88943)
+
+
