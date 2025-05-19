@@ -22,6 +22,7 @@ Moria Rozenfeld & Tehila Shraga
     - [Rollback](#Rollback)
     - [Commit](#Commit)
 - [Integration](#Integration)
+    - [Reverse-Engineering Algorithm](#Reverse-Engineering-Algorithm)
     - [new ERD](#new-ERD)
     - [new DSD](#new-DSD)
     - [Integrated ERD](#Integrated-ERD)
@@ -175,6 +176,19 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 ![image](https://github.com/user-attachments/assets/a18ed9a1-92df-433c-b370-6cdbcd9abcea)  
 
 ## Integration
+### Reverse-Engineering Algorithm
+- A table that contains only a primary key without foreign keys:
+  → This is a regular entity.
+- A table whose primary key contains more than one attribute and none of the attributes is a foreign key:
+  → This is a regular entity with a composite key.
+- A table that contains a primary key and in addition to it a foreign key:
+  → This is a regular entity with a 1:N (one-to-many) relationship to the referenced entity.
+- A table where the primary key consists of only two foreign keys:
+  → This is a table representing a many-to-many relationship between two entities.
+- A table that contains a foreign key that is also the only primary key:
+  → This is either a weak entity or an inheritance child.
+ - A table that has a foreign key referencing itself:
+  → This represents a recursive relationship.  
 ### new ERD  
 ![newERD](Stage%20C/newERD.png)
 ### new DSD
