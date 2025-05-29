@@ -217,13 +217,13 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 * Part 1 – Expanding the Patient Entity
     - Using the ALTER TABLE command, we add the following properties to the Patient entity: gender, address, phone_number, is_disabled, medical_equipment.
     - Using the INSERT INTO command, we add the data from the Patient table from the backup we received.
-    - To the data we already have in the Patient table, we add the missing fields by importing a CSV file as in the first stage of the project.
+    - To the data we already have in the patient table, we add the missing fields using SQL update commands - in the update_patients file in the StageC folder.
 ![image](https://github.com/user-attachments/assets/678c062b-a4ed-452e-b024-79de697b5526)
 
 * Part 2 – Expanding the Volunteer Table
     - Using the ALTER TABLE command, we add the field city_of_residence to the Volunteer entity.
     - Using the INSERT INTO command, we add the data from the Volunteer table from the backup.
-    - To the data we already have in the Volunteer table, we add the missing field by importing a CSV file as in the first stage of the project.
+    - To the data we already have in the volunteer table, we add the missing field by using SQL update commands - in the update_volunteers file in the StageC folder.
 ![image](https://github.com/user-attachments/assets/8f2e3693-5f8f-43a4-b7c8-09788a1263d2)
 
 * Part 3 – Creating Inheritance for Volunteer
