@@ -209,21 +209,50 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 - We will add the following new entities, the relationships between these entities will remain as in the new ERD.:
     - destination(destination_name, destination_address, destination_type, destination_city), Note: destination_city is a foreign key referencing the city table.
     - vehicle(vehicle_id, license_plate, type, capacity)
-    - ride(ride_id, ride_date, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address) where vehicle_id, driver_id, assistant_id, destination_name, destination_address are foreign keys.
-- We will remove the relationship between ride and patient.
-- We will connect ride to volunteering, and through that connection it will be linked to patient.
+- We will create an inheritance for volunteering and add a new entity:
+    - ride(volunteering_id, pickup_time, vehicle_id, driver_id, assistant_id, destination_name, destination_address) where vehicle_id, driver_id, assistant_id, destination_name, destination_address are foreign keys.
+- We will remove the relationship between ride and patient because patient is connected to volunteering.
 
 ### Integration process
-* Part 1 – Extending the Patient Entity
-    - We add the following attributes to the Patient entity using the ALTER TABLE command: gender, address, phone_number, is_disabled, medical_equipment.
-    - We add the data from the backup of the travel database using the INSERT INTO command from a temporary Patient table.
-    - And to the data we already have in the Patient table, we add the missing fields by importing CSV files as in the first phase of the project.  
-  ![image](https://github.com/user-attachments/assets/678c062b-a4ed-452e-b024-79de697b5526)
-* Part 2 - 
+* Part 1 – Expanding the Patient Entity
+    - Using the ALTER TABLE command, we add the following properties to the Patient entity: gender, address, phone_number, is_disabled, medical_equipment.
+    - Using the INSERT INTO command, we add the data from the Patient table from the backup we received.
+    - To the data we already have in the Patient table, we add the missing fields by importing a CSV file as in the first stage of the project.
+![image](https://github.com/user-attachments/assets/678c062b-a4ed-452e-b024-79de697b5526)
 
-* We added the new columns to the existing patient and volunteer tables in the database using ALTER TABLE commands.
-* We added the tables: Trip, Driver, Assistant, Vehicle, Destination and their attributes using the CREATE TABLE command.
-* We received the backup and added it as auxiliary tables and from them using the INSERT INTO command we inserted the data after the changes into the new tables of the integrated database.
+* Part 2 – Expanding the Volunteer Table
+    - Using the ALTER TABLE command, we add the field city_of_residence to the Volunteer entity.
+    - Using the INSERT INTO command, we add the data from the Volunteer table from the backup.
+    - To the data we already have in the Volunteer table, we add the missing field by importing a CSV file as in the first stage of the project.
+![image](https://github.com/user-attachments/assets/8f2e3693-5f8f-43a4-b7c8-09788a1263d2)
+
+* Part 3 – Creating Inheritance for Volunteer
+   - Using the CREATE TABLE command, we create two new tables to represent subtypes of volunteer:
+       * driver(volunteer_id, license_number, night_avail)
+       * transport_assistant(volunteer_id, has_medical_training)
+   - Using the INSERT INTO command, we add the data from the tables from the backup.
+![image](https://github.com/user-attachments/assets/eafa1b8b-e599-49f9-95f5-18c4d047f7bb)
+![image](https://github.com/user-attachments/assets/89bcff7d-8bb7-4156-91ca-7804d504517c)
+
+* Part 4 – Creating the Destination Table
+   - Using the CREATE TABLE command, we create a new table destination(destination_name, destination_address, destination_type, destination_city).
+   - We define the destination_city attribute as a foreign key that references the city table.
+   - Using the INSERT INTO command, we add the data from the destination table from the backup.
+   - In the original table, the city was part of destination_address after the comma, so we ran an update query to break the city into a separate column.
+![image](https://github.com/user-attachments/assets/d01934bc-88d8-42c5-8e43-5969e87a8b95)
+![image](https://github.com/user-attachments/assets/2e826afc-1e48-447b-8fff-015106474a5c)
+
+* Part 5 – Creating a vehicle table
+   - Using the CREATE TABLE command, we create a new table vehicle(vehicle_id, license_plate, type, capacity).
+   - Using the INSERT INTO command, we add the data of the vehicle table from the backup.
+![image](https://github.com/user-attachments/assets/ab810582-0a7d-44fe-8988-b2ede25e2fbb)
+
+* Part 6 – Creating an inheritance for volunteering
+   - Using the CREATE TABLE command, we create a new table ride(volunteering_id, pickup_time, destination_name, destination_address, vehicle_id, driver_id, assistant_id) which is an extension of volunteering.
+   - Using the INSERT INTO command, we add the data of the trips table from the backup. The keys of trips and volunteering are of the same type and overlap, so for the ride_id column we inserted what was in the ride_id column.
+   - All fields except pickup_time are declared as foreign keys that refer to their corresponding tables.
+![image](https://github.com/user-attachments/assets/21528761-0305-4d64-b3e9-bd0e34a867b9)
+![image](https://github.com/user-attachments/assets/f99f93ed-5444-4351-9465-1ee2d39b4e7b)
 
 ## Views
 ### view_volunteer_participation:
