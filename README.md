@@ -214,9 +214,9 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 - We will connect ride to volunteering, and through that connection it will be linked to patient.
 
 ### Integration process
-* Part 1 – Extending the Patient Entity
-            We add the following attributes to the Patient entity using the ALTER TABLE command: gender, address, phone_number, is_disabled, medical_equipment.
-            We add the data from the backup of the travel database using the INSERT INTO command from a temporary Patient table.
+* Part 1 – Extending the Patient Entity  
+            We add the following attributes to the Patient entity using the ALTER TABLE command: gender, address, phone_number, is_disabled, medical_equipment.  
+            We add the data from the backup of the travel database using the INSERT INTO command from a temporary Patient table.  
             And to the data we already have in the Patient table, we add the missing fields by importing CSV files as in the first phase of the project.  
   ![image](https://github.com/user-attachments/assets/678c062b-a4ed-452e-b024-79de697b5526)
 * Part 2 - 
