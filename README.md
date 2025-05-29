@@ -93,34 +93,34 @@ The system records information about volunteers, the various volunteering activi
   
 
 ### Update queries
-#### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year. 
-##### before:  
-![image](https://github.com/user-attachments/assets/1cb18d47-76fd-4ae0-bb1a-b174115c04e1)  
-##### running:  
-![image](https://github.com/user-attachments/assets/2fadc990-b5c2-4acf-905e-f35e51bd3d94)  
-##### after:  
+#### 1. The query updates volunteers to be inactive if they have not participated in a volunteer or event in the past year.   
+before:    
+![image](https://github.com/user-attachments/assets/1cb18d47-76fd-4ae0-bb1a-b174115c04e1)   
+running:  
+![image](https://github.com/user-attachments/assets/2fadc990-b5c2-4acf-905e-f35e51bd3d94)   
+after:    
 ![image](https://github.com/user-attachments/assets/1d55aa46-9a58-4f4a-8a49-204755d88e78)   
   
 
 #### 2. The query updates that for events that take place in the north or south, it is impossible to come with a companion, so the plus one will be FALSE.
-##### before:  
+before:  
 ![image](https://github.com/user-attachments/assets/3206a3e1-95ea-405e-8622-6044b62931f0)  
-##### running:  
+running:  
 ![image](https://github.com/user-attachments/assets/6cee5c1d-562b-423a-ab99-6dd51c6a2faa)  
-##### after:  
+after:  
 ![image](https://github.com/user-attachments/assets/9b51a9d9-8fb2-433a-9a7f-9c855aebe6b5)  
   
 #### 3. The query updates that volunteers under the age of 18 cannot volunteer on the evening shift, but only on the morning shift.
-##### before:  
+before:  
 ![image](https://github.com/user-attachments/assets/1431b391-5bc4-4ba5-b922-fafe198b0ce1)  
-##### running:  
+running:  
 ![image](https://github.com/user-attachments/assets/9841b41d-3cf4-465d-b2a8-47ea567737d0)  
-##### after:  
+after:  
 ![image](https://github.com/user-attachments/assets/941e040d-273e-4d2e-8e82-892ea182d7aa)  
   
 
 ### Delete queries
-#### 1. The query deletes all volunteers who have not participated in volunteering and events in the last two years.
+#### 1. The query deletes all volunteers who have not participated in volunteering and events in the last two years.  
 before:  
 ![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)  
 running:  
@@ -131,21 +131,21 @@ running:
 after:  
 ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
 
-#### 2. The query deletes all patients over the age of 120.
-##### before: 
-![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
-##### running:
-![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)
-##### after:
-![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
+#### 2. The query deletes all patients over the age of 120.  
+before:  
+![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)  
+running:  
+![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)  
+after:   
+![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)  
 
-#### 3. The query deletes events that were more than 5 years ago.
-##### before:
-![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
-##### running:
-![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)
-##### after:
-![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)  
+#### 3. The query deletes events that were more than 5 years ago.  
+before:   
+![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)  
+running:  
+![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)  
+after:  
+![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)   
 
 ## Constraint
 ### 1. The constraint requires that the patients entered into the table be those with a birth date in the past and not in the future.
@@ -214,6 +214,13 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 - We will connect ride to volunteering, and through that connection it will be linked to patient.
 
 ### Integration process
+* Part 1 – Extending the Patient Entity
+            We add the following attributes to the Patient entity using the ALTER TABLE command: gender, address, phone_number, is_disabled, medical_equipment.
+            We add the data from the backup of the travel database using the INSERT INTO command from a temporary Patient table.
+            And to the data we already have in the Patient table, we add the missing fields by importing CSV files as in the first phase of the project.  
+  ![image](https://github.com/user-attachments/assets/678c062b-a4ed-452e-b024-79de697b5526)
+* Part 2 - 
+
 * We added the new columns to the existing patient and volunteer tables in the database using ALTER TABLE commands.
 * We added the tables: Trip, Driver, Assistant, Vehicle, Destination and their attributes using the CREATE TABLE command.
 * We received the backup and added it as auxiliary tables and from them using the INSERT INTO command we inserted the data after the changes into the new tables of the integrated database.
