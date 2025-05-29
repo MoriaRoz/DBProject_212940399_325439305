@@ -249,7 +249,7 @@ ALTER COLUMN Shift SET DEFAULT 'M';
 
 * Part 6 – Creating an inheritance for volunteering
    - Using the CREATE TABLE command, we create a new table ride(volunteering_id, pickup_time, destination_name, destination_address, vehicle_id, driver_id, assistant_id) which is an extension of volunteering.
-   - Using the INSERT INTO command, we add the data of the trips table from the backup. The keys of trips and volunteering are of the same type and overlap, so for the ride_id column we inserted what was in the ride_id column.
+   - Using the INSERT INTO command, we insert the rides table data from the backup. The keys for ride and volunteer are of the same type and overlap, so we will insert the rides only if volunteering_id=ride_id.
    - All fields except pickup_time are declared as foreign keys that refer to their corresponding tables.
 ![image](https://github.com/user-attachments/assets/21528761-0305-4d64-b3e9-bd0e34a867b9)
 ![image](https://github.com/user-attachments/assets/f99f93ed-5444-4351-9465-1ee2d39b4e7b)
