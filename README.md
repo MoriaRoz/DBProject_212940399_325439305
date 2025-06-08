@@ -30,6 +30,9 @@ Moria Rozenfeld & Tehila Shraga
     - [Decisions](#Decisions)
     - [Integration process](#Integration-process)
 - [Views](#Views)
+- [PL/pgSQL programs](#PL/pgSQL-programs)
+    - [Main 1](#Main-1)
+    - [Main 2](#Main-2)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -278,4 +281,41 @@ This view combines ride details with volunteering information, including date, p
   Counts the number of rides that took place per month and year.
   ![image](https://github.com/user-attachments/assets/a873cc3e-32d4-4c50-8d97-9e51b6a88943)
 
+## PL/pgSQL programs
+### Main 1
+This program runs Procedure1- assign_assistants which automatically assigns available transportation assistants to future trips based on the city and region where the volunteer lives and the trip is going.
+Assigning a transportation assistant to a trip triggers Trigger1 which checks before updating or assigning a new trip if the assistant does not already have 3 trips on that day.
+The program then runs Function1- volunteer_schedule which displays the weekly schedule of a specific volunteer, including their upcoming volunteer meetings, trips (as a driver or assistant), and events.
 
+Execution steps:
+* Call the procedure assign_assistants_to_future_rides() to assign assistants to future trips where no assistant is currently defined.
+* Call the function get_volunteer_schedule(volunteer_id) for the volunteer ID 10000101, which returns a refcursor containing all scheduled activities for the next 7 days.
+
+![main1](https://github.com/user-attachments/assets/23633aea-b4f5-4c59-9170-1c05aa567e21)  
+Result of Procedure1- assign_assistants:  
+![Result of Procedure1- assign_assistants](https://github.com/user-attachments/assets/f7985d27-e2ed-48ff-8b5e-903f056421bb)  
+Results of Function1- volunteer_schedule:  
+![Results of Function1- volunteer_schedule](https://github.com/user-attachments/assets/c28b6362-480b-4f62-b176-409d2aabaa89)  
+Update database-display future rides:  
+![image](https://github.com/user-attachments/assets/dc0b9d53-da86-4236-ae77-c096ebb85c19)  
+![image](https://github.com/user-attachments/assets/d86bd366-ea11-40eb-9479-eed202964c11)  
+
+
+### Main 2
+This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.
+Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.
+
+Then, the program runs Function2- top_10_volunteers_of_week which displays the 10 outstanding volunteers of the week, that is, the 10 volunteers with the most activities in the previous week.
+
+Execution steps:
+* Call the deactivate_inactive_volunteers() procedure to mark volunteers as inactive if they have not participated in any activity in the last six months.  
+* Call to get_top_10_volunteers_of_week() function which returns a refcursor with volunteers ranked by activity count during the last week.
+
+![main2](https://github.com/user-attachments/assets/34939d91-2270-4818-bbfe-0460ed9828fc)  
+Result of Procedure2- deactivate_inactive_volunteers  
+![Result of Procedure2- deactivate_inactive_volunteers](https://github.com/user-attachments/assets/7d63063f-2dba-41aa-aae9-500850fbf209)  
+Result of Function2- top_10_volunteers_of_week  
+![Result of Function2- top_10_volunteers_of_week](https://github.com/user-attachments/assets/952a4230-78bc-4138-91ef-c2c5962b8aa8)  
+Database update - showing inactive volunteers in the last six months:  
+![before](https://github.com/user-attachments/assets/f05342da-c014-4ab8-9e22-c0be9c1ad178)  
+![after](https://github.com/user-attachments/assets/871d86ea-95db-4cbf-85a9-2b14eb3c14ca)  
