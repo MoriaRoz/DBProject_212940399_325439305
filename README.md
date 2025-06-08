@@ -283,8 +283,8 @@ This view combines ride details with volunteering information, including date, p
 
 ## PL/pgSQL programs
 ### Main 1
-This program runs Procedure1- assign_assistants which automatically assigns available transportation assistants to future trips based on the city and region where the volunteer lives and the trip is going.
-Assigning a transportation assistant to a trip triggers Trigger1 which checks before updating or assigning a new trip if the assistant does not already have 3 trips on that day.
+This program runs Procedure1- assign_assistants which automatically assigns available transportation assistants to future trips based on the city and region where the volunteer lives and the trip is going.  
+Assigning a transportation assistant to a trip triggers Trigger1 which checks before updating or assigning a new trip if the assistant does not already have 3 trips on that day.  
 The program then runs Function1- volunteer_schedule which displays the weekly schedule of a specific volunteer, including their upcoming volunteer meetings, trips (as a driver or assistant), and events.
 
 Execution steps:
@@ -302,9 +302,8 @@ Execution steps:
 
 
 ### Main 2
-This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.
-Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.
-
+This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
+Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.  
 Then, the program runs Function2- top_10_volunteers_of_week which displays the 10 outstanding volunteers of the week, that is, the 10 volunteers with the most activities in the previous week.
 
 Execution steps:
