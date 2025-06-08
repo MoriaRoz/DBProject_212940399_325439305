@@ -1,0 +1,401 @@
+event_id,event_name,event_date,manager_id,city_name
+1,Mindfulness and Stress Relief Session,2024-11-10,146405180,Avnat
+2,Creative Problem Solving for Volunteers,2024-11-17,744675169,Tiberias
+3,Creative Workshop for Volunteers,2024-12-28,817155329,Barkan
+4,Stress Management Workshop for Volunteers,2025-01-07,185352730,Netanya
+5,Digital Storytelling for Volunteers,2024-10-01,990470454,Maagan Michael
+6,Team Collaboration Skills for Volunteers,2024-04-21,342731868,Nahusheh
+7,Volunteer-Driven Innovation Session,2025-03-05,384949916,Nofim
+8,Volunteer Networking Mixer,2024-04-20,925623002,Ashkelon
+9,Team Building Activity for Volunteers,2024-11-10,896504646,Kfar Bilu
+10,Volunteer Leadership Forum,2025-01-25,657132496,Mishmar HaEmek
+11,Stress-Free Volunteering Tips and Tricks,2024-05-22,714493004,Neve Tzuf
+12,Volunteer Mindfulness Retreat,2024-11-28,595699871,Kfar Etzion
+13,Nonprofit Event Planning for Volunteers,2025-01-16,209464958,Menara
+14,Volunteer Appreciation Day,2024-05-02,121153449,Neve Ilan
+15,Volunteer Fundraising Campaign Training,2024-11-10,791492673,Telem
+16,Introduction to Project Management for Volunteers,2024-09-22,545501430,Karmiya
+17,Social Impact and Volunteerism Conference,2024-10-05,293296911,Kfar Warburg
+18,Nonprofit Operations and Leadership Workshop,2025-03-16,532019222,Kisufim
+19,Stress Management Workshop for Volunteers,2025-03-06,801994999,Avigdor
+20,Volunteer Writing for Advocacy and Change,2024-10-29,136072288,Mishan
+21,Volunteers Making a Difference Event,2024-10-25,768659503,Tlamim
+22,Volunteer Feedback and Growth Session,2024-07-15,565826363,Nazareth
+23,Volunteer Storytelling and Advocacy,2025-03-16,812837352,Gal'on
+24,Public Relations Skills for Volunteers,2024-09-22,147191077,Rehalim
+25,Team Building Activity for Volunteers,2024-11-27,209464958,Eitan
+26,Transforming Communities Through Volunteering,2024-12-13,293826156,Maon
+27,Nonprofit Operations and Leadership Workshop,2024-08-05,812837352,Even Shmuel
+28,Volunteer Leadership Retreat,2024-07-03,927486482,Nahriya
+29,Volunteer-Driven Innovation Session,2024-10-06,276184852,Yad Nathan
+30,Volunteer Leadership Retreat,2024-12-05,519713904,Ramat Gan
+31,Fundraising for Nonprofits Workshop,2024-09-26,507163187,Haifa
+32,Volunteer Work-Life Balance Training,2024-10-10,176935420,Ariel
+33,Volunteer Creative Problem-Solving Workshop,2024-08-01,956428885,Beit Hillel
+34,Volunteers Making a Difference Event,2024-11-08,311184999,Yakum
+35,Public Relations Skills for Volunteers,2024-08-16,978104752,Kiryat Arba
+36,Volunteer Project Management Training,2025-02-18,531266733,Sde Boker
+37,Empowering Women Volunteers Workshop,2024-05-13,735407084,Migron
+38,Stress Management Workshop for Volunteers,2024-12-21,275553165,Beit Nir
+39,Volunteer Engagement and Retention Strategies,2024-03-31,234831255,Degania A
+40,Volunteer Career Coaching Session,2024-10-03,486634621,Beror Chail
+41,Volunteer Storytelling and Advocacy,2025-01-25,130662556,Beit Hilkiah
+42,Personal Branding for Volunteers,2024-10-30,683648300,Dorot
+43,Introduction to Project Management for Volunteers,2024-10-12,561947519,Netivot
+44,Volunteer Engagement and Retention Strategies,2025-02-12,494224589,Telem
+45,Building a Volunteer-Friendly Organization,2024-03-31,322167562,Efrat
+46,Nonprofit Event Planning for Volunteers,2024-08-04,642057089,Mishmar HaEmek
+47,Health and Wellness for Volunteers,2025-01-18,293575183,Mishan
+48,Volunteer Empowerment Through Education,2024-11-08,499194042,Shachar
+49,Stress Management Workshop for Volunteers,2024-05-29,794742281,Aviezer
+50,Public Relations Skills for Volunteers,2024-11-15,744675169,Zohar
+51,Volunteer Work-Life Balance Training,2024-08-09,778946429,Ramat HaShofet
+52,Community Volunteer Meet-up,2024-10-16,118705675,Tel Yosef
+53,Volunteer Storytelling for Social Change,2024-10-06,907822052,Beer Sheva
+54,Volunteer Retreat and Relaxation Day,2024-08-08,484791738,Adorim
+55,Community Service Leadership Program,2024-07-13,850191679,Horshim
+56,Building an Inclusive Volunteer Program,2024-06-14,657132496,Peduel
+57,Resilience and Adaptability Training for Volunteers,2024-09-02,719625058,Elifaz
+58,Volunteer Empowerment Through Education,2024-10-14,860740200,Kfar Giladi
+59,Networking Event for Nonprofit Volunteers,2024-04-19,409058775,Yesod Hama'el
+60,Volunteer Writing for Advocacy and Change,2024-07-06,243893303,Dimona
+61,Volunteering for Social Change,2024-10-22,137196235,Menara
+62,Resilience and Adaptability Training for Volunteers,2025-02-23,627041586,Ramat Rachel
+63,Nonprofit Strategy and Leadership for Volunteers,2025-02-20,299836191,Abshalom
+64,Volunteer Appreciation Day,2024-09-16,226633180,Keshet
+65,Volunteer Career Coaching Session,2024-07-27,871247675,Zohar
+66,Volunteer Engagement and Retention Strategies,2024-06-08,863689877,Avnat
+67,Volunteer Career Coaching Session,2024-03-31,896504646,Giv'at Ada
+68,Volunteer Networking Mixer,2024-06-11,627041586,Shalwa
+69,Volunteer Writing for Advocacy and Change,2025-03-14,515694752,Bnei Brak
+70,Volunteer Leadership Forum,2024-10-16,898417798,Modiin
+71,Creative Workshop for Volunteers,2024-06-26,937809096,Shadmot Meholah
+72,Volunteer Creative Problem-Solving Workshop,2025-02-22,557934950,Holon
+73,Transforming Communities Through Volunteering,2024-07-24,130662556,Sapir
+74,Leadership and Emotional Intelligence for Volunteers,2024-11-08,320161467,Kramei Tzur
+75,Nonprofit Operations and Leadership Workshop,2025-03-21,547204298,Reut
+76,Volunteer Fundraising Campaign Training,2024-08-05,165585690,Reim
+77,DIY Crafting Workshop for Volunteers,2024-08-20,741513106,Giv'at Yoav
+78,Volunteer Yoga and Meditation,2024-04-18,707139699,Or Yehuda
+79,Volunteer Leadership Retreat,2024-10-21,352122297,Shaar HaGolan
+80,Volunteer Appreciation Dinner,2025-01-30,293826156,Nitzan
+81,Volunteer Leadership Forum,2024-10-30,226633180,Gani Tal
+82,Mindfulness and Stress Relief Session,2024-10-08,250549197,Telem
+83,Volunteer Appreciation Picnic,2025-03-05,165585690,Mishan
+84,Volunteer Storytelling and Advocacy,2024-09-18,690614112,Na'an
+85,Personal Development Workshop,2024-11-17,690387470,Beit Arie
+86,Volunteer Creative Problem-Solving Workshop,2025-02-04,587360290,Gan Yavneh
+87,Mindset and Motivation for Volunteers,2025-03-16,113193560,Nachshon
+88,Volunteer Creative Problem-Solving Workshop,2024-09-16,871247675,Giv'at Yoav
+89,Nonprofit Operations and Leadership Workshop,2024-08-15,421883994,Bnei Ayish
+90,Volunteer Fundraising Campaign Training,2024-09-29,661213951,Talmon
+91,Volunteer Communication Skills Training,2024-06-02,479470264,Alonei Hasban
+92,Creative Workshop for Volunteers,2024-03-30,519713904,Modiin Elite
+93,Public Speaking Skills for Volunteers,2024-07-17,320161467,Ani'am
+94,Volunteer Mindfulness Retreat,2024-05-05,571671322,Jerusalem
+95,Building an Inclusive Volunteer Program,2024-12-31,321104557,Kfar Vitkin
+96,Transforming Communities Through Volunteering,2025-01-26,539002668,Kfar Masaryk
+97,Volunteer Talent Show,2024-12-14,293296911,Merkaz Shapira
+98,Interactive Art Workshop for Volunteers,2024-07-22,980676210,Neve Zohar
+99,Mindset and Motivation for Volunteers,2025-03-18,711691891,Amonim
+100,Volunteer Photography Workshop,2024-08-03,427099149,Beit Nir
+101,Volunteer Skills Enhancement Workshop,2024-11-10,298099542,Negohot
+102,DIY Crafting Workshop for Volunteers,2024-11-30,395480602,Beit She'an
+103,Volunteer Safety and Crisis Management Training,2025-01-11,736861594,Ein Yahav
+104,Social Media Skills for Volunteers,2025-01-28,935031021,Beit Kama
+105,Volunteer Leadership Forum,2025-03-17,758266582,Mishmar Hashiva
+106,Volunteers Making a Difference Event,2024-11-07,960172444,Haifa
+107,Volunteer Recognition Ceremony,2024-06-09,666628452,Karmiel
+108,DIY Crafting Workshop for Volunteers,2024-12-18,548555898,Afula
+109,Social Media Skills for Volunteers,2024-10-30,532019222,Dolev
+110,Event Planning Workshop for Volunteers,2024-12-17,690387470,Har Bracha
+111,Volunteer Leadership Retreat,2024-05-18,346429196,Ramat David
+112,Volunteer Networking Brunch,2024-10-30,390783390,Ayalot
+113,Resilience and Adaptability Training for Volunteers,2024-11-23,295672086,Caesarea
+114,Motivational Speech Event,2025-02-20,888489252,Nes Ziona
+115,Volunteer Yoga and Meditation,2024-08-08,896227305,Or Akiva
+116,Motivational Speech Event,2025-01-05,534962289,Beit Haggai
+117,Team Building Adventure for Volunteers,2024-10-22,863689877,Avivim
+118,Public Speaking Masterclass for Volunteers,2025-03-12,113040711,Mishmar Hashiva
+119,Volunteer Diversity and Inclusion Training,2024-07-21,433566794,Tena Omerim
+120,Volunteer Communication Skills Training,2025-01-07,935031021,Ashdod
+121,Introduction to Project Management for Volunteers,2024-11-26,247796511,Migdal
+122,Empowering Volunteers Through Knowledge Sharing,2024-09-19,230416481,Giv'at Yoav
+123,Volunteer Networking Brunch,2025-03-14,886735334,Pardes Hana-Karkur
+124,Volunteer Appreciation Picnic,2024-08-27,321104557,Giv'at Ada
+125,Mindset and Motivation for Volunteers,2025-01-08,116891822,Maean Zvi
+126,Volunteer Appreciation Day,2024-09-09,421301681,Ramla
+127,Volunteer Storytelling for Social Change,2025-02-21,843632888,Nazareth
+128,Volunteer Appreciation Picnic,2024-05-27,128372795,Nachshon
+129,Volunteer Talent Show,2024-04-25,682367795,Haifa
+130,Networking and Career Building for Volunteers,2024-04-17,971841947,Shadmot Meholah
+131,Volunteer Retreat and Relaxation Day,2024-05-07,812837352,Chad Nes
+132,Social Media Skills for Volunteers,2025-02-12,560881213,Beer Ganim
+133,Volunteer Feedback and Growth Session,2024-09-13,414518384,Lahav
+134,Volunteer Business Skills for Nonprofit Success,2024-06-06,534962289,Hanita
+135,Public Speaking Skills for Volunteers,2024-05-15,162641867,Tirat Yehuda
+136,Advanced Communication Skills for Volunteers,2025-03-02,958089627,Modiin Elite
+137,Volunteer Empowerment Through Education,2025-01-16,406353863,Beerot Yitzhak
+138,Social Media Skills for Volunteers,2024-05-06,684340137,Idan
+139,Team Building Adventure for Volunteers,2024-12-18,778946429,Maean Zvi
+140,Event Planning Workshop for Volunteers,2024-08-03,515988543,Kokhav Michael
+141,Volunteer Safety and Crisis Management Training,2024-04-05,515694752,Beit Haggai
+142,Team Collaboration Skills for Volunteers,2024-04-26,570833254,Elad
+143,Empowering Volunteers Through Knowledge Sharing,2024-10-08,673437747,Ashdod
+144,Empowering Women Volunteers Workshop,2024-12-02,172700885,As'el
+145,Building Emotional Intelligence for Volunteers,2024-07-07,682367795,Revva
+146,Teamwork and Collaboration for Volunteers,2025-03-17,136072288,As'el
+147,Interactive Art Workshop for Volunteers,2024-06-27,883221237,Beit Hilkiah
+148,Volunteer Storytelling and Advocacy,2025-01-01,971841947,Kfar Giladi
+149,Creative Problem Solving for Volunteers,2024-07-04,185352730,Lavi
+150,Interactive Art Workshop for Volunteers,2024-09-13,567128387,Gani Tal
+151,Volunteer Retreat and Relaxation Day,2024-05-26,348838452,Bnei Darom
+152,Creative Writing Workshop for Volunteers,2024-10-17,424498138,Omer
+153,Leadership Development for Young Volunteers,2024-08-31,901698300,Magen
+154,Leadership Training for Volunteers,2024-09-16,788060558,Barkan
+155,Volunteer Work-Life Balance Training,2024-10-01,241938557,Beit El
+156,Networking Event for Nonprofit Volunteers,2024-11-12,228431425,Magen
+157,Resilience and Adaptability Training for Volunteers,2024-05-13,811611468,Kiryat Ono
+158,Volunteer Career Development Session,2024-05-17,433962421,Giv'at Brenner
+159,Transforming Communities Through Volunteering,2024-04-09,264277528,Roei
+160,Digital Volunteerism and Social Impact,2024-10-26,978104752,Pardes Hana-Karkur
+161,Volunteer Project Management Training,2024-09-29,367996132,Migdal Oz
+162,Team Building Adventure for Volunteers,2024-11-14,988845122,Na'ala
+163,Time Management Skills for Volunteers,2024-10-31,843096274,Ein Hanatziv
+164,Empowering Women Volunteers Workshop,2024-07-11,404382400,Elifaz
+165,Health and Nutrition for Volunteers,2024-11-18,427099149,Gevim
+166,Interactive Art Workshop for Volunteers,2025-01-17,735407084,Revva
+167,Fundraising Event Planning for Volunteers,2024-09-21,569715356,Yagur
+168,Volunteer Appreciation Day,2024-05-09,176195850,Meitar
+169,Volunteer Storytelling and Advocacy,2025-03-09,899039963,Dorot
+170,Motivational Speech Event,2024-07-16,990470454,Ortal
+171,Green Volunteerism and Sustainability,2024-07-28,243893303,Yetveta
+172,Volunteers Making a Difference Event,2024-08-26,580199810,Kfar Blum
+173,Mindfulness and Stress Relief Session,2024-06-21,404382400,Ein Habesor
+174,Community Service Leadership Program,2024-06-04,170790276,Nir Oz
+175,Creative Workshop for Volunteers,2024-10-14,293575183,Mivtachim
+176,Stress-Free Volunteering Tips and Tricks,2024-09-03,396994157,Karnei Shomron
+177,Volunteer Appreciation Dinner,2024-08-21,128372795,Yetveta
+178,Stress Management Workshop for Volunteers,2024-06-29,558281425,Mivaseret Zion
+179,Team Building Adventure for Volunteers,2024-04-02,384537612,Otzem
+180,Volunteer Skills Enhancement Workshop,2024-06-17,683648300,Safet
+181,Building Emotional Intelligence for Volunteers,2024-04-18,146405180,Degania A
+182,Volunteer Innovations in Social Responsibility,2024-06-11,153544210,Kfar Yehoshua
+183,Resilience and Adaptability Training for Volunteers,2024-12-05,835059909,Yerucham
+184,Volunteer Diversity and Inclusion Training,2025-03-08,690387470,Kiryat Ata
+185,Volunteer Leadership Retreat,2024-10-07,226633180,Megido
+186,Nonprofit Marketing for Volunteers,2024-05-02,393013562,Bnei Yehuda
+187,Volunteer Management Skills Workshop,2024-06-18,172700885,Beit Guvrin
+188,Volunteer Fundraising Campaign Training,2025-03-09,580199810,Netafim
+189,Volunteer Photography Workshop,2024-11-06,881737898,Yad Mordechai
+190,Volunteer Creative Problem-Solving Workshop,2024-12-26,153544210,Nir Chen
+191,Volunteer Business Skills for Nonprofit Success,2024-08-04,346429196,Kiryat Malachi
+192,Leadership and Emotional Intelligence for Volunteers,2024-10-12,404382400,Shekef
+193,Networking and Career Building for Volunteers,2024-10-23,608057122,As'el
+194,Digital Storytelling for Volunteers,2024-09-12,860686553,Chofetz Chaim
+195,Personal Development Workshop,2024-10-16,770027665,Iros
+196,Health and Nutrition for Volunteers,2024-05-02,683648300,Giv'at Shmuel
+197,Teamwork and Conflict Management for Volunteers,2025-03-13,147051908,Evron
+198,Volunteer Appreciation Dinner,2024-06-14,548922089,Mivtachim
+199,Volunteer Safety and Crisis Management Training,2024-09-29,742140958,Nofim
+200,Interactive Art Workshop for Volunteers,2025-02-27,199383226,Mivaseret Zion
+201,Teamwork and Collaboration for Volunteers,2024-09-01,652100224,Keshet
+202,Personal Branding for Volunteers,2025-01-18,293575183,Even Yehuda
+203,Networking and Career Building for Volunteers,2025-01-23,833778676,Brochin
+204,Creative Writing Workshop for Volunteers,2024-11-06,485883443,Kramim
+205,Social Impact and Volunteerism Conference,2024-08-21,545501430,Ramat Hasharon
+206,Networking Event for Nonprofit Volunteers,2024-08-28,657439553,Karnei Shomron
+207,Building an Inclusive Volunteer Program,2024-12-17,468378560,Mitzpe Jericho
+208,Networking and Career Building for Volunteers,2024-12-04,494224589,Ariel
+209,Stress-Free Volunteering Tips and Tricks,2024-09-09,935031021,Neta
+210,Volunteer Engagement Through Digital Platforms,2025-01-13,420993116,Or Akiva
+211,Introduction to Project Management for Volunteers,2025-01-30,384537612,Naama
+212,Empowering Women Volunteers Workshop,2024-07-29,999808268,Yavneh
+213,Volunteer Leadership Retreat,2024-08-21,998108750,Sasa
+214,Volunteer Talent Development Program,2024-12-20,507163187,Rosh HaAyin
+215,Crisis Management for Volunteers,2024-08-16,651832513,Shtula
+216,Community Service Leadership Program,2024-05-30,209510256,Beer Ganim
+217,Public Speaking Skills for Volunteers,2025-02-18,256758081,Kfar Yona
+218,Stress Relief and Resilience Training for Volunteers,2025-01-17,595016017,Ramla
+219,Creative Writing Workshop for Volunteers,2025-01-04,589337320,Migron
+220,Volunteer-Driven Innovation Session,2024-04-02,531266733,Neve Michael
+221,Motivational Speech Event,2024-04-15,853063578,Ramat Yohanan
+222,Advanced Communication Skills for Volunteers,2024-05-20,433566794,Beer Ganim
+223,Fundraising Event Planning for Volunteers,2024-05-29,384537612,Tel Aviv
+224,Volunteer Appreciation Dinner,2024-08-27,367996132,Karmiel
+225,Advanced Communication Skills for Volunteers,2025-02-04,330066847,Tze'elim
+226,Volunteer Skills Enhancement Workshop,2024-12-25,635217088,Bneu Dekalim
+227,Leadership and Emotional Intelligence for Volunteers,2025-03-15,735351231,Meshuot Yitzhak
+228,Social Impact and Volunteerism Conference,2025-02-15,256758081,Achuzam
+229,Networking and Career Building for Volunteers,2024-05-02,153544210,Kanaf
+230,Team Building Activity for Volunteers,2024-07-09,560837901,Erez
+231,Team Building Activity for Volunteers,2024-07-25,999808268,Dimona
+232,Leadership and Emotional Intelligence for Volunteers,2024-09-18,817363782,Neve Zohar
+233,Fundraising for Nonprofits Workshop,2024-11-05,736861594,Yonatan
+234,Digital Skills Training for Volunteers,2024-05-17,119879817,Ketzrin
+235,Community Service Leadership Program,2025-03-25,293575183,Tirat Carmel
+236,Stress Management Workshop for Volunteers,2024-04-05,633290531,Netivot
+237,Volunteer-Driven Innovation Session,2024-10-10,899039963,Shoresh
+238,Volunteer Diversity and Inclusion Training,2024-11-08,228431425,Kfar Shmaryahu
+239,Volunteer Appreciation Day,2024-10-19,243893303,Maale Hever
+240,Building an Inclusive Volunteer Program,2024-12-22,832134506,Lotan
+241,Volunteer Empowerment Through Education,2025-03-03,293575183,Kiryat Gat
+242,Advanced Communication Skills for Volunteers,2024-10-09,908419634,Michmesh
+243,Fundraising for Nonprofits Workshop,2024-09-23,714493004,Maean Zvi
+244,Health and Wellness for Volunteers,2024-05-25,500294195,Ali Zahav
+245,Volunteer Innovations in Social Responsibility,2024-04-22,432775677,Neve Ativ
+246,Public Speaking Masterclass for Volunteers,2024-08-18,513753906,Tirat Zvi
+247,Volunteer-Driven Innovation Session,2024-06-20,196570610,Shila
+248,Volunteer Photography Workshop,2024-07-15,105577673,Ein Habesor
+249,Volunteer Fundraising Campaign Training,2025-03-26,147051908,Nator
+250,Volunteer Feedback and Growth Session,2024-07-14,712247263,Kiryat Arba
+251,Volunteer-Driven Innovation Session,2024-04-17,137196235,Nazareth
+252,Volunteer Networking Brunch,2024-08-17,414518384,Yahel
+253,Nonprofit Marketing for Volunteers,2025-03-16,196570610,Beit Guvrin
+254,Health and Nutrition for Volunteers,2024-09-13,400946549,Har Bracha
+255,Digital Storytelling for Volunteers,2024-05-05,457761908,Nir David
+256,Public Relations Skills for Volunteers,2024-08-01,111782927,Talmon
+257,Stress-Free Volunteering Tips and Tricks,2025-03-07,373850009,Castle
+258,Digital Volunteerism and Social Impact,2025-01-17,185230457,Nir Yitzhak
+259,Green Volunteerism and Sustainability,2025-01-14,564217076,Elezar
+260,Interactive Art Workshop for Volunteers,2024-12-22,812837352,Zohar
+261,Building a Volunteer-Friendly Organization,2024-08-28,661213951,Herzliya
+262,Interactive Art Workshop for Volunteers,2024-03-31,353775631,Kfar Yehoshua
+263,Volunteer Training for Mentors,2025-02-12,923609252,Migdal Oz
+264,Volunteer Feedback and Growth Session,2024-06-12,224268418,Azrikam
+265,Digital Volunteerism and Social Impact,2025-03-05,245544160,Maale HaChamisha
+266,Volunteer Engagement and Retention Strategies,2024-09-07,710049900,Mishmoret
+267,Volunteering for Social Change,2024-06-05,205953236,Tkoma
+268,Creative Problem Solving for Volunteers,2024-08-03,454152910,Mishmar HaEmek
+269,First Aid Training for Volunteers,2024-12-27,404382400,Kisufim
+270,Time Management Skills for Volunteers,2025-02-19,880638443,Menara
+271,Creative Workshop for Volunteers,2025-03-22,245544160,Neot Smadar
+272,Stress Relief and Resilience Training for Volunteers,2024-04-25,532019222,Beit Hilkiah
+273,Volunteer Fundraising Campaign Training,2025-02-20,595016017,Avivim
+274,Team Collaboration Skills for Volunteers,2025-01-08,805561835,Neve Daniel
+275,Empowering Women Volunteers Workshop,2025-01-23,860740200,Sde Eliyahu
+276,Volunteer Photography Workshop,2024-11-11,436878005,As'el
+277,Volunteer Leadership Forum,2024-05-07,866357017,Safet
+278,Volunteer Safety and Crisis Management Training,2024-07-24,130662556,Palmahim
+279,Volunteer Writing for Advocacy and Change,2024-07-30,807236155,Kfar Yona
+280,Volunteer Management Skills Workshop,2024-07-18,976629885,Benimina
+281,Conflict Resolution Training for Volunteers,2024-04-06,298554934,Sde Moshe
+282,Mindset and Motivation for Volunteers,2024-12-25,572673913,Migdal Oz
+283,Introduction to Project Management for Volunteers,2024-06-16,899039963,Shtula
+284,Health and Wellness for Volunteers,2024-08-09,239749750,Avnat
+285,Volunteer Training for Mentors,2025-02-10,712247263,Afula
+286,Volunteer Engagement Through Digital Platforms,2025-02-08,321104557,Beerot Yitzhak
+287,Resilience and Adaptability Training for Volunteers,2024-11-24,322167562,Barkan
+288,Conflict Resolution Training for Volunteers,2025-03-18,993986630,Brochin
+289,Nonprofit Strategy and Leadership for Volunteers,2024-05-26,643272008,Giv'at Washington
+290,Health and Nutrition for Volunteers,2024-11-12,718772678,Ramla
+291,Volunteer Management Skills Workshop,2024-04-29,226633180,Kanaf
+292,Volunteer Talent Development Program,2024-11-24,146438347,Neve Tzuf
+293,Personal Development Workshop,2024-10-13,182687627,Gani Tal
+294,Volunteer Photography Workshop,2025-02-08,589337320,Maagan Michael
+295,DIY Crafting Workshop for Volunteers,2024-06-18,662935223,Peduel
+296,Time Management Skills for Volunteers,2024-08-04,357096083,Or Akiva
+297,Volunteer Skills Enhancement Workshop,2024-08-28,450228682,Nirim
+298,Volunteer Feedback and Growth Session,2024-10-23,457761908,Yokneam Ilit
+299,Volunteer Management Skills Workshop,2025-02-09,898756120,Na'ala
+300,Personal Development Workshop,2024-12-09,147051908,Hod Hasharon
+301,Social Impact and Volunteerism Conference,2024-12-17,322167562,Neot Smadar
+302,Volunteer Empowerment Workshop,2024-05-28,713572635,Hashmonaim
+303,Volunteer Photography Workshop,2024-11-25,330066847,Peduel
+304,Volunteer Feedback and Growth Session,2025-02-10,522212034,Sde Moshe
+305,Leadership and Emotional Intelligence for Volunteers,2025-01-22,100546946,Patish
+306,Leadership and Emotional Intelligence for Volunteers,2024-05-29,657439553,Hod Hasharon
+307,Building a Volunteer-Friendly Organization,2025-03-15,807236155,Or Yehuda
+308,Building a Volunteer-Friendly Organization,2024-06-23,778946429,Avni Eitan
+309,Volunteer Appreciation Dinner,2024-04-04,570797294,Castle
+310,Building an Inclusive Volunteer Program,2024-12-22,608057122,Hazor'im
+311,Digital Storytelling for Volunteers,2024-08-24,685483861,Ein Yahav
+312,Conflict Resolution Training for Volunteers,2024-06-12,408935693,Mivaseret Zion
+313,Fundraising Event Planning for Volunteers,2024-07-05,899039963,Ofakim
+314,Digital Storytelling for Volunteers,2025-03-04,298554934,Ein Harod
+315,Creative Writing Workshop for Volunteers,2024-05-21,446761406,Neve Michael
+316,Volunteer Career Coaching Session,2025-01-06,428742862,Tel Aviv
+317,Nonprofit Event Planning for Volunteers,2024-07-12,903664721,Tzukim
+318,Personal Development Workshop,2024-05-10,438834899,Nov
+319,Nonprofit Marketing for Volunteers,2024-08-12,400946549,Lotan
+320,Volunteer Safety and Crisis Management Training,2024-04-08,393013562,Rechsim
+321,Mindset and Motivation for Volunteers,2024-10-23,394505352,Kiryat Haim
+322,Stress-Free Volunteering Tips and Tricks,2025-01-09,438834899,Negba
+323,Leadership Development for Young Volunteers,2024-07-08,946915975,Nazareth
+324,Volunteer Career Development Session,2024-09-30,532019222,Akko
+325,Time Management Skills for Volunteers,2025-02-08,719625058,Tirat Zvi
+326,Networking Event for Nonprofit Volunteers,2025-02-17,275553165,Bnei Brak
+327,Health and Nutrition for Volunteers,2024-11-18,776377775,Ashkelon
+328,Volunteer Empowerment Through Education,2024-11-27,408935693,Dafna
+329,Teamwork and Collaboration for Volunteers,2024-12-01,414518384,As'el
+330,Nonprofit Event Planning for Volunteers,2024-07-29,545501430,Rosh Hanikra
+331,Empowering Volunteers Through Knowledge Sharing,2024-12-13,367996132,Havat Yair
+332,Advanced Communication Skills for Volunteers,2025-01-10,293575183,Karmiya
+333,Team Building Activity for Volunteers,2024-08-15,833540190,Kfar Gaza
+334,Networking and Career Building for Volunteers,2024-05-19,589706327,Kerem Shalom
+335,Volunteer Appreciation Dinner,2024-05-09,807236155,Ateret
+336,Volunteer Mindfulness Retreat,2024-04-25,196570610,Eliav
+337,Leadership and Emotional Intelligence for Volunteers,2024-08-15,486634621,Hod Hasharon
+338,Volunteer Yoga and Meditation,2025-02-24,955834819,Ramat Yohanan
+339,Volunteer Talent Development Program,2024-08-05,713588559,Tel Yosef
+340,Networking Event for Nonprofit Volunteers,2024-12-07,621546011,Mishmar Hashiva
+341,Nonprofit Operations and Leadership Workshop,2025-02-07,748945881,Neve Zohar
+342,Volunteer Innovations in Social Responsibility,2025-02-08,633290531,Sholomi
+343,Volunteer Storytelling for Social Change,2024-06-03,776377775,Avni Chefetz
+344,Volunteer Project Management Training,2025-01-15,394505352,Haifa
+345,Volunteer Engagement and Retention Strategies,2025-03-09,580199810,Brochin
+346,Social Impact and Volunteerism Conference,2024-08-09,643272008,Tirat Carmel
+347,Nonprofit Strategy and Leadership for Volunteers,2024-05-05,579372758,Sde David
+348,Volunteer Networking Mixer,2025-01-09,421301681,Erez
+349,Stress Management Workshop for Volunteers,2024-08-21,116891822,Kerem Shalom
+350,Public Speaking for Advocacy and Nonprofits,2024-09-14,427099149,Rosh Hanikra
+351,Creative Writing Workshop for Volunteers,2024-06-12,792680574,Tze'elim
+352,Volunteer Yoga and Meditation,2024-09-08,707575471,Kiryat Ekron
+353,Public Speaking Skills for Volunteers,2025-02-22,662935223,Kiryat Yam
+354,Volunteer-Driven Innovation Session,2025-01-19,579372758,Beit Kama
+355,Mindset and Motivation for Volunteers,2025-01-11,770027665,Bat Yam
+356,Volunteer Mentorship Program,2024-06-02,468378560,Kiryat Yearim
+357,Fundraising Event Planning for Volunteers,2024-05-29,135476374,Ayalot
+358,Volunteer Safety and Crisis Management Training,2024-08-07,450228682,Yonatan
+359,Building Emotional Intelligence for Volunteers,2025-02-25,831020897,Rosh HaAyin
+360,Stress Relief and Resilience Training for Volunteers,2024-07-04,736861594,Sde Yaakov
+361,Introduction to Project Management for Volunteers,2025-03-10,758266582,Peduel
+362,Volunteer Retreat and Relaxation Day,2024-06-11,765389525,Sde Yoav
+363,Volunteer Career Development Session,2024-08-11,988845122,Ohad
+364,Volunteer Career Coaching Session,2024-06-02,883221237,Beit Haggai
+365,Mindset and Motivation for Volunteers,2024-06-26,534962289,Havat Yair
+366,Nonprofit Event Planning for Volunteers,2024-06-02,870479229,Migdal HaEmek
+367,Time Management Skills for Volunteers,2025-01-04,765389525,Naria
+368,Volunteer Fundraising Campaign Training,2024-04-04,955900016,Maagan Michael
+369,Social Media Skills for Volunteers,2024-11-30,770027665,Rosh HaAyin
+370,Volunteer Talent Show,2024-11-29,113193560,Kiryat Ono
+371,Volunteer Diversity and Inclusion Training,2024-08-20,486634621,Safet
+372,Resilience and Adaptability Training for Volunteers,2025-01-17,515694752,Safet
+373,Creative Problem Solving for Volunteers,2024-10-05,421883994,Noam
+374,Digital Skills Training for Volunteers,2024-06-15,484791738,Kanaf
+375,Team Building Adventure for Volunteers,2025-02-04,534962289,Kanaf
+376,Leadership Training for Volunteers,2025-01-09,880638443,Yehud
+377,Volunteer Feedback and Growth Session,2024-07-31,765389525,Beit El
+378,Time Management Skills for Volunteers,2024-05-20,791492673,Ibim
+379,Stress-Free Volunteering Tips and Tricks,2025-01-06,567128387,Beit She'an
+380,Volunteer Yoga and Meditation,2024-12-04,422858186,Rehovot
+381,Transforming Communities Through Volunteering,2024-10-23,602476138,Beeri
+382,Volunteering for Social Change,2025-03-10,330066847,Tkoma
+383,Volunteer Leadership Retreat,2024-08-12,835076317,Yated
+384,Volunteer Training for Mentors,2024-11-22,373850009,Bnei Ayish
+385,Empowering Women Volunteers Workshop,2024-05-07,249221152,Kfar Vradim
+386,Volunteer Leadership Retreat,2024-08-12,234831255,Kfar Ruth
+387,Advanced Communication Skills for Volunteers,2024-10-12,276184852,Avni Chefetz
+388,Volunteer Mentorship Program,2025-03-15,956428885,Kiryat Ekron
+389,Volunteer Writing for Advocacy and Change,2024-04-09,538370298,Harish
+390,Introduction to Project Management for Volunteers,2024-04-26,424498138,Beerot Yitzhak
+391,Social Media Skills for Volunteers,2024-12-26,572673913,Ramat Yohanan
+392,Crisis Management for Volunteers,2024-04-15,823393145,Nir Am
+393,Volunteer Engagement and Retention Strategies,2024-04-09,293826156,Ramat HaShofet
+394,Creative Problem Solving for Volunteers,2025-03-23,770027665,Zikhron Ya'akov
+395,Volunteer Storytelling and Advocacy,2024-04-19,907822052,Revvadim
+396,Volunteer Talent Show,2024-10-22,395480602,Brechia
+397,Volunteer Empowerment Through Education,2025-01-30,322167562,Kiryat Bialik
+398,Volunteer-Driven Innovation Session,2024-06-08,833540190,Mishmar Hashiva
+399,Leadership Development for Young Volunteers,2024-08-09,249221152,Avni Chefetz
+400,Crisis Management for Volunteers,2024-09-22,234831255,Ali Zahav
