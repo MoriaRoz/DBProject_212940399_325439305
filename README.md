@@ -292,11 +292,11 @@ Execution steps:
 * Call the function get_volunteer_schedule(volunteer_id) for the volunteer ID 10000101, which returns a refcursor containing all scheduled activities for the next 7 days.
 
 ![main1](https://github.com/user-attachments/assets/23633aea-b4f5-4c59-9170-1c05aa567e21)  
-Result of Procedure1- assign_assistants:  
+***Result of Procedure1- assign_assistants***  
 ![Result of Procedure1- assign_assistants](https://github.com/user-attachments/assets/f7985d27-e2ed-48ff-8b5e-903f056421bb)  
-Results of Function1- volunteer_schedule:  
+***Results of Function1- volunteer_schedule***  
 ![Results of Function1- volunteer_schedule](https://github.com/user-attachments/assets/c28b6362-480b-4f62-b176-409d2aabaa89)  
-Update database-display future rides:  
+***Update database-display future rides***  
 ![image](https://github.com/user-attachments/assets/dc0b9d53-da86-4236-ae77-c096ebb85c19)  
 ![image](https://github.com/user-attachments/assets/d86bd366-ea11-40eb-9479-eed202964c11)  
 
@@ -312,10 +312,10 @@ Execution steps:
 * Call to get_top_10_volunteers_of_week() function which returns a refcursor with volunteers ranked by activity count during the last week.
 
 ![main2](https://github.com/user-attachments/assets/34939d91-2270-4818-bbfe-0460ed9828fc)  
-Result of Procedure2- deactivate_inactive_volunteers  
+***Result of Procedure2- deactivate_inactive_volunteers***  
 ![Result of Procedure2- deactivate_inactive_volunteers](https://github.com/user-attachments/assets/7d63063f-2dba-41aa-aae9-500850fbf209)  
-Result of Function2- top_10_volunteers_of_week  
+***Result of Function2- top_10_volunteers_of_week***  
 ![Result of Function2- top_10_volunteers_of_week](https://github.com/user-attachments/assets/952a4230-78bc-4138-91ef-c2c5962b8aa8)  
-Database update - showing inactive volunteers in the last six months:  
+***Database update - showing inactive volunteers in the last six months***  
 ![before](https://github.com/user-attachments/assets/f05342da-c014-4ab8-9e22-c0be9c1ad178)  
 ![after](https://github.com/user-attachments/assets/871d86ea-95db-4cbf-85a9-2b14eb3c14ca)  
