@@ -44,7 +44,7 @@ Moria Rozenfeld & Tehila Shraga
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
 The system records information about volunteers, the various volunteering activities, patients, events, cities across the country, and the areas of volunteering that take place in the organization.
 
-#### Main functionality
+**Main functionality**
 * Manage volunteers and their activity status.  
 * Assign volunteers to specific volunteering tasks.  
 * Record and track patient-volunteer interactions.  
@@ -58,7 +58,10 @@ The system records information about volunteers, the various volunteering activi
 
 ## Insert data to table 
 ### Import CSV Files  
+*Insert:*  
 ![image](https://github.com/user-attachments/assets/c62f508e-ad13-4eaa-a757-0952ed72bc88)
+   
+*Table:*  
 ![image](https://github.com/user-attachments/assets/a647b170-4214-4169-b5bb-e11e75ee75d4)     
 
 ### Pyhton  
@@ -140,18 +143,18 @@ The system records information about volunteers, the various volunteering activi
 1. **The query deletes all volunteers who have not participated in volunteering and events in the last two years.**
      
    *before:*  
-  ![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
+   ![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)  
+     
+   *Running:*  
+   ![image](https://github.com/user-attachments/assets/7f7097d6-ac6f-431a-b692-4311af9cfa29)  
+   ![image](https://github.com/user-attachments/assets/14160a1e-b320-4747-8c27-ccf22777d782)  
+   ![image](https://github.com/user-attachments/assets/84e635d0-ff0d-40d5-a9c6-a715496535c6)  
+   ![image](https://github.com/user-attachments/assets/31174d4c-72f2-43ac-93cc-b5967ce24668)  
+     
+   *After:*  
+   ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
     
-  *Running:*  
-  ![image](https://github.com/user-attachments/assets/7f7097d6-ac6f-431a-b692-4311af9cfa29)  
-  ![image](https://github.com/user-attachments/assets/14160a1e-b320-4747-8c27-ccf22777d782)  
-  ![image](https://github.com/user-attachments/assets/84e635d0-ff0d-40d5-a9c6-a715496535c6)  
-  ![image](https://github.com/user-attachments/assets/31174d4c-72f2-43ac-93cc-b5967ce24668)  
-    
-  *After:*   
-  ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
-    
-2. **The query deletes all patients over the age of 120.**
+3. **The query deletes all patients over the age of 120.**
      
    *Before:*  
    ![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
@@ -162,7 +165,7 @@ The system records information about volunteers, the various volunteering activi
    *After:*  
    ![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
      
-3. **The query deletes events that were more than 5 years ago.**
+4. **The query deletes events that were more than 5 years ago.**
      
    *Before:*  
    ![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
@@ -198,7 +201,7 @@ The system records information about volunteers, the various volunteering activi
 ## Rollback & Commit
 ### Rollback
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
-![image](https://github.com/user-attachments/assets/fdbd04f8-2088-4745-abb2-0ac58913da4f)
+![image](https://github.com/user-attachments/assets/fdbd04f8-2088-4745-abb2-0ac58913da4f)  
 
 ### Commit
 ![image](https://github.com/user-attachments/assets/a246ddc2-37bc-4258-91e7-3cb9c7575176)
@@ -286,26 +289,30 @@ The system records information about volunteers, the various volunteering activi
 ## Views
 ### view_volunteer_participation:
 This view displays the participation of each volunteer in volunteering activities, including their contact details, activity type, date, and report.
-![image](https://github.com/user-attachments/assets/e7d369ed-2673-4f80-a72e-27196126d159)
-- Query 1:
+![image](https://github.com/user-attachments/assets/e7d369ed-2673-4f80-a72e-27196126d159)  
+  
+- *Query 1:*
   Returns how many volunteering activities were performed by type.
+    
   ![image](https://github.com/user-attachments/assets/c8517c2d-c774-4df8-b856-bdc94f85f3fc)
 
-- Query 2:
+- *Query 2:*
   Lists volunteers who participated in at least 3 volunteering activities, sorted by their participation count.
+    
   ![image](https://github.com/user-attachments/assets/db26e278-6fd7-4e7e-a9e4-ada818c30e90)
 
 ### view_rides_schedule:
 This view combines ride details with volunteering information, including date, pickup time, destination, vehicle, driver, and medical assistant.
-![image](https://github.com/user-attachments/assets/60aca2fb-adcc-4bf4-bcfc-b49923984f4e)
-![image](https://github.com/user-attachments/assets/8c330ad9-e5dd-4142-84c4-95ce4bae0d28)
-- Query 1:
-   Shows all rides that were completed without a medical assistant, including the driver’s name and phone number.
+![image](https://github.com/user-attachments/assets/60aca2fb-adcc-4bf4-bcfc-b49923984f4e)  
+![image](https://github.com/user-attachments/assets/8c330ad9-e5dd-4142-84c4-95ce4bae0d28)  
+  
+- *Query 1:*
+   Shows all rides that were completed without a medical assistant, including the driver’s name and phone number.  
   ![image](https://github.com/user-attachments/assets/db8fbc67-6e5a-42ae-a0b1-d1621c3d9826)
-
-- Query 2:
-  Counts the number of rides that took place per month and year.
-  ![image](https://github.com/user-attachments/assets/a873cc3e-32d4-4c50-8d97-9e51b6a88943)
+    
+- *Query 2:*
+  Counts the number of rides that took place per month and year.  
+  ![image](https://github.com/user-attachments/assets/a873cc3e-32d4-4c50-8d97-9e51b6a88943)  
 
 ## PL/pgSQL programs
 ### Main 1
@@ -316,12 +323,16 @@ The program then runs Function1- volunteer_schedule which displays the weekly sc
 Execution steps:
 * Call the procedure assign_assistants_to_future_rides() to assign assistants to future trips where no assistant is currently defined.
 * Call the function get_volunteer_schedule(volunteer_id) for the volunteer ID 10000101, which returns a refcursor containing all scheduled activities for the next 7 days.
-
+  
+***Code***
 ![main1](https://github.com/user-attachments/assets/23633aea-b4f5-4c59-9170-1c05aa567e21)  
+  
 ***Result of Procedure1- assign_assistants***  
 ![Result of Procedure1- assign_assistants](https://github.com/user-attachments/assets/f7985d27-e2ed-48ff-8b5e-903f056421bb)  
+  
 ***Results of Function1- volunteer_schedule***  
 ![Results of Function1- volunteer_schedule](https://github.com/user-attachments/assets/c28b6362-480b-4f62-b176-409d2aabaa89)  
+  
 ***Update database-display future rides***  
 ![image](https://github.com/user-attachments/assets/dc0b9d53-da86-4236-ae77-c096ebb85c19)  
 ![image](https://github.com/user-attachments/assets/d86bd366-ea11-40eb-9479-eed202964c11)  
@@ -376,10 +387,13 @@ Results are returned in a sorted schedule (by date and time) via a cursor named 
   
 *Running:*  
 ![image](https://github.com/user-attachments/assets/a6cd2278-1881-47b5-9a67-224d6cf5288e)  
+  
 Volunteer with no activities this coming week:  
 ![image](https://github.com/user-attachments/assets/ba20f897-4d18-4082-8d1b-7f4fdddf1932)  
+  
 Volunteer not present/active:  
 ![image](https://github.com/user-attachments/assets/49191562-d0c8-47aa-a01f-7f148363d3d0)  
+  
 Volunteer with this week's activities:  
 ![image](https://github.com/user-attachments/assets/ef712310-9d76-4e4a-a04c-09e0529558e6)  
   
@@ -392,11 +406,15 @@ Execution steps:
 * Call the deactivate_inactive_volunteers() procedure to mark volunteers as inactive if they have not participated in any activity in the last six months.  
 * Call to get_top_10_volunteers_of_week() function which returns a refcursor with volunteers ranked by activity count during the last week.
 
+***Code***  
 ![main2](https://github.com/user-attachments/assets/34939d91-2270-4818-bbfe-0460ed9828fc)  
+  
 ***Result of Procedure2- deactivate_inactive_volunteers***  
 ![Result of Procedure2- deactivate_inactive_volunteers](https://github.com/user-attachments/assets/7d63063f-2dba-41aa-aae9-500850fbf209)  
+  
 ***Result of Function2- top_10_volunteers_of_week***  
 ![Result of Function2- top_10_volunteers_of_week](https://github.com/user-attachments/assets/952a4230-78bc-4138-91ef-c2c5962b8aa8)  
+  
 ***Database update - showing inactive volunteers in the last six months***  
 ![before](https://github.com/user-attachments/assets/f05342da-c014-4ab8-9e22-c0be9c1ad178)  
 ![after](https://github.com/user-attachments/assets/871d86ea-95db-4cbf-85a9-2b14eb3c14ca)  
