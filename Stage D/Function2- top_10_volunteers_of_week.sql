@@ -2,7 +2,6 @@ CREATE OR REPLACE FUNCTION get_top_10_volunteers_of_week()
 RETURNS refcursor AS $$
 DECLARE
     cur refcursor := 'top10_cursor';
-    temp RECORD;
     count_check INT;
 BEGIN
     -- בדיקה אם יש לפחות מתנדב אחד עם פעילות השבוע
