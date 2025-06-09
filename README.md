@@ -335,6 +335,7 @@ It ensures that:
 - Assistants do not exceed the daily ride limit (3 per day, enforced via trigger).
    
 If an assignment is successful, a confirmation notice is printed. If no suitable assistant is found, a warning is logged.  
+(The code in the StageD folder)  
   
 *Befor:*  
 ![image](https://github.com/user-attachments/assets/7c669c38-814e-4b0f-be4b-f32384287261)  
@@ -353,14 +354,9 @@ When a new ride is inserted or updated:
 - If an assistant is assigned, it counts how many other rides they already have on that date.  
 - If the assistant has 3 or more rides, the function raises an exception and blocks the operation.  
   
-The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant.  
-
-*Before*
-*Running*
-
-*After*
-  
-
+The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant. 
+(The code in the StageD folder)  
+   
 #### Function1- volunteer schedule
 This function returns a refcursor containing the schedule of a given volunteer (v_id) for the upcoming week.  
 It performs the following:  
@@ -373,12 +369,14 @@ It performs the following:
 - If the volunteer has no upcoming activities, a fallback message is included.  
   
 Results are returned in a sorted schedule (by date and time) via a cursor named 'schedule_cursor'.  
-  
-*Before*
+(The code in the StageD folder)  
   
 *Running*
-
-*After*
+![image](https://github.com/user-attachments/assets/a6cd2278-1881-47b5-9a67-224d6cf5288e)
+![image](https://github.com/user-attachments/assets/ba20f897-4d18-4082-8d1b-7f4fdddf1932)
+![image](https://github.com/user-attachments/assets/49191562-d0c8-47aa-a01f-7f148363d3d0)
+![image](https://github.com/user-attachments/assets/ef712310-9d76-4e4a-a04c-09e0529558e6)
+  
 ### Main 2
 This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
 Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.  
@@ -408,11 +406,17 @@ For each such volunteer, it checks four types of activity:
 If none of these have been found in the last six months, the volunteer status is updated to ``F'' (inactive), after a pre-update check trigger is fired that checks if they can be updated without active volunteers.  
 A success or error notice is printed for each volunteer to log the result.  
 At the end, a summary message confirms the process is complete.  
+(The code in the StageD folder)
   
-*Before*
+*Before*  
+![image](https://github.com/user-attachments/assets/651ccaff-3182-4bce-bf65-84319f3784fe)
+  
 *Running*
-
-*After*
+![image](https://github.com/user-attachments/assets/6e8ccaa9-c2c4-40cf-bffd-a5acf94457e6)
+![image](https://github.com/user-attachments/assets/73965bcb-f681-44cf-b35c-0a9faf96db01)
+  
+*After*  
+![image](https://github.com/user-attachments/assets/a410afc2-92e0-453b-b97d-2cddef177047)
   
 #### Trigger2- prevent inactive responsible
 This trigger function prevents the deactivation of a volunteer if they are still responsible for active roles.  
@@ -422,11 +426,7 @@ It runs before updating the volunteer table and blocks the change if:
   
 If either condition is met, the trigger raises an exception with a clear message and prevents the update.
 The associated trigger trg_prevent_inactive_responsible is fired before any UPDATE on the volunteer table and ensures that no active responsibility is left unmanaged when deactivating a volunteer.
-  
-*Before*
-*Running*
-
-*After*
+(The code in the StageD folder)
   
 #### Function2- top 10 volunteers of week
 This function returns a refcursor pointing to the top 10 most active volunteers in the past 7 days.  
@@ -443,9 +443,8 @@ The function then:
 
 If no activity is found in the past week, a notice is printed and a single-row result with NULL values is returned.  
 Any unexpected error during execution is caught, a notice is printed, and a fallback cursor with NULL fields is returned.  
+(The code in the StageD folder)
   
-*Before*
 *Running*
-
-*After*
+![image](https://github.com/user-attachments/assets/3b8f6a20-b342-41e9-aa50-54ebc8641819)  
   
