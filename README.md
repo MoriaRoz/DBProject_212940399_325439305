@@ -355,7 +355,10 @@ When a new ride is inserted or updated:
 - If the assistant has 3 or more rides, the function raises an exception and blocks the operation.  
   
 The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant. 
-(The code in the StageD folder)  
+  
+*Code:*   
+![image](https://github.com/user-attachments/assets/ede4f1cf-46d1-4b7d-b0a9-ce43f295f91a)  
+![image](https://github.com/user-attachments/assets/9607ae9f-9054-4666-809c-62e931b95c31)  
    
 #### Function1- volunteer schedule
 This function returns a refcursor containing the schedule of a given volunteer (v_id) for the upcoming week.  
@@ -429,8 +432,11 @@ It runs before updating the volunteer table and blocks the change if:
   
 If either condition is met, the trigger raises an exception with a clear message and prevents the update.
 The associated trigger trg_prevent_inactive_responsible is fired before any UPDATE on the volunteer table and ensures that no active responsibility is left unmanaged when deactivating a volunteer.
-(The code in the StageD folder)
-  
+
+*Code:*  
+![image](https://github.com/user-attachments/assets/52e8720f-f4d1-4e86-b2de-7f7d020fed79)  
+![image](https://github.com/user-attachments/assets/72bb5f6a-f2b6-4352-8808-4f2271d6054d)  
+   
 #### Function2- top 10 volunteers of week
 This function returns a refcursor pointing to the top 10 most active volunteers in the past 7 days.  
 It checks activity across four categories:  
