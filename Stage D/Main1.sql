@@ -17,5 +17,3 @@ BEGIN
     CLOSE cur;
 END;
 $$;
-
-rollback;
