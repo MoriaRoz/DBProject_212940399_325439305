@@ -11,12 +11,12 @@ DECLARE
 BEGIN
     FOR r IN
         SELECT DISTINCT ON (rd.volunteering_id)
-               rd.volunteering_id, rd.destination_name,
+               rd.volunteering_id, rd.destination_name,rd.destination_address,
                d.destination_city, c.area,
                v.date AS ride_date, v.hour, v.duration
         FROM ride rd
         JOIN volunteering v ON rd.volunteering_id = v.volunteering_id
-        JOIN destination d ON rd.destination_name = d.destination_name
+        JOIN destination d ON rd.destination_name = d.destination_name and rd.destination_address = d.destination_address
         JOIN city c ON d.destination_city = c.name
         WHERE rd.assistant_id IS NULL
           AND v.date > CURRENT_DATE
