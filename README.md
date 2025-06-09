@@ -140,44 +140,57 @@ The system records information about volunteers, the various volunteering activi
 1. **The query deletes all volunteers who have not participated in volunteering and events in the last two years.**
      
    *before:*  
-  ![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)  
-  *running:*  
+  ![image](https://github.com/user-attachments/assets/7c53f25e-97b5-47d2-a1ad-93da84b3fb6d)
+    
+  *Running:*  
   ![image](https://github.com/user-attachments/assets/7f7097d6-ac6f-431a-b692-4311af9cfa29)  
   ![image](https://github.com/user-attachments/assets/14160a1e-b320-4747-8c27-ccf22777d782)  
   ![image](https://github.com/user-attachments/assets/84e635d0-ff0d-40d5-a9c6-a715496535c6)  
   ![image](https://github.com/user-attachments/assets/31174d4c-72f2-43ac-93cc-b5967ce24668)  
-  *after:*   
+    
+  *After:*   
   ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
-3. **The query deletes all patients over the age of 120.**  
-   *before:*  
-   ![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)  
-   *running:*  
-   ![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)  
-   *after:*  
-   ![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)  
-4. **The query deletes events that were more than 5 years ago.**  
-   *before:*  
-   ![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)  
-   *running:*  
-   ![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)  
-   *after:*  
+    
+2. **The query deletes all patients over the age of 120.**
+     
+   *Before:*  
+   ![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
+     
+   *Running:*  
+   ![image](https://github.com/user-attachments/assets/41c2f990-31b3-48de-842e-5d2ab2ced2c8)
+      
+   *After:*  
+   ![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
+     
+3. **The query deletes events that were more than 5 years ago.**
+     
+   *Before:*  
+   ![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
+     
+   *Running:*  
+   ![image](https://github.com/user-attachments/assets/cabf596a-6ce5-4965-b4ed-4f0c2fd8d2b4)
+     
+   *After:*  
    ![image](https://github.com/user-attachments/assets/842f834c-b61c-48ce-a949-a11b7dda2748)     
 
 ## Constraint
 1. **The constraint requires that the patients entered into the table be those with a birth date in the past and not in the future.**  
    ALTER TABLE Patient  
    ADD CONSTRAINT chk_patient_birthday  
-   CHECK (Birthday <= CURRENT_DATE);  
+   CHECK (Birthday <= CURRENT_DATE);
+     
    ![image](https://github.com/user-attachments/assets/b4561de3-c313-42c2-8e96-c10489159be4)  
 
-2. **The constraint requires that the volunteer's phone number to be entered must not be null.**  
+3. **The constraint requires that the volunteer's phone number to be entered must not be null.**  
    ALTER TABLE Volunteer  
-   ALTER COLUMN Phone SET NOT NULL;  
+   ALTER COLUMN Phone SET NOT NULL;
+     
    ![image](https://github.com/user-attachments/assets/c456f8ee-33d8-4672-9ba5-f79781e7b383)  
 
-3. **The constraint inserts a morning shift-M as the default if no shift was inserted.**  
+4. **The constraint inserts a morning shift-M as the default if no shift was inserted.**  
    ALTER TABLE Volunteering_Participation  
-   ALTER COLUMN Shift SET DEFAULT 'M';  
+   ALTER COLUMN Shift SET DEFAULT 'M';
+     
    ![image](https://github.com/user-attachments/assets/a11be685-d5cc-4b13-ae96-f64e78cdcbc2)  
    ![image](https://github.com/user-attachments/assets/f27b9f4e-8e76-4446-bed1-184ecaa420e4)  
    
@@ -193,17 +206,17 @@ The system records information about volunteers, the various volunteering activi
 
 ## Integration
 ### Reverse-Engineering Algorithm
-- A table that contains only a primary key without foreign keys:
+- A table that contains only a primary key without foreign keys:  
   → This is a regular entity.
-- A table whose primary key contains more than one attribute and none of the attributes is a foreign key:
+- A table whose primary key contains more than one attribute and none of the attributes is a foreign key:  
   → This is a regular entity with a composite key.
-- A table that contains a primary key and in addition to it a foreign key:
+- A table that contains a primary key and in addition to it a foreign key:  
   → This is a regular entity with a 1:N (one-to-many) relationship to the referenced entity.
-- A table where the primary key consists of only two foreign keys:
+- A table where the primary key consists of only two foreign keys:  
   → This is a table representing a many-to-many relationship between two entities.
-- A table that contains a foreign key that is also the only primary key:
+- A table that contains a foreign key that is also the only primary key:  
   → This is either a weak entity or an inheritance child.
- - A table that has a foreign key referencing itself:
+ - A table that has a foreign key referencing itself:  
   → This represents a recursive relationship.  
 ### new ERD  
 ![newERD](Stage%20C/newERD.png)
@@ -342,6 +355,12 @@ When a new ride is inserted or updated:
   
 The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant.  
 
+*Before*
+*Running*
+
+*After*
+  
+
 #### Function1- volunteer schedule
 This function returns a refcursor containing the schedule of a given volunteer (v_id) for the upcoming week.  
 It performs the following:  
@@ -354,7 +373,12 @@ It performs the following:
 - If the volunteer has no upcoming activities, a fallback message is included.  
   
 Results are returned in a sorted schedule (by date and time) via a cursor named 'schedule_cursor'.  
+  
+*Before*
+  
+*Running*
 
+*After*
 ### Main 2
 This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
 Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.  
@@ -384,7 +408,12 @@ For each such volunteer, it checks four types of activity:
 If none of these have been found in the last six months, the volunteer status is updated to ``F'' (inactive), after a pre-update check trigger is fired that checks if they can be updated without active volunteers.  
 A success or error notice is printed for each volunteer to log the result.  
 At the end, a summary message confirms the process is complete.  
+  
+*Before*
+*Running*
 
+*After*
+  
 #### Trigger2- prevent inactive responsible
 This trigger function prevents the deactivation of a volunteer if they are still responsible for active roles.  
 It runs before updating the volunteer table and blocks the change if:  
@@ -393,7 +422,12 @@ It runs before updating the volunteer table and blocks the change if:
   
 If either condition is met, the trigger raises an exception with a clear message and prevents the update.
 The associated trigger trg_prevent_inactive_responsible is fired before any UPDATE on the volunteer table and ensures that no active responsibility is left unmanaged when deactivating a volunteer.
+  
+*Before*
+*Running*
 
+*After*
+  
 #### Function2- top 10 volunteers of week
 This function returns a refcursor pointing to the top 10 most active volunteers in the past 7 days.  
 It checks activity across four categories:  
@@ -409,3 +443,9 @@ The function then:
 
 If no activity is found in the past week, a notice is printed and a single-row result with NULL values is returned.  
 Any unexpected error during execution is caught, a notice is printed, and a fallback cursor with NULL fields is returned.  
+  
+*Before*
+*Running*
+
+*After*
+  
