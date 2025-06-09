@@ -319,6 +319,7 @@ When a new ride is inserted or updated:
 - If the assistant has 3 or more rides, the function raises an exception and blocks the operation.  
   
 The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant.  
+
 #### Function1- volunteer schedule
 This function returns a refcursor containing the schedule of a given volunteer (v_id) for the upcoming week.  
 It performs the following:  
@@ -349,3 +350,40 @@ Execution steps:
 ***Database update - showing inactive volunteers in the last six months***  
 ![before](https://github.com/user-attachments/assets/f05342da-c014-4ab8-9e22-c0be9c1ad178)  
 ![after](https://github.com/user-attachments/assets/871d86ea-95db-4cbf-85a9-2b14eb3c14ca)  
+
+#### Procedura2- deactivate inactive volunteers
+This procedure scans all active volunteers and deactivates those who haven’t participated in any activity in the past 6 months.  
+For each such volunteer, it checks four types of activity:  
+- Participation in events (`event_participation`)
+- Rides as a driver (`ride.driver_id`)
+- Rides as an assistant (`ride.assistant_id`)
+- Participation in volunteering (`volunteering_participation`)
+  
+If none of these have been found in the last six months, the volunteer status is updated to ``F'' (inactive), after a pre-update check trigger is fired that checks if they can be updated without active volunteers.  
+A success or error notice is printed for each volunteer to log the result.  
+At the end, a summary message confirms the process is complete.  
+
+#### Trigger2- prevent inactive responsible
+This trigger function prevents the deactivation of a volunteer if they are still responsible for active roles.  
+It runs before updating the volunteer table and blocks the change if:  
+- The volunteer is assigned to any future events (as event organizer).
+- The volunteer is assigned to one or more volunteering types in kindOfVol.
+  
+If either condition is met, the trigger raises an exception with a clear message and prevents the update.
+The associated trigger trg_prevent_inactive_responsible is fired before any UPDATE on the volunteer table and ensures that no active responsibility is left unmanaged when deactivating a volunteer.
+
+#### Function2- top 10 volunteers of week
+This function returns a refcursor pointing to the top 10 most active volunteers in the past 7 days.  
+It checks activity across four categories:  
+- Participation in volunteering shifts
+- Rides as a driver
+- Rides as an assistant
+- Attendance at events
+Each occurrence is counted as one activity.   
+The function then:  
+- Groups all activity records by volunteer
+- Ranks volunteers by their total number of activities (in descending order)
+- Returns the top 10 in a cursor named 'top10_cursor'
+
+If no activity is found in the past week, a notice is printed and a single-row result with NULL values is returned.  
+Any unexpected error during execution is caught, a notice is printed, and a fallback cursor with NULL fields is returned.  
