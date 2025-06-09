@@ -337,7 +337,7 @@ It ensures that:
 If an assignment is successful, a confirmation notice is printed. If no suitable assistant is found, a warning is logged.  
 (The code in the StageD folder)  
   
-*Befor:*  
+*Before:*  
 ![image](https://github.com/user-attachments/assets/7c669c38-814e-4b0f-be4b-f32384287261)  
   
 *Running:*  
