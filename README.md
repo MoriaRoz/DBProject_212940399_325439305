@@ -371,11 +371,14 @@ It performs the following:
 Results are returned in a sorted schedule (by date and time) via a cursor named 'schedule_cursor'.  
 (The code in the StageD folder)  
   
-*Running*
-![image](https://github.com/user-attachments/assets/a6cd2278-1881-47b5-9a67-224d6cf5288e)
-![image](https://github.com/user-attachments/assets/ba20f897-4d18-4082-8d1b-7f4fdddf1932)
-![image](https://github.com/user-attachments/assets/49191562-d0c8-47aa-a01f-7f148363d3d0)
-![image](https://github.com/user-attachments/assets/ef712310-9d76-4e4a-a04c-09e0529558e6)
+*Running:*  
+![image](https://github.com/user-attachments/assets/a6cd2278-1881-47b5-9a67-224d6cf5288e)  
+Volunteer with no activities this coming week:  
+![image](https://github.com/user-attachments/assets/ba20f897-4d18-4082-8d1b-7f4fdddf1932)  
+Volunteer not present/active:  
+![image](https://github.com/user-attachments/assets/49191562-d0c8-47aa-a01f-7f148363d3d0)  
+Volunteer with this week's activities:  
+![image](https://github.com/user-attachments/assets/ef712310-9d76-4e4a-a04c-09e0529558e6)  
   
 ### Main 2
 This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
@@ -408,14 +411,14 @@ A success or error notice is printed for each volunteer to log the result.
 At the end, a summary message confirms the process is complete.  
 (The code in the StageD folder)
   
-*Before*  
+*Before:*  
 ![image](https://github.com/user-attachments/assets/651ccaff-3182-4bce-bf65-84319f3784fe)
   
-*Running*
+*Running:*  
 ![image](https://github.com/user-attachments/assets/6e8ccaa9-c2c4-40cf-bffd-a5acf94457e6)
 ![image](https://github.com/user-attachments/assets/73965bcb-f681-44cf-b35c-0a9faf96db01)
   
-*After*  
+*After:*  
 ![image](https://github.com/user-attachments/assets/a410afc2-92e0-453b-b97d-2cddef177047)
   
 #### Trigger2- prevent inactive responsible
@@ -445,6 +448,6 @@ If no activity is found in the past week, a notice is printed and a single-row r
 Any unexpected error during execution is caught, a notice is printed, and a fallback cursor with NULL fields is returned.  
 (The code in the StageD folder)
   
-*Running*
+*Running:*  
 ![image](https://github.com/user-attachments/assets/3b8f6a20-b342-41e9-aa50-54ebc8641819)  
   
