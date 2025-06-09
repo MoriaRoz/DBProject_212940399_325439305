@@ -30,7 +30,7 @@ Moria Rozenfeld & Tehila Shraga
     - [Decisions](#Decisions)
     - [Integration process](#Integration-process)
 - [Views](#Views)
-- [PL/pgSQL programs](#PL/pgSQL-programs)
+- [PL/pgSQL programs](#PLpgSQL-programs)
     - [Main 1](#Main-1)
     - [Main 2](#Main-2)
 
