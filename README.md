@@ -302,8 +302,36 @@ Execution steps:
 ![image](https://github.com/user-attachments/assets/d86bd366-ea11-40eb-9479-eed202964c11)  
 
 #### Procedura1- assign assistants to future rides
+This procedure automatically assigns available transport assistants to future rides that do not yet have an assistant.  
+It first attempts to find an assistant from the same city as the ride destination. If no suitable city-based assistant is available, it looks for one from the same area.  
+It ensures that:  
+- Assistants are active.
+- There are no scheduling conflicts with other rides, volunteering, or events.
+- Assistants do not exceed the daily ride limit (3 per day, enforced via trigger).
+   
+If an assignment is successful, a confirmation notice is printed. If no suitable assistant is found, a warning is logged.  
+
 #### Trigger1- limit assistant rides
+This trigger function ensures that a transport assistant is not assigned to more than 3 rides on the same day.  
+When a new ride is inserted or updated:  
+- It checks the ride date using the linked volunteering event.  
+- If an assistant is assigned, it counts how many other rides they already have on that date.  
+- If the assistant has 3 or more rides, the function raises an exception and blocks the operation.  
+  
+The associated trigger trg_limit_assistant_rides is activated before any INSERT or UPDATE on the ride table, and enforces this daily ride limit per assistant.  
 #### Function1- volunteer schedule
+This function returns a refcursor containing the schedule of a given volunteer (v_id) for the upcoming week.  
+It performs the following:  
+- Verifies that the volunteer exists and is active.
+- Collects all activities scheduled for the next 7 days:
+    * Volunteering sessions
+    * Rides as a driver
+    * Rides as an assistant
+    * Events
+- If the volunteer has no upcoming activities, a fallback message is included.  
+  
+Results are returned in a sorted schedule (by date and time) via a cursor named 'schedule_cursor'.  
+
 ### Main 2
 This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
 Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.  
