@@ -313,7 +313,13 @@ If an assignment is successful, a confirmation notice is printed. If no suitable
   
 *Befor:*  
 ![image](https://github.com/user-attachments/assets/7c669c38-814e-4b0f-be4b-f32384287261)  
+  
+*Running:*  
+![image](https://github.com/user-attachments/assets/db70b1f2-aeb9-49a3-8e2e-bd6d21eeb6ab)
+  
 *After:*  
+![image](https://github.com/user-attachments/assets/440988af-d068-42af-962a-c8988f052f48)
+  
 
 #### Trigger1- limit assistant rides
 This trigger function ensures that a transport assistant is not assigned to more than 3 rides on the same day.  
