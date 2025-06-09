@@ -32,7 +32,7 @@ Moria Rozenfeld & Tehila Shraga
 - [Views](#Views)
 - [PL/pgSQL programs](#PLpgSQL-programs)
     - [Main 1](#Main-1)
-        - [Procedura1- assign assistants to future rides](#Procedura1-assign-assistants-to-future-rides)
+        - [Procedura1- assign assistants to future rides](#Procedura1--assign-assistants-to-future-rides)
         - [Trigger1- limit assistant rides](#Trigger1-limit-assistant-rides)
         - [Function1- volunteer schedule](#Function1-volunteer-schedule)
     - [Main 2](#Main-2)
