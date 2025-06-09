@@ -301,7 +301,9 @@ Execution steps:
 ![image](https://github.com/user-attachments/assets/dc0b9d53-da86-4236-ae77-c096ebb85c19)  
 ![image](https://github.com/user-attachments/assets/d86bd366-ea11-40eb-9479-eed202964c11)  
 
-
+#### Procedura1- assign assistants to future rides
+#### Trigger1- limit assistant rides
+#### Function1- volunteer schedule
 ### Main 2
 This program runs Procedure2- deactivate_inactive_volunteers which updates all volunteers who were not part of a volunteering/trip (as an assistant or driver)/event in the last six months as inactive.  
 Changing the Active field of a volunteer runs Trigger2- prevent_inactive_responsible which checks before updating a volunteer if he is responsible for a future event or responsible for a certain type of volunteering and if so does not allow him to be changed to inactive.  
