@@ -33,12 +33,12 @@ Moria Rozenfeld & Tehila Shraga
 - [PL/pgSQL programs](#PLpgSQL-programs)
     - [Main 1](#Main-1)
         - [Procedura1- assign assistants to future rides](#Procedura1--assign-assistants-to-future-rides)
-        - [Trigger1- limit assistant rides](#Trigger1-limit-assistant-rides)
-        - [Function1- volunteer schedule](#Function1-volunteer-schedule)
+        - [Trigger1- limit assistant rides](#Trigger1--limit-assistant-rides)
+        - [Function1- volunteer schedule](#Function1--volunteer-schedule)
     - [Main 2](#Main-2)
-        - [Procedura2- deactivate inactive volunteers](#Procedura2-deactivate-inactive-volunteers)
-        - [Trigger2- prevent inactive responsible](#Trigger2-prevent-inactive-responsible)
-        - [Function2- top 10 volunteers of week](#Function2-top-10-volunteers-of-week)
+        - [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
+        - [Trigger2- prevent inactive responsible](#Trigger2--prevent-inactive-responsible)
+        - [Function2- top 10 volunteers of week](#Function2--top-10-volunteers-of-week)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
