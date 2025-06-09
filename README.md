@@ -310,6 +310,10 @@ It ensures that:
 - Assistants do not exceed the daily ride limit (3 per day, enforced via trigger).
    
 If an assignment is successful, a confirmation notice is printed. If no suitable assistant is found, a warning is logged.  
+  
+*Befor:*  
+![image](https://github.com/user-attachments/assets/7c669c38-814e-4b0f-be4b-f32384287261)  
+*After:*  
 
 #### Trigger1- limit assistant rides
 This trigger function ensures that a transport assistant is not assigned to more than 3 rides on the same day.  
