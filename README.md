@@ -155,7 +155,7 @@ The system records information about volunteers, the various volunteering activi
    *After:*  
    ![image](https://github.com/user-attachments/assets/1fb6e158-180d-4076-ba47-2a58018d74b2)  
     
-3. **The query deletes all patients over the age of 120.**
+2. **The query deletes all patients over the age of 120.**
      
    *Before:*  
    ![image](https://github.com/user-attachments/assets/895c7bc7-6cf5-4166-a483-562685bc4ed8)
@@ -166,7 +166,7 @@ The system records information about volunteers, the various volunteering activi
    *After:*  
    ![image](https://github.com/user-attachments/assets/c6855ede-96ca-49c6-af0d-d4dcd181dc8b)
      
-4. **The query deletes events that were more than 5 years ago.**
+3. **The query deletes events that were more than 5 years ago.**
      
    *Before:*  
    ![image](https://github.com/user-attachments/assets/99e93c6c-fa23-4a7e-b5cf-57c2fe55cf74)
@@ -491,7 +491,66 @@ Work steps:
   - We used try/except to notify the user if there are errors without crashing the entire site.  
 
 App operating instructions:
-- Clicking the Personal Area button will pop up a message to enter a volunteer ID card and, if it exists, will lead to the screen [Personal area](#Personal-area)
+Each screen has a top bar with the following options:
+  - Clicking on the logo on the left will take you to the [Home screen](#Home-screen).
+  - Clicking the "Volunteers" button will lead to the [Volunteers screen](#Volunteers-screen)
+  - Clicking the "Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
+  - Clicking the "Rides" button will take you to the [Rides screen](#Rides-screen)
+
+#### Home screen
+  - Clicking the Personal Area button will pop up a message to enter a volunteer ID card and, if it exists, will lead to the screen [Personal area](#Personal-area)
+  - The display of the top 10 volunteers of the week is an implementation of function [Function2- top 10 volunteers of week](#Function2--top-10-volunteers-of-week)
+  - Clicking the "Volunteers" button will lead to the [Volunteers screen](#Volunteers-screen)
+  - Clicking the "Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
+  - Clicking the "Rides" button will take you to the [Rides screen](#Rides-screen)
 ![image](https://github.com/user-attachments/assets/ec10391d-cb30-4bc6-a33c-f2265188a2e3)
 
 #### Personal area
+  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.
+![image](https://github.com/user-attachments/assets/4b47d08f-7df1-4e3a-8649-4de4f96c2a46)
+  - The top table displays the volunteer's details with the option to update them.
+  - The table below shows the volunteer's schedule for the coming week and is an implementation of function [Function1- volunteer schedule](#Function1--volunteer-schedule)
+  
+#### Volunteers screen
+  - The top table allows you to search for a volunteer by ID- click the search button.
+      - After an existing volunteer is found, the fields are filled with their details and you can update or delete the volunteer by clicking the update and delete buttons.
+      - You can add a new volunteer by filling in all the details and clicking the add button.
+      - You can clear the contents of the fields by clicking the clear button.
+  - The table below shows all volunteers in the database including their driver/assistant classification.
+  - There is a button in the top bar, clicking on which activates the procedure [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
+  - There is a button in the top bar, clicking on it activates [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.
+
+#### Volunteering screen
+  - The top table allows you to search for a volunteering by date, location and hour-click the search button.
+      - After an existing volunteering is found, the fields are filled with the details and you can update or delete the volunteering by clicking the update and delete buttons.
+      - You can add a new volunteering by filling in all the details and clicking the add button.
+      - You can clear the contents of the fields by clicking the clear button.
+  - The table below shows all the volunteering opportunities in the database and for each one, whether there is a trip and the participating volunteers:
+      - If there is a trip, clicking on the ambulance will lead to [Ride details screen](#Ride-details-screen)
+      - If there is no trip, clicking on the X will pop up a question asking if you want to add a trip and if so, it will open [Add ride screen](#Add-ride-screen)
+      - Clicking on the kid's drawing will lead to [Volunteer Participation Screen](#Volunteer-Participation-Screen)
+#### Rides screen
+  - The top table allows you to search for a ride by destination, driver, pickup time-  click the search button.
+      - After an existing ride is found, the fields are filled with their details and you can update or delete the volunteer by clicking the update and delete buttons.
+      - You can clear the contents of the fields by clicking the clear button.
+  - The table below shows all rides in the database.
+#### Volunteer Participation Screen
+  - There is a display of volunteer details.
+  - Back button to the [Volunteering screen](#Volunteering-screen) page
+  - Clicking the Update shifts button activates [Update queries](#Update-queries) 3 that volunteers under the age of 18 are only allowed to be on the morning shift
+  - The table displays all volunteers who participate in volunteering from the volunteer participation table with their full name, phone number and age.
+  - There is an option to add a volunteer to volunteer - Select ID, shift - Click the add button
+  - There is an option to delete a volunteer from volunteering - Write the ID of a participating volunteer - Click the delete button
+#### Ride details screen
+  - The top two tables display the ride details with the Date, Hour, City, and Patient ID fields from the Volunteering table associated with the ride.
+  - The tables below show:
+      - For the driver of the ride - ID, name, phone number
+      - For the assistant (if any) - ID, name, phone number
+      - For vehicle - ID, license plate, type, and capacity
+      - A table showing the volunteers participating in the volunteering and each one's ID, name, and phone number.
+#### Add ride screen
+  - The date, time and location of the volunteering are displayed.
+  - You need to select a pickup time and address- clicking on Search available staff will display tables of drivers and vehicles that are available on the selected date and time.
+  - You can add a ride after selecting a vehicle and driver - Add a ride
+  - You can choose to add an assistant to the ride - Add an assistant 
+    and after selecting an assistant, add the ride.
