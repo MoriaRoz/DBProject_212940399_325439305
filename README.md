@@ -477,14 +477,21 @@ Any unexpected error during execution is caught, a notice is printed, and a fall
 ![image](https://github.com/user-attachments/assets/3b8f6a20-b342-41e9-aa50-54ebc8641819)  
 
 ## Graphical interface
-  Tools and technologies:
-• Programming language: Python
-• User interface construction: HTML, CSS, JavaScript
-• Server: Flask
-• Query language, procedures and functions: SQL and PL/pgSQL
+Tools and technologies:
+  - Programming language: Python
+  - User interface construction: HTML, CSS, JavaScript
+  - Server: Flask
+  - Query language, procedures and functions: SQL and PL/pgSQL
+  
 Work steps:
-• We created a connection to our database.
-• We created 7 screens using HTML, CSS, JavaScript to display the tables: Volunteering, Volunteers, Trips and Volunteer Participation, plus a home screen, a personal area screen, and a display of a specific volunteer trip.
-• For each screen, we wrote a function in Flask that activates it, including retrieving, creating, deleting and updating data from the database and running queries appropriate for these operations.
-• We also wrote functions that cause the activation of functions and procedures existing in the database from the previous steps.
-• We used try/except to notify the user if there are errors without crashing the entire site.
+  - We created a connection to our database.
+  - We created 7 screens using HTML, CSS, JavaScript to display the tables: Volunteering, Volunteers, Trips and Volunteer Participation, plus a home screen, a personal area screen, and a display of a specific volunteer trip.
+  - For each screen, we wrote a function in Flask that activates it, including retrieving, creating, deleting and updating data from the database and running queries appropriate for these operations.
+  - We also wrote functions that cause the activation of functions and procedures existing in the database from the previous steps.
+  - We used try/except to notify the user if there are errors without crashing the entire site.  
+
+App operating instructions:
+- Clicking the Personal Area button will pop up a message to enter a volunteer ID card and, if it exists, will lead to the screen [Personal area](#Personal-area)
+![image](https://github.com/user-attachments/assets/ec10391d-cb30-4bc6-a33c-f2265188a2e3)
+
+#### Personal area
