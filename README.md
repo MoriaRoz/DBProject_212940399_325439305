@@ -501,37 +501,38 @@ Each screen has a top bar with the following options:
   - Clicking the "Rides" button will take you to the [Rides screen](#Rides-screen)
 
 #### Home screen
-  - Clicking the Personal Area button will pop up a message to enter a volunteer ID card and, if it exists, will lead to the screen [Personal area](#Personal-area)
-  - The display of the top 10 volunteers of the week is an implementation of function [Function2- top 10 volunteers of week](#Function2--top-10-volunteers-of-week)
+  - Clicking on the "Personal Area" button will pop up a message to enter a volunteer ID and, if it exists, will lead to the screen [Personal area](#Personal-area)
+  - The display of the top 10 volunteers of the week is an implementation of [Function2- top 10 volunteers of week](#Function2--top-10-volunteers-of-week)
   - Clicking the "Volunteers" button will lead to the [Volunteers screen](#Volunteers-screen)
   - Clicking the "Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
-  - Clicking the "Rides" button will take you to the [Rides screen](#Rides-screen)
+  - Clicking the "Rides" button will take you to the [Rides screen](#Rides-screen)  
 ![image](https://github.com/user-attachments/assets/2485c58c-0000-4392-ab90-f706ed142a49)
 
 #### Personal area
   - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.  
 ![image](https://github.com/user-attachments/assets/4b47d08f-7df1-4e3a-8649-4de4f96c2a46)  
-  
   - The top table displays the volunteer's details with the option to update them.
-  - The table below shows the volunteer's schedule for the coming week and is an implementation of function [Function1- volunteer schedule](#Function1--volunteer-schedule)
-  
-#### Volunteers screen
-  - The top table allows you to search for a volunteer by ID- click the search button.
-      - After an existing volunteer is found, the fields are filled with their details and you can update or delete the volunteer by clicking the update and delete buttons.
-      - You can add a new volunteer by filling in all the details and clicking the add button.
-      - You can clear the contents of the fields by clicking the clear button.
-  - The table below shows all volunteers in the database including their driver/assistant classification.
-  - There is a button in the top bar, clicking on which activates the procedure [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
-  - There is a button in the top bar, clicking on it activates [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.
+  - The table below shows the volunteer's schedule for the coming week and is an implementation of [Function1- volunteer schedule](#Function1--volunteer-schedule)
 
+#### Volunteers screen
+  - The top table allows you to search for a volunteer by ID
+      - Enter ID -> click the search button.
+      - After an existing volunteer is found, the fields are filled with their details:
+          - To update the volunteer insert the new fields ->clicking the update button.
+          - To delete the volunteer -> clicking the delete button.
+      - To add a new volunteer filling in all the details -> clicking the add button.
+      - To clear the contents of the fields -> clicking the clear button.
+  - The table below shows all volunteers in the database including their driver/assistant classification.
+  - Clicking on "Deactivate Inactive Volunteers" button activates the [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
+  - Clicking on "Deleting Inactive Volunteers" button activates the  [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.
 #### Volunteering screen
   - The top table allows you to search for a volunteering by date, location and hour-click the search button.
       - After an existing volunteering is found, the fields are filled with the details and you can update or delete the volunteering by clicking the update and delete buttons.
       - You can add a new volunteering by filling in all the details and clicking the add button.
       - You can clear the contents of the fields by clicking the clear button.
-  - The table below shows all the volunteering opportunities in the database and for each one, whether there is a trip and the participating volunteers:
-      - If there is a trip, clicking on the ambulance will lead to [Ride details screen](#Ride-details-screen)
-      - If there is no trip, clicking on the X will pop up a question asking if you want to add a trip and if so, it will open [Add ride screen](#Add-ride-screen)
+  - The table below shows all the volunteering opportunities in the database and for each one, whether there is a ride and the participating volunteers:
+      - If there is a ride, clicking on the ambulance will lead to [Ride details screen](#Ride-details-screen)
+      - If there is no ride, clicking on the X will pop up a question asking if you want to add a ride and if so, it will open [Add ride screen](#Add-ride-screen)
       - Clicking on the kid's drawing will lead to [Volunteer Participation Screen](#Volunteer-Participation-Screen)
 #### Rides screen
   - The top table allows you to search for a ride by destination, driver, pickup time-  click the search button.
