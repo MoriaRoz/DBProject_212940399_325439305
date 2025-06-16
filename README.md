@@ -506,7 +506,7 @@ Each screen has a top bar with the following options:
 ![image](https://github.com/user-attachments/assets/2485c58c-0000-4392-ab90-f706ed142a49)
 
 #### Personal area
-  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.
+  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.  
 ![image](https://github.com/user-attachments/assets/4b47d08f-7df1-4e3a-8649-4de4f96c2a46)  
   
   - The top table displays the volunteer's details with the option to update them.
