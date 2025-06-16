@@ -525,7 +525,9 @@ Each screen has a top bar with the following options:
       - To clear the contents of the fields -> clicking the clear button.
   - The table below shows all volunteers in the database including their driver/assistant classification.
   - Clicking on "Deactivate Inactive Volunteers" button activates the [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
-  - Clicking on "Deleting Inactive Volunteers" button activates the  [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.
+  - Clicking on "Deleting Inactive Volunteers" button activates the  [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.  
+![image](https://github.com/user-attachments/assets/b7116621-cc19-4a4b-8c34-ceef9e6944e1)
+
 #### Volunteering screen
   - The top table allows you to search for a volunteering by date, location and hour
       - Enter date, location and hour -> click the search button.
