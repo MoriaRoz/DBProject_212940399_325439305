@@ -40,6 +40,9 @@ Moria Rozenfeld & Tehila Shraga
         - [Trigger2- prevent inactive responsible](#Trigger2--prevent-inactive-responsible)
         - [Function2- top 10 volunteers of week](#Function2--top-10-volunteers-of-week)
 - [Graphical interface](#Graphical-interface)
+    - [Tools and technologies](#Tools-and-technologies)
+    - [Work step](#Work-step)
+    - [App operating instructions](#App-operating-instructions)
 
 ## Introduction  
 Ezer Mitzion's volunteer management system is used to manage and organize volunteers, volunteer activities with patients, and events intended for volunteers.  
@@ -477,20 +480,20 @@ Any unexpected error during execution is caught, a notice is printed, and a fall
 ![image](https://github.com/user-attachments/assets/3b8f6a20-b342-41e9-aa50-54ebc8641819)  
 
 ## Graphical interface
-Tools and technologies:
+### Tools and technologies
   - Programming language: Python
   - User interface construction: HTML, CSS, JavaScript
   - Server: Flask
   - Query language, procedures and functions: SQL and PL/pgSQL
   
-Work steps:
+### Work steps
   - We created a connection to our database.
   - We created 7 screens using HTML, CSS, JavaScript to display the tables: Volunteering, Volunteers, Trips and Volunteer Participation, plus a home screen, a personal area screen, and a display of a specific volunteer trip.
   - For each screen, we wrote a function in Flask that activates it, including retrieving, creating, deleting and updating data from the database and running queries appropriate for these operations.
   - We also wrote functions that cause the activation of functions and procedures existing in the database from the previous steps.
   - We used try/except to notify the user if there are errors without crashing the entire site.  
 
-App operating instructions:
+### App operating instructions
 Each screen has a top bar with the following options:
   - Clicking on the logo on the left will take you to the [Home screen](#Home-screen).
   - Clicking the "Volunteers" button will lead to the [Volunteers screen](#Volunteers-screen)
