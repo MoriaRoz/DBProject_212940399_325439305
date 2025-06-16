@@ -554,8 +554,8 @@ Each screen has a top bar with the following options:
   - On the left side, a display of volunteering details
   - Clicking the "Back to Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
   - Clicking the Update Shifts button activates [Update queries](#Update-queries) 3 that volunteers under the age of 18 are only allowed to be on the morning shift.
-  - The table displays all volunteers participating in volunteering from the volunteer participation table with their full name, phone number and age.
-  - To add a volunteer to volunteer
+  - The table displays all volunteers participating in volunteering from the volunteering participation table with their full name, phone number and age.
+  - To add a volunteer to volunteering
       - Select an ID, shift -> click the add button.
   - To delete a volunteer from volunteering
       - Select the ID -> click the delete button.
