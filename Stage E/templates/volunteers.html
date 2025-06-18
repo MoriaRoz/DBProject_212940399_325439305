@@ -167,16 +167,40 @@ function handleRoleChange() {
         return;
     }
 
+    // איפוס שדות
     document.getElementById("license_number").value = "";
     document.getElementById("night_avail").value = "";
     document.getElementById("has_medical_training").value = "";
 
-    if (role === "Driver" || role === "Driver/Assistant") {
-        const license = prompt("Enter license number (integer):");
-        const night = prompt("Available at night? (Y/N):");
+    // אם התפקיד הוא None, לא צריך לאסוף מידע נוסף
+    if (role === "None") {
+        return;
+    }
 
-        if (license === null || night === null || !/^\d+$/.test(license) || !/^[YN]$/.test(night.toUpperCase())) {
-            alert("❌ Invalid input for driver fields.");
+    let license = null;
+    let night = null;
+    let medical = null;
+
+    // אסוף מידע לנהג אם התפקיד כולל נהיגה
+    if (role === "Driver" || role === "Driver/Assistant") {
+        license = prompt("Enter license number (integer):");
+        if (license === null) {
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+        if (!/^\d+$/.test(license)) {
+            alert("❌ License number must be a valid integer.");
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+
+        night = prompt("Available at night? (Y/N):");
+        if (night === null) {
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+        if (!/^[YN]$/i.test(night)) {
+            alert("❌ Night availability must be Y or N.");
             document.getElementById("role-select").value = currentRole;
             return;
         }
@@ -185,11 +209,15 @@ function handleRoleChange() {
         document.getElementById("night_avail").value = night.toUpperCase();
     }
 
+    // אסוף מידע למלווה אם התפקיד כולל ליווי
     if (role === "Assistant" || role === "Driver/Assistant") {
-        const medical = prompt("Has medical training? (Y/N):");
-
-        if (medical === null || !/^[YN]$/.test(medical.toUpperCase())) {
-            alert("❌ Invalid input for assistant field.");
+        medical = prompt("Has medical training? (Y/N):");
+        if (medical === null) {
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+        if (!/^[YN]$/i.test(medical)) {
+            alert("❌ Medical training must be Y or N.");
             document.getElementById("role-select").value = currentRole;
             return;
         }
@@ -220,11 +248,36 @@ function handleDelete() {
         return;
     }
 
-    if (confirm('Are you sure you want to delete this volunteer?')) {
-        document.getElementById('delete-volunteer-id').value = volunteerId;
-        document.getElementById('delete-form').submit();
+    if (!confirm('Are you sure you want to delete this volunteer?')) {
+        return;
     }
+
+    // שולח בקשת מחיקה דרך fetch במקום לשלוח את הטופס הישן
+    fetch("/delete_volunteer", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: new URLSearchParams({
+            volunteer_id: volunteerId
+        })
+    }).then(async response => {
+        if (response.status === 409) {
+            const data = await response.json();
+            const confirmMsg = "This volunteer is a driver in a ride. Do you also want to delete the ride?";
+            if (confirm(confirmMsg)) {
+                window.location.href = data.redirect_url;
+            }
+        } else if (response.redirected) {
+            window.location.href = response.url;
+        } else {
+            location.reload();  // מקרה כללי, פשוט מרענן
+        }
+    }).catch(error => {
+        alert("❌ Error deleting volunteer: " + error);
+    });
 }
+
 
 function clearForm() {
     // ניקוי כל השדות בטופס
