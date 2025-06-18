@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer Department</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="headerHome">
+    <img src="{{ url_for('static', filename='images/logo-Sh.png') }}" alt="Logo" class="logoHome">
+    <div class="nav-buttons">
+        <a href="{{ url_for('volunteers') }}" class="nav-button">Volunteers👥</a>
+        <a href="{{ url_for('volunteering') }}" class="nav-button">Volunteering🕒</a>
+        <a href="{{ url_for('rides') }}" class="nav-button">Rides🚗</a>
+    </div>
+    <a href="#" onclick="openIdPrompt()" class="personal-area-button">Personal Area</a>
+</div>
+
+
+<div class="content">
+    <div class="about">
+        <h3>About us:</h3>
+        <p>
+            Ezer Mitzion's volunteer management system is used to manage and organize volunteers,
+            volunteer activities with patients, rides for patients and events intended for volunteers.
+            The system records information about volunteers, the various volunteering activities, patients,
+            events, rides, cities across the country, and the areas of volunteering that take place in the organization.
+        </p>
+    </div>
+
+    <div class="standouts">
+        <h3>This week's standouts 🏆</h3>
+        <div class="columns">
+            <div class="column">
+                {% for i in range(5) %}
+                <p>{{ i+1 }}. {{ volunteers[i] }}</p>
+                {% endfor %}
+            </div>
+            <div class="column">
+                {% for i in range(5, 10) %}
+                <p>{{ i+1 }}. {{ volunteers[i] }}</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-image">
+    <img src="{{ url_for('static', filename='images/volunteering_image33.png') }}" alt="Volunteer Image">
+</div>
+
+</body>
+
+<script>
+    function openIdPrompt() {
+        const id = prompt("Enter volunteer ID:");
+        if (id) {
+            // מפנה את המשתמש לכתובת עם תעודת הזהות
+            window.location.href = `/personal_area/${id}`;
+        }
+    }
+</script>
+
+</html>
