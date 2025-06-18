@@ -509,7 +509,7 @@ Each screen has a top bar with the following options:
 ![image](https://github.com/user-attachments/assets/3280002c-f317-4de8-8b09-da90e9d293f3)
 
 #### Personal area
-  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.
+  - After clicking the "personal area" button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.
   
 ![image](https://github.com/user-attachments/assets/8fd54bdc-c7c3-4d0c-ba96-12151bd99a5c)  
 
@@ -521,10 +521,10 @@ Each screen has a top bar with the following options:
   - The top table allows you to search for a volunteer by ID
       - Enter ID -> click the search button.
       - After an existing volunteer is found, the fields are filled with their details:
-          - To update the volunteer insert the new fields ->clicking the update button.
-          - To delete the volunteer -> clicking the delete button.
-      - To add a new volunteer filling in all the details -> clicking the add button.
-      - To clear the contents of the fields -> clicking the clear button.
+          - To update the volunteer insert the new fields ->clicking the "update" button.
+          - To delete the volunteer -> clicking the "delete" button.
+      - To add a new volunteer filling in all the details -> clicking the "add" button.
+      - To clear the contents of the fields -> clicking the "clear" button.
       - When adding/updating after selecting a role, messages pop up to enter the fields according to the role.
   - The table below shows all volunteers in the database including their driver/assistant classification.
   - Clicking on "Deactivate Inactive Volunteers" button activates the [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
@@ -539,12 +539,12 @@ Each screen has a top bar with the following options:
 
 #### Volunteering screen
   - The top table allows you to search for a volunteering by date, location and hour
-      - Enter date, location and hour -> click the search button.
+      - Enter date, location and hour -> click the "search" button.
       - After an existing volunteering is found, the fields are filled with the details:
-          - To update volunteering insert the new fields -> clicking the update button.
-          - To delete the volunteering -> clicking the delete button.
-      - To add a new volunteering filling in all the details -> clicking the add button.
-      - To clear the contents of the fields -> clicking the clear button.
+          - To update volunteering insert the new fields -> clicking the "update" button.
+          - To delete the volunteering -> clicking the "delete" button.
+      - To add a new volunteering filling in all the details -> clicking the "add" button.
+      - To clear the contents of the fields -> clicking the "clear" button.
   - The table below shows all volunteering in the database and for each one, whether there is a ride and the participating volunteers:
       - Clicking on the ambulance will lead to [Ride details screen](#Ride-details-screen)
       - Clicking on the X will pop up a question asking if you want to add a ride and if so, it will open [Add ride screen](#Add-ride-screen)
@@ -553,23 +553,23 @@ Each screen has a top bar with the following options:
 
 #### Rides screen
   - The top table allows you to search for a ride by destination, driver, pickup time
-      - Enter destination, driver, pickup time -> click the search button.
+      - Enter destination, driver, pickup time -> click the "search" button.
       - After an existing ride is found, the fields are filled with their details:
-          - To update the ride insert the new fields -> clicking the update button.
-          - To delete the ride -> clicking the delete buttons.
-      - To clear the contents of the fields -> clicking the clear button.
+          - To update the ride insert the new fields -> clicking the "update" button.
+          - To delete the ride -> clicking the "delete" buttons.
+      - To clear the contents of the fields -> clicking the "clear" button.
   - The table below shows all rides in the database.  
 ![image](https://github.com/user-attachments/assets/e0355e66-67cc-4b40-92b6-e1928b9d0477)
 
 #### Volunteer Participation Screen
   - On the left side, a display of volunteering details
   - Clicking the "Back to Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
-  - Clicking the Update Shifts button activates [Update queries](#Update-queries) 3 that volunteers under the age of 18 are only allowed to be on the morning shift.
+  - Clicking the "Update Shifts" button activates [Update queries](#Update-queries) 3 that volunteers under the age of 18 are only allowed to be on the morning shift.
   - The table displays all volunteers participating in volunteering from the volunteering participation table with their full name, phone number and age.
   - To add a volunteer to volunteering
-      - Select an ID, shift -> click the add button.
+      - Select an ID, shift -> click the "add" button.
   - To delete a volunteer from volunteering
-      - Select the ID -> click the delete button.
+      - Select the ID -> click the "delete" button.
 ![image](https://github.com/user-attachments/assets/2e542409-ec92-413f-9da3-2eb09a24a4b9)
 
 #### Ride details screen
@@ -586,10 +586,10 @@ Each screen has a top bar with the following options:
   - The date, time and location of the volunteering are displayed.
   - You must select a pickup time and address -> Clicking on Search for Available Crew
       - display tables of drivers and vehicles available on the selected date and time.
-      - After selecting a vehicle and driver -> Update selection
-          - Add a trip without an assistant -> Add a trip
-          - Add a trip with an assistant -> Add an assistant
-              -select an assistant and then-> Click on Add a trip
+      - After selecting a vehicle and driver -> "Update selection" button.
+          - Add a ride without an assistant ->  click the "Add ride" button.
+          - Add a ride with an assistant ->  click the "Add assistant" button.
+              -select an assistant and then-> Click the "Add ride" button.
 - Clicking the "Back to Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
 
 ![image](https://github.com/user-attachments/assets/0b31938e-ffb5-4edd-bed0-5cf470fd456a)  
