@@ -1,0 +1,401 @@
+﻿Name,City_id,Area
+Abshalom,1,South
+Achuzam,2,South
+Aderet,3,Center
+Adorim,4,Judea and Samaria
+Afula,5,North
+Akko,6,North
+Ali,7,Judea and Samaria
+Ali Zahav,8,Judea and Samaria
+Almagor,9,North
+Alon Moreh,10,Judea and Samaria
+Alon Shvut,11,Judea and Samaria
+Alonei Hasban,12,North
+Alumim,13,South
+Amioz,14,South
+Amonim,15,South
+Ani'am,16,North
+Ariel,17,Judea and Samaria
+As'el,18,Judea and Samaria
+Ashdod,19,Center
+Ashdot Ya'akov,20,North
+Ashkelon,21,South
+Ateret,22,Judea and Samaria
+Aviezer,23,Jerusalem
+Avigdor,24,South
+Avivim,25,North
+Avnat,26,South
+Avni Chefetz,27,Judea and Samaria
+Avni Eitan,28,North
+Ayalot,29,South
+Azrikam,30,Center
+Barkan,31,Judea and Samaria
+Bat Ein,32,Judea and Samaria
+Bat Yam,33,Gush Dan
+Beer Ganim,34,South
+Beer Ora,35,South
+Beer Sheva,36,South
+Beeri,37,South
+Beerot Yitzhak,38,Center
+Beit Alpha,39,North
+Beit Arie,40,Judea and Samaria
+Beit El,41,Judea and Samaria
+Beit Guvrin,42,Jerusalem
+Beit Hagadi,43,South
+Beit Haggai,44,Judea and Samaria
+Beit Hashita,45,North
+Beit Hilkiah,46,South
+Beit Hillel,47,North
+Beit Kama,48,South
+Beit Meir,49,Jerusalem
+Beit Nir,50,South
+Beit She'an,51,North
+Beit Shemesh,52,Jerusalem
+Beit Yanai,53,North
+Beitar Ilit,54,Jerusalem
+Benimina,55,North
+Beror Chail,56,South
+Bnei Ayish,57,Center
+Bnei Brak,58,Gush Dan
+Bnei Darom,59,South
+Bnei Reem,60,Center
+Bnei Yehuda,61,North
+Bneu Dekalim,62,South
+Brechia,63,South
+Brochin,64,Judea and Samaria
+Caesarea,65,North
+Castle,66,Jerusalem
+Chad Nes,67,North
+Chalets,68,South
+Chofetz Chaim,69,Center
+Dafna,70,North
+Degania A,71,North
+Degania B,72,North
+Dekel,73,South
+Dimona,74,South
+Dolev,75,Judea and Samaria
+Dorot,76,South
+Efrat,77,Judea and Samaria
+Eilat,78,South
+Ein Gedi,79,South
+Ein Habesor,80,South
+Ein Ha'horesh,81,Center
+Ein Hanatziv,82,North
+Ein Harod,83,North
+Ein Ha'Shlosha,84,South
+Ein Yahav,85,South
+Ein Zurim,86,South
+Einav,87,Judea and Samaria
+Eitan,88,South
+Elad,89,Center
+Elezar,90,Judea and Samaria
+Eliad,91,North
+Eliav,92,South
+Elifaz,93,South
+Emmanuel,94,Judea and Samaria
+Erez,95,South
+Eshtaol,96,Jerusalem
+Even Shmuel,97,South
+Even Yehuda,98,Center
+Evron,99,North
+Faren,100,South
+Gaash,101,South
+Gadot,102,North
+Gal'on,103,South
+Gan Yavneh,104,Center
+Gani Tal,105,Center
+Gedera,106,Center
+Gevim,107,South
+Gezer,108,Center
+Giv'at Ada,109,North
+Giv'at Brenner,110,Center
+Giv'at Haim,111,North
+Giv'at Olga,112,North
+Giv'at Shmuel,113,Gush Dan
+Giv'at Washington,114,Center
+Giv'at Yoav,115,North
+Giv'atayim,116,Gush Dan
+Hadera,117,North
+Hagor,118,Center
+Haifa,119,North
+Hanita,120,North
+Har Bracha,121,Judea and Samaria
+Harish,122,North
+Hashmonaim,123,Center
+Havat Yair,124,Judea and Samaria
+Hazor'im,125,North
+Hebron,126,Judea and Samaria
+Hemed,127,Center
+Hemedat,128,North
+Herzliya,129,Gush Dan
+Hetzrim,130,South
+Hispin,131,North
+Hod Hasharon,132,Gush Dan
+Holon,133,Gush Dan
+Horshim,134,Center
+Hulit,135,South
+Ibim,136,South
+Idan,137,South
+Iros,138,Center
+Itamar,139,Judea and Samaria
+Jerusalem,140,Jerusalem
+Kadima Zoran,141,Center
+Kanaf,142,South
+Karmiel,143,North
+Karmit,144,South
+Karmiya,145,South
+Karnei Shomron,146,Judea and Samaria
+Kerem Shalom,147,South
+Keshet,148,North
+Ketura,149,South
+Ketzrin,150,North
+Kfar Bilu,151,Center
+Kfar Blum,152,North
+Kfar Chabad,153,Center
+Kfar Darom,154,South
+Kfar Etzion,155,Judea and Samaria
+Kfar Gaza,156,South
+Kfar Giladi,157,North
+Kfar Haraeh,158,Center
+Kfar Harief,159,Center
+Kfar Masaryk,160,North
+Kfar Menachem,161,Center
+Kfar Ruth,162,Center
+Kfar Saba,163,Center
+Kfar Shmaryahu,164,Center
+Kfar Vitkin,165,Center
+Kfar Vradim,166,North
+Kfar Warburg,167,South
+Kfar Yehoshua,168,North
+Kfar Yona,169,Center
+Kinneret,170,North
+Kiryat Arba,171,Judea and Samaria
+Kiryat Ata,172,North
+Kiryat Bialik,173,North
+Kiryat Ekron,174,Center
+Kiryat Gat,175,South
+Kiryat Haim,176,North
+Kiryat Malachi,177,South
+Kiryat Motzkin,178,North
+Kiryat Ono,179,Gush Dan
+Kiryat Shmona,180,North
+Kiryat Tivon,181,North
+Kiryat Yam,182,North
+Kiryat Yearim,183,Jerusalem
+Kisufim,184,South
+Kokhav HaShachar,185,Judea and Samaria
+Kokhav Michael,186,South
+Kokhav Yaakov,187,Judea and Samaria
+Kokhav Yair,188,Center
+Kramei Katif,189,South
+Kramei Tzur,190,Judea and Samaria
+Kramim,191,South
+Lachish,192,South
+Lahav,193,South
+Lahavim,194,South
+Lavi,195,North
+Lod,196,Center
+Lotan,197,South
+Maagan Michael,198,North
+Maale HaChamisha,199,Jerusalem
+Maale Hever,200,Judea and Samaria
+Maalot,201,North
+Maccabim,202,Center
+Maean Zvi,203,North
+Magen,204,South
+Maon,205,Judea and Samaria
+Margaliot,206,North
+Maskeret Batya,207,Center
+Mechola,208,North
+Mefalsim,209,South
+Megido,210,North
+Meitar,211,South
+Menara,212,North
+Merhav Am,213,South
+Merkaz Shapira,214,South
+Meshuot Yitzhak,215,South
+Mesilat Zion,216,Center
+Metula,217,North
+Mevo Horon,218,Center
+Michmesh,219,Judea and Samaria
+Migdal,220,North
+Migdal HaEmek,221,North
+Migdal Oz,222,Judea and Samaria
+Migron,223,Judea and Samaria
+Mishan,224,South
+Mishmar HaEmek,225,North
+Mishmar Hashiva,226,Center
+Mishmoret,227,Center
+Mitzova,228,North
+Mitzpe Jericho,229,Judea and Samaria
+Mitzpe Ramon,230,South
+Mitzpe Shalem,231,South
+Mivaseret Zion,232,Jerusalem
+Mivtachim,233,South
+Modiin,234,Center
+Modiin Elite,235,Center
+Na'ala,236,Judea and Samaria
+Naama,237,Judea and Samaria
+Na'an,238,Center
+Nachshon,239,Jerusalem
+Nahal Oz,240,South
+Nahalal,241,North
+Nahriya,242,North
+Nahusheh,243,South
+Naria,244,Judea and Samaria
+Nator,245,North
+Nazareth,246,North
+Negba,247,South
+Negohot,248,Judea and Samaria
+Neot Smadar,249,South
+Nes Ziona,250,Center
+Nesher,251,North
+Neta,252,South
+Netafim,253,Judea and Samaria
+Netanya,254,Center
+Netivot,255,South
+Neve,256,South
+Neve Ativ,257,North
+Neve Daniel,258,Judea and Samaria
+Neve Ilan,259,Jerusalem
+Neve Michael,260,Jerusalem
+Neve Tzuf,261,Judea and Samaria
+Neve Zohar,262,South
+Nili,263,Judea and Samaria
+Nir Am,264,South
+Nir Chen,265,South
+Nir David,266,North
+Nir Oz,267,South
+Nir Yitzhak,268,South
+Nirim,269,South
+Nitzan,270,South
+Noam,271,South
+Nof Ayalon,272,Center
+Nofim,273,Judea and Samaria
+Nordia,274,Center
+Nov,275,North
+Nuga,276,South
+Ofakim,277,South
+Ofra,278,Judea and Samaria
+Ohad,279,South
+Omer,280,South
+Or Akiva,281,North
+Or Haner,282,South
+Or Yehuda,283,Center
+Ortal,284,North
+Otniel,285,Judea and Samaria
+Otzem,286,South
+Palmahim,287,Center
+Pardes Hana-Karkur,288,North
+Patish,289,South
+Peduel,290,Judea and Samaria
+Petah Tikva,291,Gush Dan
+Psagot,292,Judea and Samaria
+Ra'anana,293,Center
+Ramat David,294,North
+Ramat Gan,295,Gush Dan
+Ramat Hasharon,296,Gush Dan
+Ramat HaShofet,297,North
+Ramat Magshimim,298,North
+Ramat Rachel,299,Jerusalem
+Ramat Raziel,300,Jerusalem
+Ramat Yishai,301,North
+Ramat Yohanan,302,North
+Ramla,303,Center
+Ramot,304,North
+Rechsim,305,North
+Rehalim,306,Judea and Samaria
+Rehovot,307,Center
+Reim,308,South
+Reut,309,Center
+Revva,310,Judea and Samaria
+Revvadim,311,Center
+Rishon Lezion,312,Gush Dan
+Roei,313,Judea and Samaria
+Rosh HaAyin,314,Center
+Rosh Hanikra,315,North
+Rosh Zurim,316,Judea and Samaria
+Rotem,317,Judea and Samaria
+Saad,318,South
+Safet,319,North
+Sansana,320,South
+Sapir,321,South
+Sasa,322,North
+Sde Boker,323,South
+Sde David,324,South
+Sde Eliyahu,325,North
+Sde Moshe,326,South
+Sde Nehemiah,327,North
+Sde Nitzan,328,South
+Sde Uziyahu,329,South
+Sde Yaakov,330,North
+Sde Yoav,331,South
+Sedot Yam,332,North
+Sedrot,333,South
+Shaar HaGolan,334,North
+Shachar,335,South
+Shadmot Meholah,336,North
+Shalwa,337,South
+Shekef,338,South
+Shfaim,339,Center
+Shila,340,Judea and Samaria
+Shimaa,341,Judea and Samaria
+Shirigim Li On,342,South
+Shitim,343,South
+Shoham,344,Center
+Sholomi,345,North
+Sholomit,346,South
+Shomaria,347,Judea and Samaria
+Shoresh,348,Jerusalem
+Shoval,349,South
+Shtula,350,North
+Shtulim,351,South
+Shuva,352,South
+Sufa,353,South
+Susya,354,Judea and Samaria
+Talmon,355,Judea and Samaria
+Tarom,356,Jerusalem
+Tauz,357,Jerusalem
+Tel Aviv,358,Gush Dan
+Tel Mond,359,Center
+Tel Yosef,360,דצ
+Telem,361,Judea and Samaria
+Tena Omerim,362,Judea and Samaria
+Tiberias,363,North
+Tirat Carmel,364,North
+Tirat Yehuda,365,Center
+Tirat Zvi,366,North
+Tkoma,367,South
+Tlamim,368,South
+Tomer,369,Center
+Tze'elim,370,South
+Tzofer,371,South
+Tzukim,372,South
+Urim,373,South
+Yad Binyamin,374,Center
+Yad Mordechai,375,South
+Yad Nathan,376,South
+Yafo,377,Gush Dan
+Yagur,378,North
+Yahel,379,South
+Yakir,380,Judea and Samaria
+Yakum,381,Center
+Yated,382,South
+Yavneh,383,Center
+Yavul,384,South
+Yehiaim,385,North
+Yehud,386,Center
+Yerucham,387,South
+Yesha,388,South
+Yesod Hama'el,389,North
+Yetveta,390,South
+Yifat,391,North
+Yiftah,392,North
+Yitzhar,393,Judea and Samaria
+Yokneam,394,North
+Yokneam Ilit,395,North
+Yonatan,396,North
+Zikhron Ya'akov,397,North
+Zikim,398,South
+Zimrat,399,South
+Zohar,400,South
