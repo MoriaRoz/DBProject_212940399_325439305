@@ -1,7 +1,7 @@
 import flask
 from flask import Flask, render_template, request, redirect, url_for, flash
 import psycopg2
-from psycopg2 import errors
+from psycopg2 import errors, sql
 
 app = Flask(__name__)
 
@@ -198,20 +198,36 @@ def volunteers():
                     """, (volunteer_id, first_name, last_name, birthday, phone, active, city))
 
                 # טיפול בתפקידים
-                if new_role != current_role or not exists:
+                # בדיקה אם צריך לעדכן תפקיד: אם הוא השתנה, או אם יש בעיה בקשר מול הטבלאות
+                needs_role_update = (
+                        new_role != current_role or
+                        not exists or
+                        (new_role == "Driver" and not record_exists(cur, "driver", volunteer_id)) or
+                        (new_role == "Assistant" and not record_exists(cur, "transport_assistant", volunteer_id)) or
+                        (new_role == "Driver/Assistant" and (
+                                not record_exists(cur, "driver", volunteer_id) or
+                                not record_exists(cur, "transport_assistant", volunteer_id)
+                        ))
+                )
+
+                if needs_role_update:
+                    # מחיקת כל התפקידים הקודמים
                     cur.execute("DELETE FROM driver WHERE volunteer_id = %s", (volunteer_id,))
                     cur.execute("DELETE FROM transport_assistant WHERE volunteer_id = %s", (volunteer_id,))
 
+                    # הכנסת התפקיד החדש/ים
                     if new_role == "Driver":
                         cur.execute("""
                             INSERT INTO driver (volunteer_id, license_number, night_avail)
                             VALUES (%s, %s, %s)
                         """, (volunteer_id, license_number, night_avail))
+
                     elif new_role == "Assistant":
                         cur.execute("""
                             INSERT INTO transport_assistant (volunteer_id, has_medical_training)
                             VALUES (%s, %s)
                         """, (volunteer_id, has_medical_training))
+
                     elif new_role == "Driver/Assistant":
                         cur.execute("""
                             INSERT INTO driver (volunteer_id, license_number, night_avail)
@@ -271,6 +287,12 @@ def volunteers():
         role=role,
         js_alert=js_alert
     )
+
+def record_exists(cur, table, volunteer_id):
+    cur.execute(sql.SQL("SELECT 1 FROM {} WHERE volunteer_id = %s").format(sql.Identifier(table)), (volunteer_id,))
+    return cur.fetchone() is not None
+
+
 @app.route("/delete_volunteer", methods=["POST"])
 def delete_volunteer():
     volunteer_id = request.form.get("volunteer_id")
@@ -306,6 +328,10 @@ def delete_volunteer():
 
     return redirect(url_for('volunteers'))
 def delete_volunteer_everywhere(cur, volunteer_id):
+    cur.execute("""UPDATE ride 
+                    SET assistant_id = NULL 
+                    WHERE assistant_id =%s""", (volunteer_id,))
+
     cur.execute("DELETE FROM event_participation WHERE volunteer_id = %s", (volunteer_id,))
     cur.execute("DELETE FROM volunteering_participation WHERE volunteer_id = %s", (volunteer_id,))
     cur.execute("DELETE FROM driver WHERE volunteer_id = %s", (volunteer_id,))
