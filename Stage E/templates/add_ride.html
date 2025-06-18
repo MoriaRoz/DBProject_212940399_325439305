@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Ride</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="header">
+    <a href="/"><img src="{{ url_for('static', filename='images/logo-Sh.png') }}" alt="Logo" class="logo"></a>
+    <h2 class="AR-page-title">Add Ride to Volunteering #{{ volunteering_id }}</h2>
+    <div class="nav-buttons">
+        <a href="{{ url_for('volunteers') }}" class="nav-button">Volunteers</a>
+        <a href="{{ url_for('volunteering') }}" class="nav-button">Volunteering</a>
+        <a href="{{ url_for('rides') }}" class="nav-button">Rides</a>
+    </div>
+</div>
+
+<div class="AR-volunteering-info-bar">
+    <div><strong>Date:</strong> {{ volunteering_info[0] }}</div>
+    <div><strong>Hour:</strong> {{ volunteering_info[1] }}</div>
+    <div><strong>Location:</strong> {{ volunteering_info[2] }}</div>
+</div>
+
+<div class="AR-search-form-wrapper">
+    <form method="post" class="AR-add-volunteer-form">
+        <input type="hidden" name="form_action" value="search_staff">
+        <label for="pickup_time">Pickup Time:</label>
+        <input type="time" name="pickup_time" required value="{{ pickup_time or '' }}">
+
+        <label for="destination">Destination:</label>
+        <select name="destination" required>
+            <option value="" disabled {% if not selected_destination %}selected{% endif %} hidden>Select destination</option>
+            {% for d in destinations %}
+            {% set val = d[0] ~ '|' ~ d[1] ~ '|' ~ d[2] %}
+            <option value="{{ val }}" {% if selected_destination == val %}selected{% endif %}>
+                {{ d[0] }} ({{ d[1] }}, {{ d[2] }})
+            </option>
+            {% endfor %}
+        </select>
+        <button type="submit" class="update-button">Search Available Staff</button>
+    </form>
+</div>
+
+{% if drivers and vehicles %}
+<form method="post" action="{{ url_for('add_ride', volunteering_id=volunteering_id) }}" class="AR-add-volunteer-form">
+    <input type="hidden" name="form_action" value="search_staff">
+    <input type="hidden" name="pickup_time" value="{{ pickup_time }}">
+    <input type="hidden" name="destination" value="{{ selected_destination }}">
+
+    <div class="AR-staff-tables-row" style="margin-bottom: 0px; margin-top: 0">
+        <div class="AR-scroll-table-wrapper">
+            <h4>Available Drivers</h4>
+            <table class="AR-scroll-table">
+                <thead><tr><th>ID</th><th>Name</th><th>Phone</th><th>Select</th></tr></thead>
+                <tbody>
+                {% for d in drivers %}
+                <tr>
+                    <td>{{ d[0] }}</td><td>{{ d[1] }} {{ d[2] }}</td><td>{{ d[3] }}</td>
+                    <td><input type="radio" name="selected_driver_id" value="{{ d[0] }}" required {% if selected_driver_id == d[0] %}checked{% endif %}></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="AR-scroll-table-wrapper">
+            <h4>Available Vehicles</h4>
+            <table class="AR-scroll-table">
+                <thead><tr><th>ID</th><th>Plate</th><th>Type</th><th>Capacity</th><th>Select</th></tr></thead>
+                <tbody>
+                {% for v in vehicles %}
+                <tr>
+                    <td>{{ v[0] }}</td><td>{{ v[1] }}</td><td>{{ v[2] }}</td><td>{{ v[3] }}</td>
+                    <td><input type="radio" name="selected_vehicle_id" value="{{ v[0] }}" required {% if selected_vehicle_id == v[0] %}checked{% endif %}></td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <button type="submit" class="update-button" style="margin-top:10px;">Update Selection</button>
+</form>
+<!-- כפתורי פעולות והוספה -->
+<div style="text-align: center; margin-top: 20px;">
+    <a href="{{ url_for('volunteering') }}" class="nav-button" style="margin-left: 10px;">Back to Volunteering</a>
+
+    <form method="post" action="{{ url_for('add_ride', volunteering_id=volunteering_id) }}" style="display: inline;">
+        <input type="hidden" name="form_action" value="add_assistant">
+        <input type="hidden" name="pickup_time" value="{{ pickup_time }}">
+        <input type="hidden" name="destination" value="{{ selected_destination }}">
+        <input type="hidden" name="selected_driver_id" value="{{ selected_driver_id }}">
+        <input type="hidden" name="selected_vehicle_id" value="{{ selected_vehicle_id }}">
+        <button type="submit" class="update-button" style="font-size: 15px; padding: 10px;">Add Assistant</button>
+    </form>
+
+    <form method="post" action="{{ url_for('confirm_ride', volunteering_id=volunteering_id) }}" style="display: inline;">
+        <input type="hidden" name="pickup_time" value="{{ pickup_time }}">
+        <input type="hidden" name="destination" value="{{ selected_destination }}">
+        <input type="hidden" name="driver_id" value="{{ selected_driver_id }}">
+        <input type="hidden" name="vehicle_id" value="{{ selected_vehicle_id }}">
+        <button type="submit" class="update-button" style="font-size: 15px; padding: 10px;">Add Ride</button>
+    </form>
+</div>
+{% endif %}
+
+{% if assistants and selected_driver_id %}
+<form method="post" action="{{ url_for('confirm_ride', volunteering_id=volunteering_id) }}">
+    <input type="hidden" name="pickup_time" value="{{ pickup_time }}">
+    <input type="hidden" name="destination" value="{{ selected_destination }}">
+    <input type="hidden" name="driver_id" value="{{ selected_driver_id }}">
+    <input type="hidden" name="vehicle_id" value="{{ selected_vehicle_id }}">
+
+    <div class="center-container">
+  <div class="AR-scroll-table-wrapper">
+      <h4>Available Assistants</h4>
+      <table class="AR-scroll-table">
+          <thead><tr><th>ID</th><th>Name</th><th>Phone</th><th>Select</th></tr></thead>
+          <tbody>
+          {% for a in assistants %}
+          <tr>
+              <td>{{ a[0] }}</td><td>{{ a[1] }} {{ a[2] }}</td><td>{{ a[3] }}</td>
+              <td><input type="radio" name="assistant_id" value="{{ a[0] }}"></td>
+          </tr>
+          {% endfor %}
+          </tbody>
+      </table>
+  </div>
+</div>
+
+
+    <div class="AR-form-buttons-bar">
+        <a href="{{ url_for('volunteering') }}" class="nav-button">Back to Volunteering</a>
+        <button type="submit" class="update-button">Add Ride</button>
+    </div>
+</form>
+{% endif %}
+
+</body>
+</html>
