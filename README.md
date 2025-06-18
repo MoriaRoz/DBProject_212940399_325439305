@@ -523,10 +523,17 @@ Each screen has a top bar with the following options:
           - To delete the volunteer -> clicking the delete button.
       - To add a new volunteer filling in all the details -> clicking the add button.
       - To clear the contents of the fields -> clicking the clear button.
+      - When adding/updating after selecting a role, messages pop up to enter the fields according to the role.
   - The table below shows all volunteers in the database including their driver/assistant classification.
   - Clicking on "Deactivate Inactive Volunteers" button activates the [Procedura2- deactivate inactive volunteers](#Procedura2--deactivate-inactive-volunteers)
   - Clicking on "Deleting Inactive Volunteers" button activates the  [Delete queries](#Delete-queries) 1 which deletes volunteers who have not been active in the last two years.  
 ![image](https://github.com/user-attachments/assets/b7116621-cc19-4a4b-8c34-ceef9e6944e1)
+***Driver:***  
+![image](https://github.com/user-attachments/assets/e000b83b-a49f-4e2b-b053-0714a1c71275)  
+![image](https://github.com/user-attachments/assets/548b267b-e16c-4ab2-8828-f0241aa9da81)  
+
+***Assistant:***    
+![image](https://github.com/user-attachments/assets/c30e4ab0-0c9f-47f9-8942-be2f3ab18bf7)
 
 #### Volunteering screen
   - The top table allows you to search for a volunteering by date, location and hour
