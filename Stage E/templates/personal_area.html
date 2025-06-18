@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteer Schedule</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<!-- Header כמו בדף הבית -->
+<div class="headerHome">
+    <a href="/">
+        <img src="{{ url_for('static', filename='images/logo-Sh.png') }}" alt="Logo" class="logoHome">
+    </a>
+    <div class="nav-buttons">
+        <a href="{{ url_for('volunteers') }}" class="nav-button">Volunteers</a>
+        <a href="{{ url_for('volunteering') }}" class="nav-button">Volunteering</a>
+        <a href="{{ url_for('rides') }}" class="nav-button">Rides</a>
+    </div>
+</div>
+
+<!-- תוכן מרכזי -->
+<form method="POST" class="volunteer-flex-form">
+    <div class="form-field">
+        <label>First Name</label>
+        <input type="text" name="first_name" value="{{ volunteer[0] }}">
+    </div>
+    <div class="form-field">
+        <label>Last Name</label>
+        <input type="text" name="last_name" value="{{ volunteer[1] }}">
+    </div>
+    <div class="form-field">
+        <label>Birth Date</label>
+        <input type="date" name="birthday" value="{{ volunteer[2] }}">
+    </div>
+    <div class="form-field">
+        <label>Phone</label>
+        <input type="text" name="phone" value="{{ volunteer[3] }}">
+    </div>
+    <div class="form-field">
+        <label>Active</label>
+        <select name="active">
+            <option value="T" {% if volunteer[4]=='T' %}selected{% endif %}>Active</option>
+            <option value="F" {% if volunteer[4]=='F' %}selected{% endif %}>Inactive</option>
+        </select>
+    </div>
+    <div class="form-field">
+        <label>City</label>
+        <input type="text" name="city_of_residence" value="{{ volunteer[5] }}">
+    </div>
+    <div class="form-field">
+        <label>Role</label>
+        <input type="text" value="{{ role }}" disabled>
+    </div>
+    <div class="form-field update-button-wrapper">
+        <label>&nbsp;</label> <!-- spacer -->
+        <button type="submit" class="update-button">Update</button>
+    </div>
+</form>
+
+<div class="main-content">
+    <h2 style="text-align: center; color: #dc3545; margin-top: 3px;">Schedule for the next week</h2>
+
+
+    {% if schedule %}
+    <table class="centered-table">
+        <thead>
+        <tr>
+            <th>Activity Type</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for row in schedule %}
+        <tr>
+            {% for item in row %}
+            <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p style="text-align: center;">No schedule found or error occurred.</p>
+    {% endif %}
+</div>
+</body>
+</html>

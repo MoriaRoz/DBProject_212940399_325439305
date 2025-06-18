@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Volunteers</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+{% if js_alert %}
+<script>
+    alert("{{ js_alert }}");
+</script>
+{% endif %}
+
+<div class="header">
+    <a href="/">
+        <img src="{{ url_for('static', filename='images/logo-Sh.png') }}" alt="Logo" class="logo">
+    </a>
+    <h2 style="text-align:center; color: #dc3545">Volunteers</h2>
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: -10px">
+        <div style="text-align: center;">
+            <p style="margin-bottom: 5px; font-size: 12px;">Procedure 2 Stage D</p>
+            <form method="POST" action="{{ url_for('deactivate_volunteers') }}">
+                <button type="submit" class="button-wide"
+                        onclick="return confirm('Are you sure you want to deactivate inactive volunteers?');">
+                    Deactivate Inactive Volunteers
+                </button>
+            </form>
+        </div>
+        <div style="text-align: center;">
+            <p style="margin-bottom: 5px; font-size: 12px;">Delete Query 1 Stage B</p>
+            <form method="POST" action="{{ url_for('delete_inactive_volunteers') }}">
+                <button type="submit" class="button-wide"
+                        onclick="return confirm('Are you sure you want to delete inactive volunteers and clean their rides?');">
+                    Deleting Inactive Volunteers
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="{{ url_for('volunteers') }}" class="nav-button">Volunteers</a>
+        <a href="{{ url_for('volunteering') }}" class="nav-button">Volunteering</a>
+        <a href="{{ url_for('rides') }}" class="nav-button">Rides</a>
+    </div>
+</div>
+
+<form method="POST" action="{{ url_for('volunteers') }}" class="volunteerR-form-grid" onsubmit="return validateAge();">
+    <div class="formR-top-bar">
+        <div class="form-info-text">
+            To search/update an existing volunteer, please enter an ID and click the search button.
+        </div>
+        <div class="form-buttons-row">
+            <button type="button" id="search-button" class="update-button" onclick="handleSearch()">Search</button>
+            <button type="submit" id="add-button" class="update-button">
+                {% if volunteer_data %}Update{% else %}Add{% endif %}
+            </button>
+            <button type="button" class="update-button" onclick="clearForm()">Clear</button>
+            {% if volunteer_data %}
+            <button type="button" class="update-button" id="delete-button" onclick="handleDelete()">Delete</button>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="form-field">
+        <label>ID</label>
+        <input type="number" name="volunteer_id" id="volunteer_id" min="10000000" max="999999999" required value="{{ volunteer_data.volunteer_id if volunteer_data else '' }}" {% if volunteer_data %}readonly{% endif %}>
+    </div>
+
+    <div class="form-field">
+        <label>First name</label>
+        <input type="text" name="first_name" id="first_name" value="{{ volunteer_data.first_name if volunteer_data else '' }}">
+    </div>
+
+    <div class="form-field">
+        <label>Last name</label>
+        <input type="text" name="last_name" id="last_name" value="{{ volunteer_data.last_name if volunteer_data else '' }}">
+    </div>
+
+    <div class="form-field">
+        <label>Birthday</label>
+        <input type="date" name="birthday" id="birthday" value="{{ volunteer_data.birthday if volunteer_data else '' }}">
+    </div>
+
+    <div class="form-field" >
+        <label>Phone</label>
+        <input type="number" name="phone" id="phone" min="500000000" max="999999999" value="{{ volunteer_data.phone if volunteer_data else '' }}">
+    </div>
+
+    <div class="form-field" >
+        <label>Active</label>
+        <select name="active" id="active-select" required>
+            <option value="" disabled {% if not volunteer_data %}selected{% endif %} hidden>Select</option>
+            {% for a in active %}
+                <option value="{{ a }}" {% if volunteer_data and volunteer_data.active== a %}selected{% endif %}>{{ a }}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <div class="form-field" >
+        <label>City of residence</label>
+        <select name="city_of_residence" id="city-select" required>
+            <option value="" disabled {% if not volunteer_data %}selected{% endif %} hidden>Select</option>
+            {% for cid in city_of_residence %}
+                <option value="{{ cid }}" {% if volunteer_data and volunteer_data.city_of_residence== cid %}selected{% endif %}>{{ cid }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-field" >
+        <label>Role</label>
+        <select name="role" id="role-select" required onchange="handleRoleChange()">
+            <option value="" disabled {% if not volunteer_data %}selected{% endif %} hidden>Select</option>
+            <option value="None" {% if role=='None' %}selected{% endif %}>None</option>
+            <option value="Driver" {% if role=='Driver' %}selected{% endif %}>Driver</option>
+            <option value="Assistant" {% if role=='Assistant' %}selected{% endif %}>Assistant</option>
+            <option value="Driver/Assistant" {% if role=='Driver/Assistant' %}selected{% endif %}>Driver / Assistant</option>
+        </select>
+    </div>
+
+    <!-- hidden fields -->
+    <input type="hidden" name="license_number" id="license_number">
+    <input type="hidden" name="night_avail" id="night_avail">
+    <input type="hidden" name="has_medical_training" id="has_medical_training">
+    <input type="hidden" name="search_id" id="search-id">
+    <input type="hidden" name="current_role" id="current_role" value="{{ role if role else 'None' }}">
+</form>
+
+<!-- טופס נפרד למחיקה -->
+<form method="POST" action="{{ url_for('delete_volunteer') }}" id="delete-form" style="display: none;">
+    <input type="hidden" name="volunteer_id" id="delete-volunteer-id">
+</form>
+
+<div class="Vol-scroll-table-wrapper">
+    <table class="scroll-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Birthday</th>
+            <th>Phone</th>
+            <th>Active</th>
+            <th>City</th>
+            <th>Role</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for v in volunteers %}
+        <tr>
+            {% for item in v %}
+            <td>{{ item }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<script>
+function handleRoleChange() {
+    const role = document.getElementById("role-select").value;
+    const currentRole = document.getElementById("current_role").value;
+
+    if (role === currentRole) {
+        // התפקיד לא השתנה – אין צורך להזין שדות נוספים
+        return;
+    }
+
+    document.getElementById("license_number").value = "";
+    document.getElementById("night_avail").value = "";
+    document.getElementById("has_medical_training").value = "";
+
+    if (role === "Driver" || role === "Driver/Assistant") {
+        const license = prompt("Enter license number (integer):");
+        const night = prompt("Available at night? (Y/N):");
+
+        if (license === null || night === null || !/^\d+$/.test(license) || !/^[YN]$/.test(night.toUpperCase())) {
+            alert("❌ Invalid input for driver fields.");
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+
+        document.getElementById("license_number").value = parseInt(license);
+        document.getElementById("night_avail").value = night.toUpperCase();
+    }
+
+    if (role === "Assistant" || role === "Driver/Assistant") {
+        const medical = prompt("Has medical training? (Y/N):");
+
+        if (medical === null || !/^[YN]$/.test(medical.toUpperCase())) {
+            alert("❌ Invalid input for assistant field.");
+            document.getElementById("role-select").value = currentRole;
+            return;
+        }
+
+        document.getElementById("has_medical_training").value = medical.toUpperCase();
+    }
+}
+
+
+function handleSearch() {
+    const id = document.getElementById('volunteer_id').value;
+
+    if (!id) {
+        alert("Please enter an ID to search.");
+        return;
+    }
+
+    // מילוי השדה הנסתר ושליחת הטופס
+    document.getElementById("search-id").value = id;
+    document.querySelector('form.volunteerR-form-grid').submit();
+}
+
+function handleDelete() {
+    const volunteerId = document.getElementById('volunteer_id').value;
+
+    if (!volunteerId) {
+        alert("No volunteer selected for deletion.");
+        return;
+    }
+
+    if (confirm('Are you sure you want to delete this volunteer?')) {
+        document.getElementById('delete-volunteer-id').value = volunteerId;
+        document.getElementById('delete-form').submit();
+    }
+}
+
+function clearForm() {
+    // ניקוי כל השדות בטופס
+    document.getElementById('volunteer_id').value = '';
+    document.getElementById('volunteer_id').removeAttribute('readonly');
+    document.getElementById('first_name').value = '';
+    document.getElementById('last_name').value = '';
+    document.getElementById('birthday').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('active-select').selectedIndex = 0;
+    document.getElementById('city-select').selectedIndex = 0;
+    document.getElementById('role-select').selectedIndex = 0;
+
+    // ניקוי השדות הנסתרים
+    document.getElementById('license_number').value = '';
+    document.getElementById('night_avail').value = '';
+    document.getElementById('has_medical_training').value = '';
+    document.getElementById('search-id').value = '';
+
+    // שינוי כפתור ה-Add חזרה למצב רגיל
+    document.getElementById('add-button').textContent = 'Add';
+
+    // הסתרת כפתור Delete אם הוא מוצג
+    const deleteButton = document.getElementById('delete-button');
+    if (deleteButton) {
+        deleteButton.style.display = 'none';
+    }
+}
+
+function validateAge() {
+    const birthdayInput = document.getElementById('birthday');
+    const birthdayValue = birthdayInput.value;
+    if (!birthdayValue) return true;
+
+    const birthDate = new Date(birthdayValue);
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        age--;
+    }
+
+    if (age < 16) {
+        alert("Volunteer must be at least 16 years old.");
+        return false;
+    }
+    return true;
+}
+</script>
+</body>
+</html>
