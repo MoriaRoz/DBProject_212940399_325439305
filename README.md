@@ -509,8 +509,10 @@ Each screen has a top bar with the following options:
 ![image](https://github.com/user-attachments/assets/3280002c-f317-4de8-8b09-da90e9d293f3)
 
 #### Personal area
-  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.  
-![image](https://github.com/user-attachments/assets/05f12f37-9d39-43a7-ad71-65bc56279ab3)  
+  - After clicking the personal area button on the home screen, the following message pops up and if there is a volunteer with the entered ID, the following screen will open.
+  
+![image](https://github.com/user-attachments/assets/8fd54bdc-c7c3-4d0c-ba96-12151bd99a5c)  
+
   - The top table displays the volunteer's details with the option to update them.
   - The table below shows the volunteer's schedule for the coming week and is an implementation of [Function1- volunteer schedule](#Function1--volunteer-schedule)
 ![image](https://github.com/user-attachments/assets/848406e4-ba28-40dc-b0b4-19443495acc2)  
@@ -582,7 +584,16 @@ Each screen has a top bar with the following options:
 
 #### Add ride screen
   - The date, time and location of the volunteering are displayed.
-  - You need to select a pickup time and address- clicking on Search available staff will display tables of drivers and vehicles that are available on the selected date and time.
-  - You can add a ride after selecting a vehicle and driver - Add a ride
-  - You can choose to add an assistant to the ride - Add an assistant 
-    and after selecting an assistant, add the ride.
+  - You must select a pickup time and address -> Clicking on Search for Available Crew
+      - display tables of drivers and vehicles available on the selected date and time.
+      - After selecting a vehicle and driver -> Update selection
+          - Add a trip without an assistant -> Add a trip
+          - Add a trip with an assistant -> Add an assistant
+              -select an assistant and then-> Click on Add a trip
+- Clicking the "Back to Volunteering" button will lead to the [Volunteering screen](#Volunteering-screen)
+
+![image](https://github.com/user-attachments/assets/0b31938e-ffb5-4edd-bed0-5cf470fd456a)  
+
+![image](https://github.com/user-attachments/assets/2673c882-3b57-49cf-b304-7a8fc789f66c)  
+
+![image](https://github.com/user-attachments/assets/34bd1174-425d-4eed-922d-00703e54fbaf)
