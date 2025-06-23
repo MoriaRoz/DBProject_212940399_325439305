@@ -557,8 +557,9 @@ Each screen has a top bar with the following options:
           - To update the ride insert the new fields -> clicking the "update" button.
           - To delete the ride -> clicking the "delete" buttons.
       - To clear the contents of the fields -> clicking the "clear" button.
-  - The table below shows all rides in the database.  
-![image](https://github.com/user-attachments/assets/e0355e66-67cc-4b40-92b6-e1928b9d0477)
+  - The table below shows all rides in the database.
+  - Clicking on "Assign Assistant" button activates the [Procedura1- assign assistants to future rides](#Procedura1--assign-assistants-to-future-rides)
+![image](https://github.com/user-attachments/assets/a0627c7f-f702-4bba-828a-5db58f669112)  
 
 #### Volunteer Participation Screen
   - On the left side, a display of volunteering details
