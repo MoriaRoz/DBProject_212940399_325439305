@@ -199,15 +199,14 @@ def volunteers():
 
                 # טיפול בתפקידים
                 # בדיקה אם צריך לעדכן תפקיד: אם הוא השתנה, או אם יש בעיה בקשר מול הטבלאות
+                is_driver = record_exists(cur, "driver", volunteer_id)
+                is_assistant = record_exists(cur, "transport_assistant", volunteer_id)
+
                 needs_role_update = (
-                        new_role != current_role or
-                        not exists or
-                        (new_role == "Driver" and not record_exists(cur, "driver", volunteer_id)) or
-                        (new_role == "Assistant" and not record_exists(cur, "transport_assistant", volunteer_id)) or
-                        (new_role == "Driver/Assistant" and (
-                                not record_exists(cur, "driver", volunteer_id) or
-                                not record_exists(cur, "transport_assistant", volunteer_id)
-                        ))
+                        new_role == "None" and (is_driver or is_assistant) or
+                        new_role == "Driver" and (not is_driver or is_assistant) or
+                        new_role == "Assistant" and (is_driver or not is_assistant) or
+                        new_role == "Driver/Assistant" and (not is_driver or not is_assistant)
                 )
 
                 if needs_role_update:
@@ -287,12 +286,9 @@ def volunteers():
         role=role,
         js_alert=js_alert
     )
-
 def record_exists(cur, table, volunteer_id):
     cur.execute(sql.SQL("SELECT 1 FROM {} WHERE volunteer_id = %s").format(sql.Identifier(table)), (volunteer_id,))
     return cur.fetchone() is not None
-
-
 @app.route("/delete_volunteer", methods=["POST"])
 def delete_volunteer():
     volunteer_id = request.form.get("volunteer_id")
